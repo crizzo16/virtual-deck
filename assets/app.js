@@ -1,79 +1,6 @@
 let virtu = {
   allHeroes: [],
-  gameHeroes: [
-    {
-      hero: "Main Set Cards",
-      team: "None",
-      cards: [
-        {
-          hero: "",
-          id: 1031,
-          name: "Wound",
-          img:
-            "https://marveldbg.files.wordpress.com/2019/09/wound.jpg?w=700&h=",
-          cost: 0,
-          recruit: 0,
-          attack: 0,
-          team: "",
-          class: [""]
-        }
-      ]
-    },
-    {
-      hero: "Silk",
-      team: "Spider-Friends",
-      cards: [
-        {
-          hero: "Silk",
-          id: 5121,
-          name: "Borrowed Cloaking Device",
-          img:
-            "https://marveldbg.files.wordpress.com/2019/09/silk-01.jpg?w=700&h=",
-          cost: 2,
-          recruit: 0,
-          attack: 1,
-          team: "Spider-Friends",
-          class: ["tech"]
-        },
-        {
-          hero: "Silk",
-          id: 5122,
-          name: "Silk Stalking",
-          img:
-            "https://marveldbg.files.wordpress.com/2019/09/silk-02.jpg?w=700&h=",
-          cost: 2,
-          recruit: 0,
-          attack: 1,
-          team: "Spider-Friends",
-          class: ["covert"]
-        },
-        {
-          hero: "Silk",
-          id: 5123,
-          name: "Cascading Maneuver",
-          img:
-            "https://marveldbg.files.wordpress.com/2019/09/silk-03.jpg?w=700&h=",
-          cost: 2,
-          recruit: 0,
-          attack: 1,
-          team: "Spider-Friends",
-          class: ["punch", "instinct"]
-        },
-        {
-          hero: "Silk",
-          id: 5124,
-          name: "Long-Range Spider-Sense",
-          img:
-            "https://marveldbg.files.wordpress.com/2019/09/silk-04.jpg?w=700&h=",
-          cost: 2,
-          recruit: 0,
-          attack: 2,
-          team: "Spider-Friends",
-          class: ["range"]
-        }
-      ]
-    }
-  ],
+  gameHeroes: [],
   deck: [
     {
       hero: "",
@@ -297,6 +224,11 @@ let virtu = {
   },
   loadGameHeroes: function() {
     $("#hq-cards").html("");
+    const row = $("<div>").addClass("flex row");
+    const top = $("<button>").addClass("btn deep-purple lighten-2 m-10").attr("id","add-top").text("Add to Top of Deck");
+    const discard = $("<button>").addClass("btn deep-purple lighten-2 m-10").attr("id", "add-discard").text("Add to Discard");
+    row.append(top).append(discard);
+    $("#hq-cards").append(row);
     virtu.gameHeroes.forEach(function(item, index, array) {
       item.cards.forEach(function(it, ind, arr) {
         let newCard = $("<ul>")
