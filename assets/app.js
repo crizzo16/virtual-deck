@@ -175,7 +175,11 @@ let virtu = {
     });
   },
   drawHand: function() {
-    for (let i = 0; i < 6; i++) {
+    let end = 6;
+    if (virtu.deck.length < 6) {
+      end = virtu.deck.length;
+    }
+    for (let i = 0; i < end; i++) {
       virtu.hand.push(virtu.deck.shift());
     }
     virtu.loadHand();
