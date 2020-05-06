@@ -228,13 +228,24 @@ let virtu = {
     virtu.deck.sort(() => Math.random() - 0.5);
   },
   parseHeroes: function() {
-    $.getJSON(
-      "https://crizzo.github.io/virtual-deck/assets/heroes.json",
+   /* $.getJSON(
+      "https://crizzo16.github.io/virtual-deck/assets/heroes.json",
       function(json) {
         virtu.allHeroes = json;
         console.log(virtu.allHeroes);
       }
-    );
+    );*/
+
+    const url = "https://crizzo16.github.io/virtual-deck/assets/heroes.json";
+
+    let req = new XMLHttpRequest();
+
+    req.open('GET', url);
+    req.send();
+    function onLoad(event) {
+      virtu.allHeroes = this.responseText;
+      console.log(virtu.allHeroes);
+    }
   },
   drawHand: function() {
     for (let i = 0; i < 6; i++) {
