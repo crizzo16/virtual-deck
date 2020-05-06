@@ -1,6 +1,8 @@
 [
     {
         "hero": "Main Set Cards",
+        "id": 101,
+        "set": "Main",
         "team": ["None"],
         "cards": [
             {
@@ -27,6 +29,8 @@
     },
     {
         "hero": "Silk",
+        "id": 512,
+        "set": "Secret Wars Vol. 2",
         "team": ["Spider-Friends"],
         "cards": [
             {

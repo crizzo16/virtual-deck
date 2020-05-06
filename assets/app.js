@@ -228,14 +228,6 @@ let virtu = {
     virtu.deck.sort(() => Math.random() - 0.5);
   },
   parseHeroes: function() {
-   /* $.getJSON(
-      "https://crizzo16.github.io/virtual-deck/assets/heroes.json",
-      function(json) {
-        virtu.allHeroes = json;
-        console.log(virtu.allHeroes);
-      }
-    );*/
-
     const url = "https://crizzo16.github.io/virtual-deck/assets/heroes.json";
 
     $.ajax({
@@ -243,8 +235,15 @@ let virtu = {
       dataType: "json"
     }).done(function(result) {
       virtu.allHeroes = result;
-      console.log(virtu.allHeroes);
-    })
+      virtu.loadAllHeroes();
+    });
+  },
+  loadAllHeroes: function() {
+    $("#all-heroes").html("");
+    virtu.allHeroes.forEach(function(item, index, array) {
+      let newCard = $("<ul>").addClass("all-hero-card").attr("set-id",item.id).text(item.hero + " [" + item.set + "]");
+      $("#all-heroes").append(newCard);
+    });
   },
   drawHand: function() {
     for (let i = 0; i < 6; i++) {
