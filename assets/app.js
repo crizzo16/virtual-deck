@@ -238,14 +238,13 @@ let virtu = {
 
     const url = "https://crizzo16.github.io/virtual-deck/assets/heroes.json";
 
-    let req = new XMLHttpRequest();
-
-    req.open('GET', url);
-    req.send();
-    function onLoad(event) {
-      virtu.allHeroes = this.responseText;
+    $.ajax({
+      url: url,
+      dataType: "json"
+    }).done(function(result) {
+      virtu.allHeroes = result;
       console.log(virtu.allHeroes);
-    }
+    })
   },
   drawHand: function() {
     for (let i = 0; i < 6; i++) {
