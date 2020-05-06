@@ -2,7 +2,7 @@ let virtu = {
   allHeroes: [],
   gameHeroes: [
     {
-      hero: "Wound",
+      hero: "Main Set Cards",
       team: "None",
       cards: [
         {
@@ -229,7 +229,7 @@ let virtu = {
   },
   parseHeroes: function() {
     $.getJSON(
-      "https://github.com/crizzo16/virtual-deck/blob/master/assets/heroes.json",
+      "https://crizzo.github.io/heroes.json",
       function(json) {
         virtu.allHeroes = json;
         console.log(virtu.allHeroes);
