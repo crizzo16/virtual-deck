@@ -1,17 +1,26 @@
 [
     {
-        "hero": "Wound",
+        "hero": "Main Set Cards",
         "team": ["None"],
         "cards": [
             {
                 "id": 1031,
                 "name": "Wound",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/wound.jpg?w=700&h=",
-                "type": "starter",
                 "cost": 0,
                 "recruit": 0,
                 "attack": 0,
                 "team": "",
+                "class": [""]
+            },
+            {
+                "id": 1041,
+                "name": "SHIELD Officer",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/shield-officer.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 2,
+                "attack": 0,
+                "team": "SHIELD",
                 "class": [""]
             }
         ]
@@ -25,7 +34,6 @@
                 "id": 5121,
                 "name": "Borrowed Cloaking Device",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/silk-01.jpg?w=700&h=",
-                "type": ["tech"],
                 "cost": 2,
                 "recruit": 0,
                 "attack": 1,
@@ -37,7 +45,6 @@
                 "id": 5122,
                 "name": "Silk Stalking",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/silk-02.jpg?w=700&h=",
-                "type": ["covert"],
                 "cost": 2,
                 "recruit": 0,
                 "attack": 1,
@@ -49,7 +56,6 @@
                 "id": 5123,
                 "name": "Cascading Maneuver",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/silk-03.jpg?w=700&h=",
-                "type": ["punch", "instinct"],
                 "cost": 2,
                 "recruit": 0,
                 "attack": 1,
@@ -61,7 +67,6 @@
                 "id": 5124,
                 "name": "Long-Range Spider-Sense",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/silk-04.jpg?w=700&h=",
-                "type": ["range"],
                 "cost": 2,
                 "recruit": 0,
                 "attack": 2,
