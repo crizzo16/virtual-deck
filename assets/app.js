@@ -227,7 +227,8 @@ let virtu = {
     const row = $("<div>").addClass("flex row");
     const top = $("<button>").addClass("btn deep-purple lighten-2 m-10").attr("id","add-top").text("Add to Top of Deck");
     const discard = $("<button>").addClass("btn deep-purple lighten-2 m-10").attr("id", "add-discard").text("Add to Discard");
-    row.append(top).append(discard);
+    row.append(top)
+    row.append(discard);
     $("#hq-cards").append(row);
     virtu.gameHeroes.forEach(function(item, index, array) {
       item.cards.forEach(function(it, ind, arr) {
