@@ -28,6 +28,84 @@
         ]
     },
     {
+        "hero": "Sidekicks",
+        "id": 217,
+        "set": "Civil War",
+        "team": "Avengers",
+        "cards": [
+            {
+                "id": 2171,
+                "name": "Zabu",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_zabu.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": "Avengers",
+                "class": ["instinct"]
+            },
+            {
+                "id": 2172,
+                "name": "Throg",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_throg.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 2,
+                "attack": 0,
+                "team": "Avengers",
+                "class": ["punch"]
+            },
+            {
+                "id": 2173,
+                "name": "Redwing",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_redwing.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": "Avengers",
+                "class": ["instinct"]
+            },
+            {
+                "id": 2174,
+                "name": "Lockjaw",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_lockjaw.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 2,
+                "team": "Avengers",
+                "class": ["range"]
+            },
+            {
+                "id": 2175,
+                "name": "Lockheed",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_lockheed.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 2,
+                "team": "Avengers",
+                "class": ["range"]
+            },
+            {
+                "id": 2176,
+                "name": "Ms. Lion",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_lion.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 2,
+                "team": "Avengers",
+                "class": ["covert"]
+            },
+            {
+                "id": 2177,
+                "name": "Hairball",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_hairball.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 1,
+                "team": "Avengers",
+                "class": ["covers"]
+            }
+        ]
+    },
+    {
         "hero": "Silk",
         "id": 512,
         "set": "Secret Wars Vol. 2",
