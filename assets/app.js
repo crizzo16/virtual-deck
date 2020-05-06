@@ -229,7 +229,7 @@ let virtu = {
   },
   parseHeroes: function() {
     $.getJSON(
-      "https://crizzo.github.io/heroes.json",
+      "https://crizzo.github.io/virtual-deck/assets/heroes.json",
       function(json) {
         virtu.allHeroes = json;
         console.log(virtu.allHeroes);
