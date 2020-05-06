@@ -228,17 +228,13 @@ let virtu = {
     virtu.deck.sort(() => Math.random() - 0.5);
   },
   parseHeroes: function() {
-    /* $.getJSON("./assets/heroes.json", function(json) {
+    $.getJSON(
+      "https://github.com/crizzo16/virtual-deck/blob/master/assets/heroes.json",
+      function(json) {
         virtu.allHeroes = json;
         console.log(virtu.allHeroes);
-    }); */
-
-    fetch("./assets/heroes.json")
-      .then(res => res.json())
-      .then(data => {
-        virtu.allHeroes = data;
-        console.log(virtu.allHeroes);
-      });
+      }
+    );
   },
   drawHand: function() {
     for (let i = 0; i < 6; i++) {
