@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Marvel Legendary Virtu-Deck</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex flex-center">
+        <h1>Virtual Marvel Legendary Deck</h1>
+      </header>
+
+      <div id="buttons" class="flex flex-wrap flex-center">
+        <button id="draw-card-btn" class="btn green lighten-2 m-10">
+          Draw Card
+        </button>
+        <button id="draw-hand-btn" class="btn green lighten-2 m-10">
+          Draw Hand
+        </button>
+        <button id="discard-card-btn" class="btn red lighten-1 m-10">
+          Discard Card
+        </button>
+        <button id="discard-hand-btn" class="btn red lighten-1 m-10">
+          Discard Hand
+        </button>
+        <button id="put-back" class="btn red lighten-1 m-10">
+          Put Back on Deck
+        </button>
+        <button id="replenish-deck" class="btn blue lighten-1 m-10">
+          Replenish Deck
+        </button>
+        <button id="ko-card-btn" class="btn grey lighten-1 m-10">
+          KO Card
+        </button>
+        <button id="add-top" class="btn deep-purple lighten-2 m-10">
+          Add to Top of Deck
+        </button>
+        <button id="add-discard" class="btn deep-purple lighten-2 m-10">
+          Add to Discard
+        </button>
+      </div>
+      <div id="hand-data" class="row m-10">
+        <div class="col s2 flex flex-center">
+          <span class="font-bold">Base Recruit:</span> &nbsp;<span id="base-recruit"></span>
+        </div>
+        <div class="col s2 flex flex-center">
+          <span class="font-bold">Base Attack:</span> &nbsp;<span id="base-attack"></span>
+        </div>
+        <div class="col s4 flex flex-center">
+            <span class="font-bold">Teams:</span> &nbsp;<span id="base-teams"></span>
+        </div>
+        <div class="col s4 flex flex-center">
+            <span class="font-bold">Classes:</span> &nbsp;<span id="base-classes"></span>
+        </div>
+      </div>
+      <div id="hand" class="flex flex-wrap "></div>
+      <div class="row">
+        <div id="discard" class="collapsible">
+          <li class="hidden-list">
+            <div class="collapsible-header">
+              Deck: &nbsp;<span id="deck-num"></span>&nbsp; cards
+            </div>
+          </li>
+          <li class="hidden-list">
+            <div class="collapsible-header">
+              Discard Pile: &nbsp;<span id="disc-num"> 0 </span>&nbsp; cards
+            </div>
+            <div id="discard-pile" class="collapsible-body"></div>
+          </li>
+          <li class="hidden-list">
+            <div class="collapsible-header">HQ Cards</div>
+            <div id="hq-cards" class="collapsible-body"></div>
+          </li>
+        </div>
+      </div>
+      <div id="selected-card" class=""></div>
+      <div id="selectHeroes blue-border"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

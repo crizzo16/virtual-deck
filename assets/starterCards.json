@@ -1,0 +1,30 @@
+[
+    {
+        "hero": "SHIELD Agent",
+        "team": ["SHIELD"],
+        "cards": [
+            {
+                "id": 1011,
+                "name": "SHIELD Agent",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
+                "cost": 0,
+                "recruit": 1,
+                "attack": 0
+            }
+        ]
+    },
+    {
+        "hero": "SHIELD Trooper",
+        "team": ["SHIELD"],
+        "cards": [
+            {
+                "id": 1021,
+                "name": "SHIELD Trooper",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/shield-trooper.jpg?w=700&h=",
+                "cost": 0,
+                "recruit": 0,
+                "attack": 1
+            }
+        ]
+    }
+]
