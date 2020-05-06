@@ -183,10 +183,12 @@ let virtu = {
       virtu.hand.push(virtu.deck.shift());
     }
     virtu.loadHand();
+    virtu.updateDeckNum();
   },
   drawCard: function() {
     virtu.hand.push(virtu.deck.shift());
     virtu.loadHand();
+    virtu.updateDeckNum();
   },
   loadHand: function() {
     $("#hand").html("");
