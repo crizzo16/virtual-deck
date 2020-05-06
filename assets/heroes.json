@@ -78,5 +78,57 @@
                 "class": ["range"]
             }
         ]
+    },
+    {
+        "hero": "The Captain & The Devil",
+        "id": 515,
+        "set": "Secret Wars Vol. 2",
+        "team": "Avengers",
+        "cards": [
+            {
+                "hero":"The Captain & The Devil",
+                "id": 5151,
+                "name": "Dino-Roar of Triumph",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-01.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 6,
+                "team": "Avengers",
+                "class": ["range"]
+            },
+            {
+                "hero":"The Captain & The Devil",
+                "id": 5152,
+                "name": "Feeding Grounds",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-02.jpg?w=700&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 3,
+                "team": "Avengers",
+                "class": ["covert"]
+            },
+            {
+                "hero":"The Captain & The Devil",
+                "id": 5153,
+                "name": "Jurassic America",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-03.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 1,
+                "attack": 0,
+                "team": "Avengers",
+                "class": ["punch", "tech"]
+            },
+            {
+                "hero":"The Captain & The Devil",
+                "id": 5154,
+                "name": "Patriotic Chomp",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-04.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 2,
+                "team": "Avengers",
+                "class": ["instinct"]
+            }
+        ]
     }
 ]

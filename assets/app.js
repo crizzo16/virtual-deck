@@ -240,6 +240,8 @@ let virtu = {
   },
   loadAllHeroes: function() {
     $("#all-heroes").html("");
+    let addHero = $("<button>").addClass("btn m-10 grey lighten-1").attr("id", "add-hero-btn").text("Add Hero");
+    $("#all-heroes").append(addHero);
     virtu.allHeroes.forEach(function(item, index, array) {
       let newCard = $("<ul>").addClass("all-hero-card").attr("set-id",item.id).text(item.hero + " [" + item.set + "]");
       $("#all-heroes").append(newCard);
@@ -312,6 +314,28 @@ let virtu = {
       const line = $("<div>").addClass("line");
       $("#hq-cards").append(line);
     });
+  },
+  selectMainHero: function() {
+    const sel = $(".all-hero-highlight").attr("set-id");
+    const id = $(this).attr("set-id");
+    $(".all-hero-highlight").removeClass("all-hero-highlight");
+
+    if (sel != id) {
+      $(this).addClass("all-hero-highlight");
+    }
+  },
+  addSelectedHero: function() {
+    const id = $(".all-hero-highlight").attr("set-id");
+    $(".all-hero-highlight").removeClass("all-hero-highlight");
+
+
+    for (let i=0; i<virtu.allHeroes.length; i++) {
+      if (id == virtu.allHeroes[i].id) {
+        virtu.gameHeroes.push(virtu.allHeroes[i]);
+        virtu.loadGameHeroes();
+        return;
+      }
+    }
   },
   putBackOnDeck: function() {
     const id = $(".selected-card-highlight").attr("hero-id");
@@ -472,6 +496,7 @@ $(document).ready(function() {
 $(document).on("click", ".hand-card", virtu.selectCard);
 $(document).on("click", ".discard-card", virtu.selectDiscardItem);
 $(document).on("click", ".hq-card", virtu.selectHero);
+$(document).on("click", ".all-hero-card", virtu.selectMainHero);
 $(document).on("click", "#ko-card-btn", virtu.koCard);
 $(document).on("click", "#draw-hand-btn", virtu.drawHand);
 $(document).on("click", "#draw-card-btn", virtu.drawCard);
@@ -481,3 +506,4 @@ $(document).on("click", "#replenish-deck", virtu.discardToDeck);
 $(document).on("click", "#put-back", virtu.putBackOnDeck);
 $(document).on("click", "#add-top", virtu.addTopDeck);
 $(document).on("click", "#add-discard", virtu.addDiscard);
+$(document).on("click", "#add-hero-btn", virtu.addSelectedHero);

@@ -36,6 +36,10 @@
     font-weight: bold;
 }
 
+.all-hero-highlight {
+    font-weight: bold;
+}
+
 .hidden-list {
     list-style-type: none;
 }
