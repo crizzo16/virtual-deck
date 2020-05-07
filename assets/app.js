@@ -275,7 +275,6 @@ let virtu = {
     $("#base-classes").text(" " + classes);
   },
   loadGameHeroes: function() {
-    console.log(virtu.gameHeroes);
     $("#hq-cards").html("");
     virtu.gameHeroes.forEach(function(item, index, array) {
       let head = $("<h5>")
@@ -319,8 +318,6 @@ let virtu = {
   },
   removeHeroFromHQ: function() {
     const selID = $(".full-hero-highlight").attr("set-id");
-    console.log("firing");
-    console.log(virtu.gameHeroes);
     for (let i = 0; i < virtu.gameHeroes.length; i++) {
       if (selID == virtu.gameHeroes[i].id) {
         virtu.gameHeroes.splice(i, 1);
@@ -335,8 +332,7 @@ let virtu = {
     for (let i = 0; i < virtu.allHeroes.length; i++) {
       if (
         id == virtu.allHeroes[i].id &&
-        !virtu.gameHeroesList.includes(name) &&
-        virtu.gameHeroes.length < 10
+        !virtu.gameHeroesList.includes(name)
       ) {
         virtu.gameHeroes.push(virtu.allHeroes[i]);
         virtu.gameHeroesList += " " + virtu.allHeroes[i].hero;
@@ -347,9 +343,10 @@ let virtu = {
     if (virtu.gameHeroesList.includes(name)) {
       M.toast({ html: "Already in the HQ!" });
     }
+    /*
     if ((virtu.gameHeroes.length = 9)) {
       M.toast({ html: "Can't Have More Than 6 Heroes!" });
-    }
+    }*/
   },
   putBackOnDeck: function() {
     const id = $(".selected-card-highlight").attr("hero-id");
