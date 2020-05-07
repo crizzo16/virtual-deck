@@ -208,5 +208,53 @@
                 "class": ["instinct"]
             }
         ]
+    },
+    {
+        "hero": "Lady Sif",
+        "id": 602,
+        "set": "Heroes of Asgard",
+        "team": "Asgardians",
+        "cards": [
+            {
+                "id": 6021,
+                "name": "Golden Apples of Idunn",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-01-1.jpg?w=555&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 0,
+                "team": "Asgardians",
+                "class": ["covert"]
+            },
+            {
+                "id": 6022,
+                "name": "Weapons Master",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-02-1.jpg?w=555&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 2,
+                "team": "Asgardians",
+                "class": ["instinct"]
+            },
+            {
+                "id": 6023,
+                "name": "Winged Helm",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-03-1.jpg?w=555&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 0,
+                "team": "Asgardians",
+                "class": ["punch"]
+            },
+            {
+                "id": 6024,
+                "name": "Dimensional Blade",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-04-1.jpg?w=555&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": "Asgardians",
+                "class": ["instinct"]
+            }
+        ]
     }
 ]
