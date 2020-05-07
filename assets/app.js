@@ -1,6 +1,7 @@
 let virtu = {
   allHeroes: [],
   gameHeroes: [],
+  gameHeroesList: "Main Set Cards Sidekicks",
   deck: [
     {
       hero: "",
@@ -184,6 +185,7 @@ let virtu = {
       let newCard = $("<ul>")
         .addClass("all-hero-card pointer")
         .attr("set-id", item.id)
+        .attr("name", item.hero)
         .text(item.hero + " [" + item.set + "]");
       $("#all-heroes").append(newCard);
     });
@@ -298,15 +300,23 @@ let virtu = {
   },
   addSelectedHero: function() {
     const id = $(".all-hero-highlight").attr("set-id");
+    const name = $(".all-hero-highlight").attr("name");
     $(".all-hero-highlight").removeClass("all-hero-highlight");
-
     for (let i = 0; i < virtu.allHeroes.length; i++) {
-      if (id == virtu.allHeroes[i].id) {
+      if (id == virtu.allHeroes[i].id && !virtu.gameHeroesList.includes(name) && virtu.gameHeroes.length < 10) {
         virtu.gameHeroes.push(virtu.allHeroes[i]);
+        virtu.gameHeroesList += " " + virtu.allHeroes[i].hero;
         virtu.loadGameHeroes();
         return;
-      }
+      } 
     }
+    if (virtu.gameHeroesList.includes(name)) {
+      M.toast({html: "Already in the HQ!"});
+    }
+    if (virtu.gameHeroes.length = 9) {
+      M.toast({html: "Can't Have More Than 6 Heroes!"});
+    }
+    
   },
   putBackOnDeck: function() {
     const id = $(".selected-card-highlight").attr("hero-id");

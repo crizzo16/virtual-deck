@@ -154,5 +154,57 @@
                 "class": ["Instinct"]
             }
         ]
+    },
+    {
+        "hero": "Wiccan",
+        "id": 216,
+        "set": "Civil War",
+        "team": "Avengers",
+        "cards": [
+            {
+                "hero": "Wiccan",
+                "id": 2161,
+                "name": "Clairvoyance",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-01.jpg?w=700&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 3,
+                "team": ["Avengers"],
+                "class": ["Range"]
+            },
+            {
+                "hero": "Wiccan",
+                "id": 2162,
+                "name": "Supersonic Spells/Supersonic Speed",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-02.jpg?w=1000&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Range", "Tech"]
+            },
+            {
+                "hero": "Wiccan",
+                "id": 2163,
+                "name": "Astral Projection",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-03.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["Avengers"],
+                "class": ["Range"]
+            },
+            {
+                "hero": "Wiccan",
+                "id": 2164,
+                "name": "Sorcerous Illusions",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-04.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 1,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Covert"]
+            }
+        ]
     }
 ]
