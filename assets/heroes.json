@@ -611,5 +611,109 @@
                 "class": ["Tech", "Punch"]
             }
         ]
+    },
+    {
+        "hero": "Patriot",
+        "id": 209,
+        "set":"Civil War",
+        "team": ["Avengers"],
+        "cards": [
+            {
+                "hero": "Patriot",
+                "id": 2091,
+                "name": "Lead the Young Avengers",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-01.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 3,
+                "team": ["Avengers"],
+                "class": ["Tech"]
+            },
+            {
+                "hero": "Patriot",
+                "id": 2092,
+                "name": "Incredible Effort/Effortless",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-02.jpg?w=1000&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Covert", "Tech"]
+            },
+            {
+                "hero": "Patriot",
+                "id": 2093,
+                "name": "Intuitive Tactician",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-03.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Patriot",
+                "id": 2094,
+                "name": "New Generation of Heroes",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-04.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Punch"]
+            }
+        ]
+    },
+    {
+        "hero": "Stature",
+        "id": 212,
+        "set": "Civil War",
+        "team": ["Avengers"],
+        "cards": [
+            {
+                "hero": "Stature",
+                "id":2121,
+                "name": "Trample the Tiny",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/stature-01.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 5,
+                "team": ["Avengers"],
+                "class": ["Punch"]
+            },
+            {
+                "hero": "Stature",
+                "id": 2122,
+                "name": "Growing Confidence",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/stature-02.jpg?w=700&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["Avengers"],
+                "class": ["Punch"]
+            },
+            {
+                "hero": "Stature",
+                "id": 2123,
+                "name": "Crush Ants/Crush File Sizes",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/stature-03.jpg?w=1000&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Punch", "Tech"]
+            },
+            {
+                "hero": "Stature",
+                "id": 2124,
+                "name": "Shrink to Nothing",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/stature-04.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Tech"]
+            }
+        ]
     }
 ]
