@@ -175,6 +175,9 @@ let virtu = {
     });
   },
   drawHand: function() {
+    if (virtu.deck.length <1) {
+      M.toast({html: "Replenish your deck!"});
+    }
     let end = 6;
     if (virtu.deck.length < 6) {
       end = virtu.deck.length;
@@ -186,6 +189,9 @@ let virtu = {
     virtu.updateDeckNum();
   },
   drawCard: function() {
+    if (virtu.deck.length <1) {
+      M.toast({html: "Replenish your deck!"});
+    }
     virtu.hand.push(virtu.deck.shift());
     virtu.loadHand();
     virtu.updateDeckNum();
