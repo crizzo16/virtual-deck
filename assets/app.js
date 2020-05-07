@@ -230,7 +230,6 @@ let virtu = {
   },
   loadGameHeroes: function() {
     $("#hq-cards").html("");
-    $("#hq-cards").append(row);
     virtu.gameHeroes.forEach(function(item, index, array) {
       item.cards.forEach(function(it, ind, arr) {
         let newCard = $("<ul>")
