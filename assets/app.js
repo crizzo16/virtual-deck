@@ -220,7 +220,6 @@ let virtu = {
     let att = 0;
     let teams = "";
     let classes = "";
-    console.log(virtu.hand);
     virtu.hand.forEach(function(item, index, array) {
       let singleCard = $("<img>")
         .addClass("img hand-card pointer")
@@ -449,15 +448,13 @@ let virtu = {
     return arr2;
   },
   selectCard: function() {
-    const sel = $(".img-big").attr("src");
+    const sel = $(".selected-card-highlight").attr("src");
     let source = $(this).attr("src");
 
     //Put border on card in hand so you know which card you clicked on
     $(".selected-card-highlight").removeClass("selected-card-highlight");
 
-    if (sel == source) {
-      $("#selected-card").html("");
-    } else {
+    if (sel != source) {
       $(this).addClass("selected-card-highlight");
     }
   },
