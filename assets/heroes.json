@@ -455,5 +455,161 @@
                 "class": ["Covert", "Range"]
             }
         ]
+    },
+    {
+        "hero": "Daredevil",
+        "id": 203,
+        "set": "Civil War",
+        "team": ["Avengers"],
+        "cards": [
+            {
+                "hero": "Daredevil",
+                "id": 2031,
+                "name": "Master of Martial Arts",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-01-1.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 4,
+                "team": ["Avengers"],
+                "class": ["Covert"]
+            },
+            {
+                "hero":"Daredevil",
+                "id": 2032,
+                "name": "Hidden Identity/Revealed Identity",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-02-1.jpg?w=1000&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers", "Marvel Knights"],
+                "class": ["Instinct", "Punch"]
+            },
+            {
+                "hero": "Daredevil",
+                "id": 2033,
+                "name": "Roundhouse Side Kick",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-03-1.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["Avengers"],
+                "class": ["Covert"]
+            },
+            {
+                "hero": "Daredevil",
+                "id": 2034,
+                "name": "Dual Existence",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-04-1.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            }
+        ]
+    },
+    {
+        "hero": "Falcon",
+        "id": 204,
+        "set":"Civil War",
+        "team": ["Avengers"],
+        "cards": [
+            {
+                "hero": "Falcon",
+                "id": 2041,
+                "name": "Fly In A Friend",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-01-1.jpg?w=555&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 4,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Falcon",
+                "id": 2042,
+                "name": "Scout the Battlefield",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-02-1.jpg?w=555&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Range"]
+            },
+            {
+                "hero": "Falcon",
+                "id": 2043,
+                "name": "Talk With Birds/Squawk Back",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-03-1.jpg?w=1050&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Range", "Instinct"]
+            },
+            {
+                "hero": "Falcon",
+                "id": 2044,
+                "name": "Rapid Reinforcements",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-04-1.jpg?w=555&h=",
+                "cost": 3,
+                "recruit": 2,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Tech"]
+            }
+        ]
+    },
+    {
+        "hero": "Goliath",
+        "id": 205,
+        "set":"Civil War",
+        "team": ["Avengers"],
+        "cards": [
+            {
+                "hero": "Goliath",
+                "id": 2051,
+                "name": "Enormous Implications",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-01.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Punch"]
+            },
+            {
+                "hero": "Goliath",
+                "id": 2052,
+                "name": "Being Big Is Best",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-02.jpg?w=700&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 3,
+                "team": ["Avengers"],
+                "class": ["Punch"]
+            },
+            {
+                "hero": "Goliath",
+                "id": 2053,
+                "name": "Growth Industry",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-03.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["Avengers"],
+                "class": ["Tech"]
+            },
+            {
+                "hero": "Goliath",
+                "id": 2054,
+                "name": "Brilliant Biochemist/Massive Warrior",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-04.jpg?w=1000&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Tech", "Punch"]
+            }
+        ]
     }
 ]
