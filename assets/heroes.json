@@ -74,7 +74,7 @@
         "hero": "The Captain & The Devil",
         "id": 515,
         "set": "Secret Wars Vol. 2",
-        "team": "Avengers",
+        "team": ["Avengers"],
         "cards": [
             {
                 "hero": "The Captain & The Devil",
@@ -135,7 +135,7 @@
         "hero": "Lady Sif",
         "id": 602,
         "set": "Heroes of Asgard",
-        "team": "Asgardians",
+        "team": ["Asgardians"],
         "cards": [
             {
                 "id": 6021,
@@ -195,7 +195,7 @@
         "hero": "Wiccan",
         "id": 216,
         "set": "Civil War",
-        "team": "Avengers",
+        "team": ["Avengers"],
         "cards": [
             {
                 "hero": "Wiccan",
@@ -407,7 +407,7 @@
         "id": 202,
         "set": "Civil War",
         "team": [
-            "Avengers"
+            "Avengers","Marvel Knights"
         ],
         "cards": [
             {

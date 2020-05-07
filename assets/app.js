@@ -1,19 +1,8 @@
-function compare(a, b) {
-  const nameA = a.hero.toUpperCase();
-  const nameB = b.hero.toUpperCase();
-
-  if (nameA > nameB) {
-    return 1;
-  } else if (nameA < nameB) {
-    return -1;
-  }
-  return 0;
-}
-
 let virtu = {
   allHeroes: [],
   gameHeroes: [],
   gameHeroesList: "Main Set Cards Sidekicks",
+  sortMethod: "",
   deck: [
     {
       hero: "",
@@ -187,14 +176,34 @@ let virtu = {
     });
   },
   loadAllHeroes: function() {
-    console.log("firing 2");
     $("#all-heroes").html("");
+    let checking = "";
+
     virtu.allHeroes.forEach(function(item, index, array) {
+      if (virtu.sortMethod == "set" && !checking.includes(item.set)) {
+        let header = $("<h4>").text(item.set);
+        checking += item.set + " ";
+        $("#all-heroes").append(header);
+      } else if (virtu.sortMethod == "team" && !checking.includes(item.team)) {
+        let header = $("<h4>").text(item.team);
+        checking += item.team + " ";
+        $("#all-heroes").append(header); 
+      }
+
       let newCard = $("<ul>")
         .addClass("all-hero-card pointer")
         .attr("set-id", item.id)
-        .attr("name", item.hero)
-        .text(item.hero + " - " + item.set + " - " + item.team);
+        .attr("name", item.hero);
+        let heroName = $("<span>").addClass("font-bold").text(item.hero);
+        newCard.append(heroName);
+
+        if (virtu.sortMethod == "set") {
+          newCard.append(" - " + item.team);
+        } else if (virtu.sortMethod == "team") {
+          newCard.append(" - " + item.set);
+        } else {
+          newCard.append(" - " + item.team + " - " + item.set);
+        }
       $("#all-heroes").append(newCard);
     });
   },
@@ -562,24 +571,18 @@ let virtu = {
     return comparison;
   },
   sortByName: function() {
-    console.log("firing");
-    console.log(virtu.allHeroes);
-    //virtu.allHeroes.sort(virtu.compareName());
-    /*$.when($.ajax(virtu.allHeroes.sort(compare))).then(function() {
-      console.log("firing 3");
-      virtu.loadAllHeroes();
-    }); */
-
     virtu.allHeroes.sort(virtu.compareName);
+    virtu.sortMethod = "name";
     virtu.loadAllHeroes();
   },
   sortBySet: function() {
     virtu.allHeroes.sort(virtu.compareSet);
-    console.log(virtu.allHeroes);
+    virtu.sortMethod = "set";
     virtu.loadAllHeroes();
   },
   sortByTeam: function() {
     virtu.allHeroes.sort(virtu.compareTeam);
+    virtu.sortMethod = "team";
     virtu.loadAllHeroes();
   }
 };
