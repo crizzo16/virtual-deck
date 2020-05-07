@@ -3,7 +3,9 @@
         "hero": "Silk",
         "id": 512,
         "set": "Secret Wars Vol. 2",
-        "team": ["Spider-Friends"],
+        "team": [
+            "Spider-Friends"
+        ],
         "cards": [
             {
                 "hero": "Silk",
@@ -13,8 +15,12 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["Spider-Friends"],
-                "class": ["Tech"]
+                "team": [
+                    "Spider-Friends"
+                ],
+                "class": [
+                    "Tech"
+                ]
             },
             {
                 "hero": "Silk",
@@ -24,8 +30,12 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["Spider-Friends"],
-                "class": ["Covert"]
+                "team": [
+                    "Spider-Friends"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
                 "hero": "Silk",
@@ -35,8 +45,13 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["Spider-Friends"],
-                "class": ["Punch", "Instinct"]
+                "team": [
+                    "Spider-Friends"
+                ],
+                "class": [
+                    "Punch",
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Silk",
@@ -46,8 +61,12 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Spider-Friends"],
-                "class": ["Range"]
+                "team": [
+                    "Spider-Friends"
+                ],
+                "class": [
+                    "Range"
+                ]
             }
         ]
     },
@@ -58,7 +77,7 @@
         "team": "Avengers",
         "cards": [
             {
-                "hero":"The Captain & The Devil",
+                "hero": "The Captain & The Devil",
                 "id": 5151,
                 "name": "Dino-Roar of Triumph",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-01.jpg?w=700&h=",
@@ -66,10 +85,12 @@
                 "recruit": 0,
                 "attack": 6,
                 "team": "Avengers",
-                "class": ["Range"]
+                "class": [
+                    "Range"
+                ]
             },
             {
-                "hero":"The Captain & The Devil",
+                "hero": "The Captain & The Devil",
                 "id": 5152,
                 "name": "Feeding Grounds",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-02.jpg?w=700&h=",
@@ -77,10 +98,12 @@
                 "recruit": 0,
                 "attack": 3,
                 "team": "Avengers",
-                "class": ["Covert"]
+                "class": [
+                    "Covert"
+                ]
             },
             {
-                "hero":"The Captain & The Devil",
+                "hero": "The Captain & The Devil",
                 "id": 5153,
                 "name": "Jurassic America",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-03.jpg?w=700&h=",
@@ -88,10 +111,13 @@
                 "recruit": 1,
                 "attack": 0,
                 "team": "Avengers",
-                "class": ["Punch", "Tech"]
+                "class": [
+                    "Punch",
+                    "Tech"
+                ]
             },
             {
-                "hero":"The Captain & The Devil",
+                "hero": "The Captain & The Devil",
                 "id": 5154,
                 "name": "Patriotic Chomp",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-04.jpg?w=700&h=",
@@ -99,7 +125,9 @@
                 "recruit": 0,
                 "attack": 2,
                 "team": "Avengers",
-                "class": ["Instinct"]
+                "class": [
+                    "Instinct"
+                ]
             }
         ]
     },
@@ -118,7 +146,9 @@
                 "recruit": 0,
                 "attack": 0,
                 "team": "Asgardians",
-                "class": ["Covert"]
+                "class": [
+                    "Covert"
+                ]
             },
             {
                 "id": 6022,
@@ -129,7 +159,9 @@
                 "recruit": 0,
                 "attack": 2,
                 "team": "Asgardians",
-                "class": ["Instinct"]
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "id": 6023,
@@ -140,7 +172,9 @@
                 "recruit": 0,
                 "attack": 0,
                 "team": "Asgardians",
-                "class": ["Punch"]
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "id": 6024,
@@ -151,7 +185,9 @@
                 "recruit": 0,
                 "attack": 0,
                 "team": "Asgardians",
-                "class": ["Instinct"]
+                "class": [
+                    "Instinct"
+                ]
             }
         ]
     },
@@ -169,8 +205,12 @@
                 "cost": 7,
                 "recruit": 0,
                 "attack": 3,
-                "team": ["Avengers"],
-                "class": ["Range"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
                 "hero": "Wiccan",
@@ -180,8 +220,13 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Range", "Tech"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Range",
+                    "Tech"
+                ]
             },
             {
                 "hero": "Wiccan",
@@ -191,8 +236,12 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Avengers"],
-                "class": ["Range"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
                 "hero": "Wiccan",
@@ -202,8 +251,208 @@
                 "cost": 2,
                 "recruit": 1,
                 "attack": 0,
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
+            }
+        ]
+    },
+    {
+        "hero": "Hulkling",
+        "id": 207,
+        "set": "Civil War",
+        "team": [
+            "Avengers"
+        ],
+        "cards": [
+            {
+                "hero": "Hulkling",
+                "id": 2071,
+                "name": "Enormous Shapeshifter",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-01.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 4,
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
+            },
+            {
+                "hero": "Hulkling",
+                "id": 2072,
+                "name": "Impersonate",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-02.jpg?w=700&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 0,
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
+            },
+            {
+                "hero": "Hulkling",
+                "id": 2073,
+                "name": "Half-Kree/Half-Skrull",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-03.jpg?w=1000&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 0,
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch",
+                    "Covert"
+                ]
+            },
+            {
+                "hero": "Hulkling",
+                "id": 2074,
+                "name": "Cellular Regeneration",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-04.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 2,
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch"
+                ]
+            }
+        ]
+    },
+    {
+        "hero": "Captain America, Secret Avenger",
+        "id": 201,
+        "set": "Civil War",
+        "team": [
+            "Avengers"
+        ],
+        "cards": [
+            {
+                "hero": "Captain America, Secret Avenger",
+                "id": 2011,
+                "name": "Freedom Never Dies",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-01.jpg?w=700&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 5,
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Range"
+                ]
+            },
+            {
+                "hero": "Captain America, Secret Avenger",
+                "id": 2012,
+                "name": "Secret Avengers Assemble!",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-02.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 2,
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Tech"
+                ]
+            },
+            {
+                "hero": "Captain America, Secret Avenger",
+                "id": 2013,
+                "name": "Bold Leadership",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-03.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
+            },
+            {
+                "hero": "Captain America, Secret Avenger",
+                "id": 2014,
+                "name": "Inspire A Nation/Inspire A Man",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-04.jpg?w=1000&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 0,
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch",
+                    "Instinct"
+                ]
+            }
+        ]
+    },
+    {
+        "hero": "Cloak & Dagger",
+        "id": 202,
+        "set": "Civil War",
+        "team": [
+            "Avengers"
+        ],
+        "cards": [
+            {
+                "hero":"Cloak & Dagger",
+                "id":2021,
+                "name": "Penumbra",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-01.jpg?w=700&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 4,
                 "team": ["Avengers"],
-                "class": ["Covert"]
+                "class": ["Range"]
+            },
+            {
+                "hero": "Cloak & Dagger",
+                "id":2022,
+                "name": "Darkness/Light",
+                "img":"https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-02.jpg?w=1000&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Covert", "Range"]
+            },
+            {
+                "hero": "Cloak & Dagger",
+                "id":2023,
+                "name": "Above/Below",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-03.jpg?w=1000&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Covert", "Range"]
+            },
+            {
+                "hero":"Cloak & Dagger",
+                "id":2024,
+                "name": "Flee/Fight",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-04.jpg?w=1000&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Covert", "Range"]
             }
         ]
     }

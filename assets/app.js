@@ -167,7 +167,7 @@ let virtu = {
     });
 
     $.ajax({
-      url:"https://crizzo16.github.io/virtual-deck/assets/starterCards.json",
+      url: "https://crizzo16.github.io/virtual-deck/assets/starterCards.json",
       dataType: "json"
     }).done(function(data) {
       virtu.gameHeroes = data;
@@ -193,24 +193,26 @@ let virtu = {
   drawHand: function() {
     if (virtu.deck.length < 1) {
       M.toast({ html: "Replenish your deck!" });
+    } else {
+      let end = 6;
+      if (virtu.deck.length < 6) {
+        end = virtu.deck.length;
+      }
+      for (let i = 0; i < end; i++) {
+        virtu.hand.push(virtu.deck.shift());
+      }
+      virtu.loadHand();
+      virtu.updateDeckNum();
     }
-    let end = 6;
-    if (virtu.deck.length < 6) {
-      end = virtu.deck.length;
-    }
-    for (let i = 0; i < end; i++) {
-      virtu.hand.push(virtu.deck.shift());
-    }
-    virtu.loadHand();
-    virtu.updateDeckNum();
   },
   drawCard: function() {
     if (virtu.deck.length < 1) {
       M.toast({ html: "Replenish your deck!" });
+    } else {
+      virtu.hand.push(virtu.deck.shift());
+      virtu.loadHand();
+      virtu.updateDeckNum();
     }
-    virtu.hand.push(virtu.deck.shift());
-    virtu.loadHand();
-    virtu.updateDeckNum();
   },
   loadHand: function() {
     $("#hand").html("");
@@ -218,6 +220,7 @@ let virtu = {
     let att = 0;
     let teams = "";
     let classes = "";
+    console.log(virtu.hand);
     virtu.hand.forEach(function(item, index, array) {
       let singleCard = $("<img>")
         .addClass("img hand-card pointer")
@@ -253,12 +256,16 @@ let virtu = {
   loadGameHeroes: function() {
     $("#hq-cards").html("");
     virtu.gameHeroes.forEach(function(item, index, array) {
-      let head = $("<h5>").addClass("full-hero").attr("set-id",item.id).text(item.hero);
+      let head = $("<h5>")
+        .addClass("full-hero")
+        .attr("set-id", item.id)
+        .text(item.hero);
       $("#hq-cards").append(head);
       item.cards.forEach(function(it, ind, arr) {
         let newCard = $("<ul>")
           .addClass("hq-card pointer")
-          .attr("hero-id", it.id).text(" – " + it.name + " (" + it.cost + ")");
+          .attr("hero-id", it.id)
+          .text(" – " + it.name + " (" + it.cost + ")");
 
         $("#hq-cards").append(newCard);
       });
@@ -284,16 +291,16 @@ let virtu = {
       $(this).addClass("full-hero-highlight");
     }
     if (name == "Sidekicks" || name == "Main Set Cards") {
-      M.toast({html: "Cannot Remove From HQ!"});
+      M.toast({ html: "Cannot Remove From HQ!" });
     }
   },
   removeHeroFromHQ: function() {
     const selID = $(".full-hero-highlight").attr("set-id");
     console.log("firing");
     console.log(virtu.gameHeroes);
-    for (let i=0; i<virtu.gameHeroes.length; i++) {
+    for (let i = 0; i < virtu.gameHeroes.length; i++) {
       if (selID == virtu.gameHeroes[i].id) {
-        virtu.gameHeroes.splice(i,1);
+        virtu.gameHeroes.splice(i, 1);
         virtu.loadGameHeroes();
       }
     }
@@ -303,20 +310,23 @@ let virtu = {
     const name = $(".all-hero-highlight").attr("name");
     $(".all-hero-highlight").removeClass("all-hero-highlight");
     for (let i = 0; i < virtu.allHeroes.length; i++) {
-      if (id == virtu.allHeroes[i].id && !virtu.gameHeroesList.includes(name) && virtu.gameHeroes.length < 10) {
+      if (
+        id == virtu.allHeroes[i].id &&
+        !virtu.gameHeroesList.includes(name) &&
+        virtu.gameHeroes.length < 10
+      ) {
         virtu.gameHeroes.push(virtu.allHeroes[i]);
         virtu.gameHeroesList += " " + virtu.allHeroes[i].hero;
         virtu.loadGameHeroes();
         return;
-      } 
+      }
     }
     if (virtu.gameHeroesList.includes(name)) {
-      M.toast({html: "Already in the HQ!"});
+      M.toast({ html: "Already in the HQ!" });
     }
-    if (virtu.gameHeroes.length = 9) {
-      M.toast({html: "Can't Have More Than 6 Heroes!"});
+    if ((virtu.gameHeroes.length = 9)) {
+      M.toast({ html: "Can't Have More Than 6 Heroes!" });
     }
-    
   },
   putBackOnDeck: function() {
     const id = $(".selected-card-highlight").attr("hero-id");

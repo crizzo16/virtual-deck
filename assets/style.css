@@ -13,11 +13,11 @@
 
 .img {
     object-fit: contain;
-    max-width: 25%;
+    max-height: 300px;
 }
 
 .img-big {
-    max-width: 50%;
+    max-height: 450px;
 }
 
 .m-10 {
