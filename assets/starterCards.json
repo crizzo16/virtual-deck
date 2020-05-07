@@ -1,29 +1,136 @@
 [
     {
-        "hero": "SHIELD Agent",
-        "team": ["SHIELD"],
+        "hero": "Main Set Cards",
+        "id": 101,
+        "set": "Main",
+        "team": [
+            "None"
+        ],
         "cards": [
             {
-                "id": 1011,
-                "name": "SHIELD Agent",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
+                "id": 1031,
+                "hero": "",
+                "name": "Wound",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/wound.jpg?w=700&h=",
                 "cost": 0,
-                "recruit": 1,
-                "attack": 0
+                "recruit": 0,
+                "attack": 0,
+                "team": "",
+                "class": [
+                    ""
+                ]
+            },
+            {
+                "id": 1041,
+                "hero": "",
+                "name": "SHIELD Officer",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/shield-officer.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 2,
+                "attack": 0,
+                "team": "SHIELD",
+                "class": [
+                    ""
+                ]
             }
         ]
     },
     {
-        "hero": "SHIELD Trooper",
-        "team": ["SHIELD"],
+        "hero": "Sidekicks",
+        "id": 217,
+        "set": "Civil War",
+        "team": "Avengers",
         "cards": [
             {
-                "id": 1021,
-                "name": "SHIELD Trooper",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/shield-trooper.jpg?w=700&h=",
-                "cost": 0,
+                "id": 2171,
+                "hero": "Sidekicks",
+                "name": "Zabu",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_zabu.jpg?w=700&h=",
+                "cost": 2,
                 "recruit": 0,
-                "attack": 1
+                "attack": 0,
+                "team": "Avengers",
+                "class": [
+                    "instinct"
+                ]
+            },
+            {
+                "id": 2172,
+                "hero": "Sidekicks",
+                "name": "Throg",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_throg.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 2,
+                "attack": 0,
+                "team": "Avengers",
+                "class": [
+                    "punch"
+                ]
+            },
+            {
+                "id": 2173,
+                "hero": "Sidekicks",
+                "name": "Redwing",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_redwing.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": "Avengers",
+                "class": [
+                    "instinct"
+                ]
+            },
+            {
+                "id": 2174,
+                "hero": "Sidekicks",
+                "name": "Lockjaw",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_lockjaw.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 2,
+                "team": "Avengers",
+                "class": [
+                    "range"
+                ]
+            },
+            {
+                "id": 2175,
+                "hero": "Sidekicks",
+                "name": "Lockheed",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_lockheed.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 2,
+                "team": "Avengers",
+                "class": [
+                    "range"
+                ]
+            },
+            {
+                "id": 2176,
+                "hero": "Sidekicks",
+                "name": "Ms. Lion",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_lion.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 2,
+                "team": "Avengers",
+                "class": [
+                    "covert"
+                ]
+            },
+            {
+                "id": 2177,
+                "hero": "Sidekicks",
+                "name": "Hairball",
+                "img": "https://marveldbg.files.wordpress.com/2019/10/ss_hairball.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 1,
+                "team": "Avengers",
+                "class": [
+                    "covers"
+                ]
             }
         ]
     }

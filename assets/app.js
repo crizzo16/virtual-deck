@@ -164,19 +164,33 @@ let virtu = {
       virtu.allHeroes = result;
       virtu.loadAllHeroes();
     });
+
+    $.ajax({
+      url:"https://crizzo16.github.io/virtual-deck/assets/starterCards.json",
+      dataType: "json"
+    }).done(function(data) {
+      virtu.gameHeroes = data;
+      virtu.loadGameHeroes();
+    });
   },
   loadAllHeroes: function() {
     $("#all-heroes").html("");
-    let addHero = $("<button>").addClass("btn m-10 orange lighten-1").attr("id", "add-hero-btn").text("Add Hero");
+    let addHero = $("<button>")
+      .addClass("btn m-10 orange lighten-1")
+      .attr("id", "add-hero-btn")
+      .text("Add Hero");
     $("#all-heroes").append(addHero);
     virtu.allHeroes.forEach(function(item, index, array) {
-      let newCard = $("<ul>").addClass("all-hero-card").attr("set-id",item.id).text(item.hero + " [" + item.set + "]");
+      let newCard = $("<ul>")
+        .addClass("all-hero-card pointer")
+        .attr("set-id", item.id)
+        .text(item.hero + " [" + item.set + "]");
       $("#all-heroes").append(newCard);
     });
   },
   drawHand: function() {
-    if (virtu.deck.length <1) {
-      M.toast({html: "Replenish your deck!"});
+    if (virtu.deck.length < 1) {
+      M.toast({ html: "Replenish your deck!" });
     }
     let end = 6;
     if (virtu.deck.length < 6) {
@@ -189,8 +203,8 @@ let virtu = {
     virtu.updateDeckNum();
   },
   drawCard: function() {
-    if (virtu.deck.length <1) {
-      M.toast({html: "Replenish your deck!"});
+    if (virtu.deck.length < 1) {
+      M.toast({ html: "Replenish your deck!" });
     }
     virtu.hand.push(virtu.deck.shift());
     virtu.loadHand();
@@ -204,7 +218,7 @@ let virtu = {
     let classes = "";
     virtu.hand.forEach(function(item, index, array) {
       let singleCard = $("<img>")
-        .addClass("img hand-card")
+        .addClass("img hand-card pointer")
         .attr("hero-id", item.id)
         .attr("src", item.img);
       $("#hand").append(singleCard);
@@ -239,7 +253,7 @@ let virtu = {
     virtu.gameHeroes.forEach(function(item, index, array) {
       item.cards.forEach(function(it, ind, arr) {
         let newCard = $("<ul>")
-          .addClass("hq-card")
+          .addClass("hq-card pointer")
           .attr("hero-id", it.id);
         let heroo = $("<span>")
           .addClass("font-bold")
@@ -267,8 +281,7 @@ let virtu = {
     const id = $(".all-hero-highlight").attr("set-id");
     $(".all-hero-highlight").removeClass("all-hero-highlight");
 
-
-    for (let i=0; i<virtu.allHeroes.length; i++) {
+    for (let i = 0; i < virtu.allHeroes.length; i++) {
       if (id == virtu.allHeroes[i].id) {
         virtu.gameHeroes.push(virtu.allHeroes[i]);
         virtu.loadGameHeroes();
@@ -319,7 +332,7 @@ let virtu = {
     $("#discard-pile").html("");
     virtu.discard.forEach(function(item, index, array) {
       let newDisc = $("<ul>")
-        .addClass("discard-card")
+        .addClass("discard-card pointer")
         .attr("hero-id", item.id)
         .text(item.name + " " + item.hero);
       $("#discard-pile").append(newDisc);
@@ -423,7 +436,7 @@ let virtu = {
   },
   putOnBottom: function() {
     const id = $(".selected-card-highlight").attr("hero-id");
-    for (let i=0; i<virtu.hand.length; i++) {
+    for (let i = 0; i < virtu.hand.length; i++) {
       if (id == virtu.hand[i].id) {
         virtu.deck.push(virtu.hand[i]);
         virtu.hand.splice(i, 1);
@@ -436,7 +449,7 @@ let virtu = {
   backInHand: function() {
     const id = $(".disc-sel-highlight").attr("hero-id");
 
-    for (let i=0; i<virtu.discard.length; i++) {
+    for (let i = 0; i < virtu.discard.length; i++) {
       if (id == virtu.discard[i].id) {
         virtu.hand.push(virtu.discard[i]);
         virtu.discard.splice(i, 1);
