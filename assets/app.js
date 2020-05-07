@@ -1,3 +1,15 @@
+function compare(a, b) {
+  const nameA = a.hero.toUpperCase();
+  const nameB = b.hero.toUpperCase();
+
+  if (nameA > nameB) {
+    return 1;
+  } else if (nameA < nameB) {
+    return -1;
+  }
+  return 0;
+}
+
 let virtu = {
   allHeroes: [],
   gameHeroes: [],
@@ -175,18 +187,14 @@ let virtu = {
     });
   },
   loadAllHeroes: function() {
+    console.log("firing 2");
     $("#all-heroes").html("");
-    let addHero = $("<button>")
-      .addClass("btn m-10 orange lighten-1")
-      .attr("id", "add-hero-btn")
-      .text("Add Hero");
-    $("#all-heroes").append(addHero);
     virtu.allHeroes.forEach(function(item, index, array) {
       let newCard = $("<ul>")
         .addClass("all-hero-card pointer")
         .attr("set-id", item.id)
         .attr("name", item.hero)
-        .text(item.hero + " [" + item.set + "]");
+        .text(item.hero + " - " + item.set + " - " + item.team);
       $("#all-heroes").append(newCard);
     });
   },
@@ -224,7 +232,7 @@ let virtu = {
       let singleCard = $("<img>")
         .addClass("img hand-card pointer")
         .attr("hero-id", item.id)
-        .attr("name",item.name + " " + item.hero)
+        .attr("name", item.name + " " + item.hero)
         .attr("src", item.img);
       $("#hand").append(singleCard);
       // Check for base recruit and attack
@@ -265,7 +273,7 @@ let virtu = {
         let newCard = $("<ul>")
           .addClass("hq-card pointer")
           .attr("hero-id", it.id)
-          .attr("img",it.img)
+          .attr("img", it.img)
           .text(it.name + " (" + it.cost + ")");
 
         $("#hq-cards").append(newCard);
@@ -498,16 +506,81 @@ let virtu = {
     let name = $(".hero-sel-highlight").text();
     let img = $(".hero-sel-highlight").attr("img");
     let viewName = $("<h4>").text(name);
-    let viewImg = $("<img>").attr("src", img).addClass("img-big");
-    $("#hq-modal-content").append(viewName).append(viewImg);
+    let viewImg = $("<img>")
+      .attr("src", img)
+      .addClass("img-big");
+    $("#hq-modal-content")
+      .append(viewName)
+      .append(viewImg);
   },
   fillHandModal: function() {
     $("#hand-modal-content").html("");
     let name = $(".selected-card-highlight").attr("name");
     let img = $(".selected-card-highlight").attr("src");
     let viewName = $("<h4>").text(name);
-    let viewImg = $("<img>").attr("src", img).addClass("img-big");
-    $("#hand-modal-content").append(viewName).append(viewImg);
+    let viewImg = $("<img>")
+      .attr("src", img)
+      .addClass("img-big");
+    $("#hand-modal-content")
+      .append(viewName)
+      .append(viewImg);
+  },
+  compareName: function(a, b) {
+    const nameA = a.hero.toUpperCase();
+    const nameB = b.hero.toUpperCase();
+
+    let comparison = 0;
+    if (nameA > nameB) {
+      comparison = 1;
+    } else if (nameA < nameB) {
+      comparison = -1;
+    }
+    return comparison;
+  },
+  compareSet: function(a, b) {
+    const setA = a.set.toUpperCase();
+    const setB = b.set.toUpperCase();
+
+    let comparison = 0;
+    if (setA > setB) {
+      comparison = 1;
+    } else if (setA < setB) {
+      comparison = -1;
+    }
+    return comparison;
+  },
+  compareTeam: function(a, b) {
+    const teamA = a.team[0].toUpperCase();
+    const teamB = b.team[0].toUpperCase();
+
+    let comparison = 0;
+    if (teamA > teamB) {
+      comparison = 1;
+    } else if (teamA < teamB) {
+      comparison = -1;
+    }
+    return comparison;
+  },
+  sortByName: function() {
+    console.log("firing");
+    console.log(virtu.allHeroes);
+    //virtu.allHeroes.sort(virtu.compareName());
+    /*$.when($.ajax(virtu.allHeroes.sort(compare))).then(function() {
+      console.log("firing 3");
+      virtu.loadAllHeroes();
+    }); */
+
+    virtu.allHeroes.sort(virtu.compareName);
+    virtu.loadAllHeroes();
+  },
+  sortBySet: function() {
+    virtu.allHeroes.sort(virtu.compareSet);
+    console.log(virtu.allHeroes);
+    virtu.loadAllHeroes();
+  },
+  sortByTeam: function() {
+    virtu.allHeroes.sort(virtu.compareTeam);
+    virtu.loadAllHeroes();
   }
 };
 
@@ -541,3 +614,6 @@ $(document).on("click", ".full-hero", virtu.selectHeroInHQ);
 $(document).on("click", "#remove-hero", virtu.removeHeroFromHQ);
 $(document).on("click", "#view-card", virtu.fillModal);
 $(document).on("click", "#view-hand-card", virtu.fillHandModal);
+$(document).on("click", "#sort-by-name", virtu.sortByName);
+$(document).on("click", "#sort-by-set", virtu.sortBySet);
+$(document).on("click", "#sort-by-team", virtu.sortByTeam);

@@ -86,6 +86,14 @@
     margin: 5px 0;
 }
 
+.vert-line {
+    width: 1px;
+    height: 80%;
+    text-align: center;
+    border: 1px solid grey;
+    margin: 0 5px;
+}
+
 .font-bold {
     font-weight: bold;
 }
