@@ -608,7 +608,7 @@ $(document).on("click", "#discard-hand-btn", virtu.discardHand);
 $(document).on("click", "#discard-card-btn", virtu.discardCard);
 $(document).on("click", "#replenish-deck", virtu.discardToDeck);
 $(document).on("click", "#put-back", virtu.putBackOnDeck);
-$(document).on("click", "#add-top", virtu.addTopDeck);
+$(document).on("click", "#add-top-card", virtu.addTopDeck);
 $(document).on("click", "#add-discard", virtu.addDiscard);
 $(document).on("click", "#add-hero-btn", virtu.addSelectedHero);
 $(document).on("click", "#bottom-deck", virtu.putOnBottom);
