@@ -257,7 +257,7 @@ let virtu = {
     $("#hq-cards").html("");
     virtu.gameHeroes.forEach(function(item, index, array) {
       let head = $("<h5>")
-        .addClass("full-hero")
+        .addClass("full-hero pointer")
         .attr("set-id", item.id)
         .text(item.hero);
       $("#hq-cards").append(head);
