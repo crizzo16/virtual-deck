@@ -265,7 +265,8 @@ let virtu = {
         let newCard = $("<ul>")
           .addClass("hq-card pointer")
           .attr("hero-id", it.id)
-          .text(" – " + it.name + " (" + it.cost + ")");
+          .attr("img",it.img)
+          .text(it.name + " (" + it.cost + ")");
 
         $("#hq-cards").append(newCard);
       });
@@ -495,11 +496,20 @@ let virtu = {
         return;
       }
     }
+  },
+  fillModal: function() {
+    $("#hq-modal-content").html("");
+    let name = $(".hero-sel-highlight").text();
+    let img = $(".hero-sel-highlight").attr("img");
+    let viewName = $("<h4>").text(name);
+    let viewImg = $("<img>").attr("src", img).addClass("img-big");
+    $("#hq-modal-content").append(viewName).append(viewImg);
   }
 };
 
 $(document).ready(function() {
   $(".collapsible").collapsible();
+  $(".modal").modal();
   virtu.updateDiscNum();
   virtu.updateDeckNum();
   virtu.loadGameHeroes();
@@ -525,3 +535,4 @@ $(document).on("click", "#bottom-deck", virtu.putOnBottom);
 $(document).on("click", "#back-in-hand", virtu.backInHand);
 $(document).on("click", ".full-hero", virtu.selectHeroInHQ);
 $(document).on("click", "#remove-hero", virtu.removeHeroFromHQ);
+$(document).on("click", "#view-card", virtu.fillModal);

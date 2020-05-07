@@ -18,31 +18,58 @@
       </header>
 
       <div id="buttons" class="flex flex-wrap flex-center">
-        <button id="draw-card-btn" class="btn waves-effect waves-light green lighten-2 m-10">
+        <button
+          id="draw-card-btn"
+          class="btn waves-effect waves-light green lighten-2 m-10"
+        >
           Draw Card
         </button>
-        <button id="draw-hand-btn" class="btn waves-effect waves-light green lighten-2 m-10">
+        <button
+          id="draw-hand-btn"
+          class="btn waves-effect waves-light green lighten-2 m-10"
+        >
           Draw Hand
         </button>
-        <button id="discard-card-btn" class="btn waves-effect waves-light red lighten-1 m-10">
+        <button
+          id="discard-card-btn"
+          class="btn waves-effect waves-light red lighten-1 m-10"
+        >
           Discard Card
         </button>
-        <button id="discard-hand-btn" class="btn waves-effect waves-light red lighten-1 m-10">
+        <button
+          id="discard-hand-btn"
+          class="btn waves-effect waves-light red lighten-1 m-10"
+        >
           Discard Hand
         </button>
-        <button id="put-back" class="btn waves-effect waves-light red lighten-1 m-10">
+        <button
+          id="put-back"
+          class="btn waves-effect waves-light red lighten-1 m-10"
+        >
           Put on Top of Deck
         </button>
-        <button id="bottom-deck" class="btn waves-effect waves-light waves-effect waves-light red lighten-1 m-10">
+        <button
+          id="bottom-deck"
+          class="btn waves-effect waves-light waves-effect waves-light red lighten-1 m-10"
+        >
           Put on Bottom of Deck
         </button>
-        <button id="back-in-hand" class="btn waves-effect waves-light blue lighten-1 m-10">
+        <button
+          id="back-in-hand"
+          class="btn waves-effect waves-light blue lighten-1 m-10"
+        >
           Put Back in Hand
         </button>
-        <button id="replenish-deck" class="btn waves-effect waves-light blue lighten-1 m-10">
+        <button
+          id="replenish-deck"
+          class="btn waves-effect waves-light blue lighten-1 m-10"
+        >
           Replenish Deck
         </button>
-        <button id="ko-card-btn" class="btn waves-effect waves-light grey lighten-1 m-10">
+        <button
+          id="ko-card-btn"
+          class="btn waves-effect waves-light grey lighten-1 m-10"
+        >
           KO Card
         </button>
       </div>
@@ -85,14 +112,44 @@
           <li class="hidden-list">
             <div class="collapsible-header">HQ Cards</div>
             <div class="collapsible-body">
-              <button id="add-discard" class="btn waves-effect waves-light deep-purple lighten-2 m-10">
+              <button
+                id="view-card"
+                class="btn waves-effect waves-light deep-purple lighten-2 m-10 modal-trigger"
+                data-target="hq-modal"
+              >
+                View Card
+              </button>
+              <button
+                id="add-discard"
+                class="btn waves-effect waves-light deep-purple lighten-2 m-10"
+              >
                 Add to Discard
               </button>
-              <button id="add-top" class="btn waves-effect waves-light deep-purple lighten-2 m-10">
+              <button
+                id="add-top"
+                class="btn waves-effect waves-light deep-purple lighten-2 m-10"
+              >
                 Add to Top of Deck
               </button>
-              <button id="remove-hero" class="btn waves-effect waves-light orange lighten-2 m-10">Remove Hero</button>
+              <button
+                id="remove-hero"
+                class="btn waves-effect waves-light orange lighten-2 m-10"
+              >
+                Remove Hero
+              </button>
               <div id="hq-cards"></div>
+              <div id="hq-modal" class="modal">
+                <div class="modal-content flex-flex-center">
+                  <div id="hq-modal-content" class="flex flex-center" style="flex-direction: column"></div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    class="btn deep-purple lighten-2 m-10 modal-close waves-effect waves-purple"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
             </div>
           </li>
           <li class="hidden-list">
@@ -103,31 +160,49 @@
             <div class="collapsible-header">Button Color Guide</div>
             <div class="collapsible-body">
               <div class="flex row">
-                <button class="btn waves-effect waves-light green lighten-2 m-10"></button>
+                <button
+                  class="btn waves-effect waves-light green lighten-2 m-10"
+                ></button>
                 <p>Green buttons draw cards from your deck.</p>
               </div>
               <div class="flex row">
-                <button class="btn waves-effect waves-light red lighten-1 m-10"></button>
+                <button
+                  class="btn waves-effect waves-light red lighten-1 m-10"
+                ></button>
                 <p>
                   Red buttons only work if you select a card from your hand.
                 </p>
               </div>
               <div class="flex row">
-                  <button class="btn waves-effect waves-light blue lighten-1 m-10"></button>
-                  <p>Blue buttons only work if you have a card in your discard selected.</p>
-                </div>
-                <div class="flex row">
-                    <button class="btn waves-effect waves-light grey lighten-1 m-10"></button>
-                    <p>Only work if you have a card in your discard selected. It's a different color so you don't accidentally hit it.</p>
-                  </div>
-                  <div class="flex row">
-                      <button class="btn waves-effect waves-light deep-purple lighten-2 m-10"></button>
-                      <p>Purple buttons add cards from the HQ to your deck.</p>
-                    </div>
-                    <div class="flex row">
-                        <button class="btn waves-effect waves-light orange lighten-1 m-10"></button>
-                        <p>Orange buttons add Heroes to your specific game.</p>
-                      </div>
+                <button
+                  class="btn waves-effect waves-light blue lighten-1 m-10"
+                ></button>
+                <p>
+                  Blue buttons only work if you have a card in your discard
+                  selected.
+                </p>
+              </div>
+              <div class="flex row">
+                <button
+                  class="btn waves-effect waves-light grey lighten-1 m-10"
+                ></button>
+                <p>
+                  Only work if you have a card in your discard selected. It's a
+                  different color so you don't accidentally hit it.
+                </p>
+              </div>
+              <div class="flex row">
+                <button
+                  class="btn waves-effect waves-light deep-purple lighten-2 m-10"
+                ></button>
+                <p>Purple buttons add cards from the HQ to your deck.</p>
+              </div>
+              <div class="flex row">
+                <button
+                  class="btn waves-effect waves-light orange lighten-1 m-10"
+                ></button>
+                <p>Orange buttons add Heroes to your specific game.</p>
+              </div>
             </div>
           </li>
         </div>
