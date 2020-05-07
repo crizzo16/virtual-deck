@@ -43,11 +43,19 @@
           Discard Hand
         </button>
         <button
+          id="view-hand-card"
+          class="btn waves-effect waves-light red lighten-1 m-10 modal-trigger"
+          data-target="hand-modal"
+        >
+          View Card
+        </button>
+        <button
           id="put-back"
           class="btn waves-effect waves-light red lighten-1 m-10"
         >
           Put on Top of Deck
         </button>
+
         <button
           id="bottom-deck"
           class="btn waves-effect waves-light waves-effect waves-light red lighten-1 m-10"
@@ -96,6 +104,22 @@
         </div>
       </div>
       <div id="hand" class="flex flex-wrap "></div>
+      <div id="hand-modal" class="modal">
+        <div class="modal-content flex-flex-center">
+          <div
+            id="hand-modal-content"
+            class="flex flex-center"
+            style="flex-direction: column"
+          ></div>
+        </div>
+        <div class="modal-footer">
+          <button
+            class="btn red lighten-1 m-10 modal-close waves-effect waves-purple"
+          >
+            Close
+          </button>
+        </div>
+      </div>
       <div class="row">
         <div id="discard" class="collapsible expandable">
           <li class="hidden-list">
@@ -140,7 +164,11 @@
               <div id="hq-cards"></div>
               <div id="hq-modal" class="modal">
                 <div class="modal-content flex-flex-center">
-                  <div id="hq-modal-content" class="flex flex-center" style="flex-direction: column"></div>
+                  <div
+                    id="hq-modal-content"
+                    class="flex flex-center"
+                    style="flex-direction: column"
+                  ></div>
                 </div>
                 <div class="modal-footer">
                   <button

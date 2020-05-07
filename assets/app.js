@@ -225,6 +225,7 @@ let virtu = {
       let singleCard = $("<img>")
         .addClass("img hand-card pointer")
         .attr("hero-id", item.id)
+        .attr("name",item.name + " " + item.hero)
         .attr("src", item.img);
       $("#hand").append(singleCard);
       // Check for base recruit and attack
@@ -504,6 +505,14 @@ let virtu = {
     let viewName = $("<h4>").text(name);
     let viewImg = $("<img>").attr("src", img).addClass("img-big");
     $("#hq-modal-content").append(viewName).append(viewImg);
+  },
+  fillHandModal: function() {
+    $("#hand-modal-content").html("");
+    let name = $(".selected-card-highlight").attr("name");
+    let img = $(".selected-card-highlight").attr("src");
+    let viewName = $("<h4>").text(name);
+    let viewImg = $("<img>").attr("src", img).addClass("img-big");
+    $("#hand-modal-content").append(viewName).append(viewImg);
   }
 };
 
@@ -536,3 +545,4 @@ $(document).on("click", "#back-in-hand", virtu.backInHand);
 $(document).on("click", ".full-hero", virtu.selectHeroInHQ);
 $(document).on("click", "#remove-hero", virtu.removeHeroFromHQ);
 $(document).on("click", "#view-card", virtu.fillModal);
+$(document).on("click", "#view-hand-card", virtu.fillHandModal);
