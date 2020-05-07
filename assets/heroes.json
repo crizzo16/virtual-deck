@@ -871,5 +871,369 @@
                 "class": ["Covert"]
             }
         ]
+    },
+    {
+        "hero": "Captain Britain",
+        "id": 505,
+        "set": "Secret Wars Vol. 2",
+        "team": ["Illuminati"],
+        "cards": [
+            {
+                "hero": "Captain Britain",
+                "id": 5051,
+                "name": "Lead the Captain Britain Corps",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-01.jpg?w=700&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Illuminati"],
+                "class": ["Punch"]
+            },
+            {
+                "hero": "Captain Britain",
+                "id": 5052,
+                "name": "Raise the Union Jack",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-02.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["Illuminati"],
+                "class": ["Punch","Covert"]
+            },
+            {
+                "hero": "Captain Britain",
+                "id": 5053,
+                "name": "Combined Strength",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-03.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Illuminati"],
+                "class": ["Punch"]
+            },
+            {
+                "hero":"Captain Britain",
+                "id": 5054,
+                "name": "Transatlantic Savior",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-04.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Illuminati"],
+                "class": ["Covert"]
+            }
+        ]
+    },
+    {
+        "hero": "Elsa Bloodstone",
+        "id": 508,
+        "set": "Secret Wars Vol. 2",
+        "team": ["SHIELD"],
+        "cards": [
+            {
+                "hero":"Elsa Bloodstone",
+                "id": 5081,
+                "name": "Prodigy of Ulysses Bloodstone",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-01.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 6,
+                "team": ["SHIELD"],
+                "class": ["Punch"]
+            },
+            {
+                "hero":"Elsa Bloodstone",
+                "id": 5082,
+                "name": "Defend the SHIELD Wall",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-02.jpg?w=700&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["SHIELD"],
+                "class": ["Range"]
+            },
+            {
+                "hero":"Elsa Bloodstone",
+                "id": 5083,
+                "name": "Bloodstone Pendant",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-03.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 2,
+                "attack": 0,
+                "team": ["SHIELD"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero":"Elsa Bloodstone",
+                "id": 5084,
+                "name": "Monster Hunter",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-04.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["SHIELD"],
+                "class": ["Covert","Tech"]
+            }
+        ]
+    },
+    {
+        "hero": "Ruby Summers",
+        "id": 510,
+        "set": "Secret Wars Vol. 2",
+        "team": ["X-Men"],
+        "cards":[
+            {
+                "hero": "Ruby Summers",
+                "id": 5101,
+                "name": "Extinction Blast",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-04.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 10,
+                "team": ["X-Men"],
+                "class": ["Range"]
+            },
+            {
+                "hero": "Ruby Summers",
+                "id": 5102,
+                "name": "Form of Solid Ruby",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-02.jpg?w=700&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 4,
+                "team": ["X-Men"],
+                "class": ["Punch"]
+            },
+            {
+                "hero":"Ruby Summers",
+                "id": 5103,
+                "name": "Guerrilla Warfare",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-03.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["X-Men"],
+                "class": ["Range"]
+            },
+            {
+                "hero": "Ruby Summers",
+                "id": 5104,
+                "name": "Heir to Legends",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-04.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 2,
+                "attack": 2,
+                "team": ["X-Men"],
+                "class": ["Punch","Range"]
+            }
+        ]
+    },
+    {
+        "hero": "Spider-Gwen",
+        "id": 514,
+        "set": "Secret Wars Vol. 2",
+        "team": ["Spider-Friends"],
+        "cards": [
+            {
+                "hero": "Spider-Gwen",
+                "id":5141,
+                "name": "Intertwining Webs",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-01.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Spider-Friends"],
+                "class": ["Covert"]
+            },
+            {
+                "hero": "Spider-Gwen",
+                "id":5142,
+                "name": "First Adventure",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-02.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 1,
+                "team": ["Spider-Friends"],
+                "class": ["Punch"]
+            },
+            {
+                "hero": "Spider-Gwen",
+                "id":5143,
+                "name": "Fateful Bridge",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-03.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Spider-Friends"],
+                "class": ["Instinct","Tech"]
+            },
+            {
+                "hero": "Spider-Gwen",
+                "id":5144,
+                "name": "Save the Day",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-04.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 1,
+                "team": ["Spider-Friends"],
+                "class": ["Tech"]
+            }
+        ]
+    },
+    {
+        "hero": "Captain Marvel, Agent of SHIELD",
+        "id": 401,
+        "set": "Revelations",
+        "team": ["SHIELD"],
+        "cards":[
+            {
+                "hero":"Captain Marvel, Agent of SHIELD",
+                "id": 4011,
+                "name": "Higher, Further, Faster",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-01.jpg?w=700&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["SHIELD"],
+                "class": ["Punch"]
+            },
+            {
+                "hero": "Captain Marvel, Agent of SHIELD",
+                "id": 4012,
+                "name": "Dominate the Battlefield",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-02.jpg?w=700&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["SHIELD"],
+                "class": ["Range"]
+            },
+            {
+                "hero":"Captain Marvel, Agent of SHIELD",
+                "id": 4013,
+                "name": "Radiant Blast",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-03.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["SHIELD"],
+                "class": ["Range"]
+            },
+            {
+                "hero":"Captain Marvel, Agent of SHIELD",
+                "id": 4014,
+                "name": "The Sword of SHIELD",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-04.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 2,
+                "attack": 0,
+                "team": ["SHIELD"],
+                "class": ["Punch"]
+            }
+        ]
+    },
+    {
+        "hero": "Hellcat",
+        "id": 403,
+        "set": "Revelations",
+        "team": ["Avengers"],
+        "cards":[
+            {
+                "hero": "Hellcat",
+                "id":4031,
+                "name": "Second Chance at Life",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_01.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 6,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Hellcat",
+                "id": 4032,
+                "name": "Demon Sight",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_02.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["Avengers"],
+                "class": ["Covert"]
+            },
+            {
+                "hero":"Hellcat",
+                "id": 4033,
+                "name": "Part-Time P.I.",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_03.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 2,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Hellcat",
+                "id": 4034,
+                "name": "Catlike Agility",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_04.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 1,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            }
+        ]
+    },
+    {
+        "hero": "Speed",
+        "id": 408,
+        "set": "Revelations",
+        "team": ["Avengers"],
+        "cards": [
+            {
+                "hero": "Speed",
+                "id":4081,
+                "name": "Break the Sound Barrier",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/speed_01.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Covert"]
+            },
+            {
+                "hero": "Speed",
+                "id":4082,
+                "name": "Race to the Rescue",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/speed_02.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 3,
+                "team": ["Avengers"],
+                "class": ["Covert"]
+            },
+            {
+                "hero": "Speed",
+                "id": 4083,
+                "name": "Accelerate",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/speed_03.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Speed",
+                "id": 4084,
+                "name": "Speedy Delivery",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/speed_04.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 2,
+                "attack": 1,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            }
+        ]
     }
 ]
