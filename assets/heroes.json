@@ -1235,5 +1235,161 @@
                 "class": ["Instinct"]
             }
         ]
+    },
+    {
+        "hero": "Jessica Jones",
+        "id":302,
+        "set": "Dimensions",
+        "team": ["Marvel Knights"],
+        "cards": [
+            {
+                "hero":"Jessica Jones",
+                "id": 3021,
+                "name": "Uncover Hidden Evil",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_01.png?w=700&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 4,
+                "team": ["Marvel Knights"],
+                "class": ["Covert"]
+            },
+            {
+                "hero":"Jessica Jones",
+                "id": 3022,
+                "name": "Crack the Case",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_02.png?w=700&h=",
+                "cost": 5,
+                "recruit": 3,
+                "attack": 0,
+                "team": ["Marvel Knights"],
+                "class": ["Punch"]
+            },
+            {
+                "hero": "Jessica Jones",
+                "id": 3023,
+                "name": "Alias Investigations",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_03.png?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 1,
+                "team": ["Marvel Knights"],
+                "class": ["Covert"]
+            },
+            {
+                "hero":"Jessica Jones",
+                "id": 3024,
+                "name": "ALter Ego",
+                "img":"https://marveldbg.files.wordpress.com/2019/06/jessica_04.png?w=700&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["Marvel Knights"],
+                "class": ["Punch"]
+            }
+        ]
+    },
+    {
+        "hero": "America Chavez",
+        "id": 304,
+        "set": "Dimensions",
+        "team": ["Avengers"],
+        "cards": [
+            {
+                "hero":"America Chavez",
+                "id": 3041,
+                "name": "Hyper-Cosmic Awareness",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_01.png?w=700&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Covert"]
+            },
+            {
+                "hero":"America Chavez",
+                "id": 3042,
+                "name": "Kick a Hole in Reality",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_02.png?w=700&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 3,
+                "team": ["Avengers"],
+                "class": ["Punch"]
+            },
+            {
+                "hero":"America Chavez",
+                "id": 3043,
+                "name": "Search Parallel Dimensions",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_03.png?w=700&h=",
+                "cost": 4,
+                "recruit": 2,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Range"]
+            },
+            {
+                "hero":"America Chavez",
+                "id": 3044,
+                "name": "Star Power",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_04.png?w=700&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 1,
+                "team": ["Avengers"],
+                "class": ["Punch"]
+            }
+        ]
+    },
+    {
+        "hero": "Squirrel Girl",
+        "id": 305,
+        "set": "Dimensions",
+        "team": ["Avengers"],
+        "cards": [
+            {
+                "hero": "Squirrel Girl",
+                "id": 3051,
+                "name": "Unbeatable Squirrel Girl",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_01.png?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 5,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Squirrel Girl",
+                "id": 3052,
+                "name": "Squirrelgility",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_02.png?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["Avengers"],
+                "class": ["Covert"]
+            },
+            {
+                "hero": "Squirrel Girl",
+                "id": 3053,
+                "name": "Nut Punch",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_03.png?w=700&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 1,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Squirrel Girl",
+                "id": 3054,
+                "name": "Find Tiny Friends",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_04.png?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Avengers"],
+                "class": ["Instinct"]
+            }
+        ]
     }
 ]
