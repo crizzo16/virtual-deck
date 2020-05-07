@@ -451,8 +451,6 @@ let virtu = {
   selectCard: function() {
     const sel = $(".img-big").attr("src");
     let source = $(this).attr("src");
-    $("#selected-card").html("");
-    $("#selected-card").append($("<img>", { src: source, class: "img-big" }));
 
     //Put border on card in hand so you know which card you clicked on
     $(".selected-card-highlight").removeClass("selected-card-highlight");
