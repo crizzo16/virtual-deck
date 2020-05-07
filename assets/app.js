@@ -167,7 +167,7 @@ let virtu = {
   },
   loadAllHeroes: function() {
     $("#all-heroes").html("");
-    let addHero = $("<button>").addClass("btn m-10 grey lighten-1").attr("id", "add-hero-btn").text("Add Hero");
+    let addHero = $("<button>").addClass("btn m-10 orange lighten-1").attr("id", "add-hero-btn").text("Add Hero");
     $("#all-heroes").append(addHero);
     virtu.allHeroes.forEach(function(item, index, array) {
       let newCard = $("<ul>").addClass("all-hero-card").attr("set-id",item.id).text(item.hero + " [" + item.set + "]");

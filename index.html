@@ -31,7 +31,13 @@
           Discard Hand
         </button>
         <button id="put-back" class="btn red lighten-1 m-10">
-          Put Back on Deck
+          Put on Top of Deck
+        </button>
+        <button id="bottom-deck" class="btn red lighten-1 m-10">
+          Put on Bottom of Deck
+        </button>
+        <button id="back-in-hand" class="btn blue lighten-1 m-10">
+          Put Back in Hand
         </button>
         <button id="replenish-deck" class="btn blue lighten-1 m-10">
           Replenish Deck
@@ -42,16 +48,24 @@
       </div>
       <div id="hand-data" class="row m-10">
         <div class="col s2 flex flex-center">
-          <span class="font-bold">Base Recruit:</span> &nbsp;<span id="base-recruit"></span>
+          <span class="font-bold">Base Recruit:</span> &nbsp;<span
+            id="base-recruit"
+          ></span>
         </div>
         <div class="col s2 flex flex-center">
-          <span class="font-bold">Base Attack:</span> &nbsp;<span id="base-attack"></span>
+          <span class="font-bold">Base Attack:</span> &nbsp;<span
+            id="base-attack"
+          ></span>
         </div>
         <div class="col s4 flex flex-center">
-            <span class="font-bold">Teams:</span> &nbsp;<span id="base-teams"></span>
+          <span class="font-bold">Teams:</span> &nbsp;<span
+            id="base-teams"
+          ></span>
         </div>
         <div class="col s4 flex flex-center">
-            <span class="font-bold">Classes:</span> &nbsp;<span id="base-classes"></span>
+          <span class="font-bold">Classes:</span> &nbsp;<span
+            id="base-classes"
+          ></span>
         </div>
       </div>
       <div id="hand" class="flex flex-wrap "></div>
@@ -71,14 +85,48 @@
           <li class="hidden-list">
             <div class="collapsible-header">HQ Cards</div>
             <div class="collapsible-body">
-                  <button id="add-discard" class="btn deep-purple lighten-2 m-10">Add to Discard</button>
-                  <button id="add-top" class="btn deep-purple lighten-2 m-10">Add to Top of Deck</button>
-                <div id="hq-cards"></div>
+              <button id="add-discard" class="btn deep-purple lighten-2 m-10">
+                Add to Discard
+              </button>
+              <button id="add-top" class="btn deep-purple lighten-2 m-10">
+                Add to Top of Deck
+              </button>
+              <div id="hq-cards"></div>
             </div>
           </li>
           <li class="hidden-list">
             <div class="collapsible-header">All Heroes</div>
-            <div id="all-heroes" class="collapsible-body">
+            <div id="all-heroes" class="collapsible-body"></div>
+          </li>
+          <li class="hidden-list">
+            <div class="collapsible-header">Button Color Guide</div>
+            <div class="collapsible-body">
+              <div class="flex row">
+                <button class="btn green lighten-2 m-10"></button>
+                <p>Green buttons draw cards from your deck.</p>
+              </div>
+              <div class="flex row">
+                <button class="btn red lighten-1 m-10"></button>
+                <p>
+                  Red buttons only work if you select a card from your hand.
+                </p>
+              </div>
+              <div class="flex row">
+                  <button class="btn blue lighten-1 m-10"></button>
+                  <p>Blue buttons only work if you have a card in your discard selected.</p>
+                </div>
+                <div class="flex row">
+                    <button class="btn grey lighten-1 m-10"></button>
+                    <p>Only work if you have a card in your discard selected. It's a different color so you don't accidentally hit it.</p>
+                  </div>
+                  <div class="flex row">
+                      <button class="btn deep-purple lighten-2 m-10"></button>
+                      <p>Purple buttons add cards from the HQ to your deck.</p>
+                    </div>
+                    <div class="flex row">
+                        <button class="btn orange lighten-1 m-10"></button>
+                        <p>Orange buttons add Heroes to your specific game.</p>
+                      </div>
             </div>
           </li>
         </div>
