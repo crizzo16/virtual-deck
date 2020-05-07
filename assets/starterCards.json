@@ -51,7 +51,7 @@
                 "attack": 0,
                 "team": "Avengers",
                 "class": [
-                    "instinct"
+                    "Instinct"
                 ]
             },
             {
@@ -64,7 +64,7 @@
                 "attack": 0,
                 "team": "Avengers",
                 "class": [
-                    "punch"
+                    "Punch"
                 ]
             },
             {
@@ -77,7 +77,7 @@
                 "attack": 0,
                 "team": "Avengers",
                 "class": [
-                    "instinct"
+                    "Instinct"
                 ]
             },
             {
@@ -90,7 +90,7 @@
                 "attack": 2,
                 "team": "Avengers",
                 "class": [
-                    "range"
+                    "Range"
                 ]
             },
             {
@@ -103,7 +103,7 @@
                 "attack": 2,
                 "team": "Avengers",
                 "class": [
-                    "range"
+                    "Range"
                 ]
             },
             {
@@ -116,7 +116,7 @@
                 "attack": 2,
                 "team": "Avengers",
                 "class": [
-                    "covert"
+                    "Covert"
                 ]
             },
             {
@@ -129,7 +129,7 @@
                 "attack": 1,
                 "team": "Avengers",
                 "class": [
-                    "covers"
+                    "Covert"
                 ]
             }
         ]
