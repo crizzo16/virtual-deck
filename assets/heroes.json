@@ -14,7 +14,7 @@
                 "recruit": 0,
                 "attack": 1,
                 "team": ["Spider-Friends"],
-                "class": ["tech"]
+                "class": ["Tech"]
             },
             {
                 "hero": "Silk",
@@ -25,7 +25,7 @@
                 "recruit": 0,
                 "attack": 1,
                 "team": ["Spider-Friends"],
-                "class": ["covert"]
+                "class": ["Covert"]
             },
             {
                 "hero": "Silk",
@@ -36,7 +36,7 @@
                 "recruit": 0,
                 "attack": 1,
                 "team": ["Spider-Friends"],
-                "class": ["punch", "instinct"]
+                "class": ["Punch", "Instinct"]
             },
             {
                 "hero": "Silk",
@@ -47,7 +47,7 @@
                 "recruit": 0,
                 "attack": 2,
                 "team": ["Spider-Friends"],
-                "class": ["range"]
+                "class": ["Range"]
             }
         ]
     },
@@ -66,7 +66,7 @@
                 "recruit": 0,
                 "attack": 6,
                 "team": "Avengers",
-                "class": ["range"]
+                "class": ["Range"]
             },
             {
                 "hero":"The Captain & The Devil",
@@ -77,7 +77,7 @@
                 "recruit": 0,
                 "attack": 3,
                 "team": "Avengers",
-                "class": ["covert"]
+                "class": ["Covert"]
             },
             {
                 "hero":"The Captain & The Devil",
@@ -88,7 +88,7 @@
                 "recruit": 1,
                 "attack": 0,
                 "team": "Avengers",
-                "class": ["punch", "tech"]
+                "class": ["Punch", "Tech"]
             },
             {
                 "hero":"The Captain & The Devil",
@@ -99,7 +99,7 @@
                 "recruit": 0,
                 "attack": 2,
                 "team": "Avengers",
-                "class": ["instinct"]
+                "class": ["Instinct"]
             }
         ]
     },
@@ -118,7 +118,7 @@
                 "recruit": 0,
                 "attack": 0,
                 "team": "Asgardians",
-                "class": ["covert"]
+                "class": ["Covert"]
             },
             {
                 "id": 6022,
@@ -129,7 +129,7 @@
                 "recruit": 0,
                 "attack": 2,
                 "team": "Asgardians",
-                "class": ["instinct"]
+                "class": ["Instinct"]
             },
             {
                 "id": 6023,
@@ -140,7 +140,7 @@
                 "recruit": 0,
                 "attack": 0,
                 "team": "Asgardians",
-                "class": ["punch"]
+                "class": ["Punch"]
             },
             {
                 "id": 6024,
@@ -151,7 +151,7 @@
                 "recruit": 0,
                 "attack": 0,
                 "team": "Asgardians",
-                "class": ["instinct"]
+                "class": ["Instinct"]
             }
         ]
     }
