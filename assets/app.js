@@ -218,6 +218,7 @@ let virtu = {
       let end = 6;
       if (virtu.deck.length < 6) {
         end = virtu.deck.length;
+        M.toast({html: "You will need to replenish your deck to be able to draw a full hand!"});
       }
       for (let i = 0; i < end; i++) {
         virtu.hand.push(virtu.deck.shift());

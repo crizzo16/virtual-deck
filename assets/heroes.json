@@ -715,5 +715,161 @@
                 "class": ["Tech"]
             }
         ]
+    },
+    {
+        "hero": "Rogue",
+        "id": 114,
+        "set": "Main",
+        "team": ["X-Men"],
+        "cards": [
+            {
+                "hero": "Rogue",
+                "id": 1141,
+                "name": "Steal Abilities",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-01.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 4,
+                "team": ["X-Men"],
+                "class": ["Punch"]
+            },
+            {
+                "hero": "Rogue",
+                "id": 1142,
+                "name": "Copy Powers",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-02.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["X-Men"],
+                "class": ["Covert"]
+            },
+            {
+                "hero": "Rogue",
+                "id": 1143,
+                "name": "Borrowed Brawn",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-03.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 1,
+                "team": ["X-Men"],
+                "class": ["Punch"]
+            },
+            {
+                "hero": "Rogue",
+                "id": 1144,
+                "name": "Energy Drain",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-04.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 2,
+                "attack": 0,
+                "team": ["X-Men"],
+                "class": ["Covert"]
+            }
+        ]
+    },
+    {
+        "hero": "Wolverine",
+        "id": 118,
+        "set": "Main",
+        "team": ["X-Men"],
+        "cards":[
+            {
+                "hero": "Wolverine",
+                "id": 1181,
+                "name": "Berserker Rage",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-01.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["X-Men"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Wolverine",
+                "id": 1182,
+                "name": "Frenzied Slashing",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-02.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["X-Men"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Wolverine",
+                "id": 1183,
+                "name": "Keen Senses",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-04.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 1,
+                "team": ["X-Men"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Wolverine",
+                "id": 1183,
+                "name": "Healing Factor",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-03.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["X-Men"],
+                "class": ["Instinct"]
+            }
+        ]
+    },
+    {
+        "hero": "Gambit",
+        "id": 109,
+        "set": "Main",
+        "team": ["X-Men"],
+        "cards": [
+            {
+                "hero": "Gambit",
+                "id": 1091,
+                "name": "High Stakes Jackpot",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-01.jpg?w=700&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 4,
+                "team": ["X-Men"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Gambit",
+                "id": 1092,
+                "name": "Hypnotic Charm",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-02.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 2,
+                "attack": 0,
+                "team": ["X-Men"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero": "Gambit",
+                "id": 1093,
+                "name": "Card Shark",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-03.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["X-Men"],
+                "class": ["Range"]
+            },
+            {
+                "hero": "Gambit",
+                "id": 1094,
+                "name": "Stack the Deck",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-04.jpg?w=700&h=",
+                "cost": 2,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["X-Men"],
+                "class": ["Covert"]
+            }
+        ]
     }
 ]
