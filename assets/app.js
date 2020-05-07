@@ -178,6 +178,10 @@ let virtu = {
   loadAllHeroes: function() {
     $("#all-heroes").html("");
     let checking = "";
+    if (virtu.sortMethod=="team") {
+      let wip = $("<h3>").text("Work In Progress");
+      $("#all-heroes").append(wip);
+    }
 
     virtu.allHeroes.forEach(function(item, index, array) {
       if (virtu.sortMethod == "set" && !checking.includes(item.set)) {
@@ -271,6 +275,7 @@ let virtu = {
     $("#base-classes").text(" " + classes);
   },
   loadGameHeroes: function() {
+    console.log(virtu.gameHeroes);
     $("#hq-cards").html("");
     virtu.gameHeroes.forEach(function(item, index, array) {
       let head = $("<h5>")
