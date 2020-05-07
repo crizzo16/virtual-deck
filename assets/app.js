@@ -251,16 +251,12 @@ let virtu = {
   loadGameHeroes: function() {
     $("#hq-cards").html("");
     virtu.gameHeroes.forEach(function(item, index, array) {
+      let head = $("<h5>").text(item.hero);
+      $("#hq-cards").append(head);
       item.cards.forEach(function(it, ind, arr) {
         let newCard = $("<ul>")
           .addClass("hq-card pointer")
-          .attr("hero-id", it.id);
-        let heroo = $("<span>")
-          .addClass("font-bold")
-          .text(item.hero);
-        newCard.append(heroo);
-        let texxt = " – " + it.name + " (" + it.cost + ")";
-        newCard.append(texxt);
+          .attr("hero-id", it.id).text(" – " + it.name + " (" + it.cost + ")");
 
         $("#hq-cards").append(newCard);
       });
