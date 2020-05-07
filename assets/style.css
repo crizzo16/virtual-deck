@@ -50,6 +50,13 @@
     color: white;
 }
 
+.full-hero-highlight {
+    font-weight: bold;
+    background: #FFA726;
+    border-radius: 5px;
+    color: white;
+}
+
 .hidden-list {
     list-style-type: none;
 }

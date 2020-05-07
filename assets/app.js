@@ -251,7 +251,7 @@ let virtu = {
   loadGameHeroes: function() {
     $("#hq-cards").html("");
     virtu.gameHeroes.forEach(function(item, index, array) {
-      let head = $("<h5>").text(item.hero);
+      let head = $("<h5>").addClass("full-hero").attr("set-id",item.id).text(item.hero);
       $("#hq-cards").append(head);
       item.cards.forEach(function(it, ind, arr) {
         let newCard = $("<ul>")
@@ -271,6 +271,29 @@ let virtu = {
 
     if (sel != id) {
       $(this).addClass("all-hero-highlight");
+    }
+  },
+  selectHeroInHQ: function() {
+    const sel = $(".full-hero-highlight").attr("set-id");
+    const id = $(this).attr("set-id");
+    const name = $(this).text();
+    $(".full-hero-highlight").removeClass("full-hero-highlight");
+    if (sel != id && name != "Sidekicks" && name != "Main Set Cards") {
+      $(this).addClass("full-hero-highlight");
+    }
+    if (name == "Sidekicks" || name == "Main Set Cards") {
+      M.toast({html: "Cannot Remove From HQ!"});
+    }
+  },
+  removeHeroFromHQ: function() {
+    const selID = $(".full-hero-highlight").attr("set-id");
+    console.log("firing");
+    console.log(virtu.gameHeroes);
+    for (let i=0; i<virtu.gameHeroes.length; i++) {
+      if (selID == virtu.gameHeroes[i].id) {
+        virtu.gameHeroes.splice(i,1);
+        virtu.loadGameHeroes();
+      }
     }
   },
   addSelectedHero: function() {
@@ -310,8 +333,6 @@ let virtu = {
         return;
       }
     }
-    virtu.updateDiscNum;
-    virtu.loadHand;
   },
   discardHand: function() {
     let end = virtu.hand.length;
@@ -482,3 +503,5 @@ $(document).on("click", "#add-discard", virtu.addDiscard);
 $(document).on("click", "#add-hero-btn", virtu.addSelectedHero);
 $(document).on("click", "#bottom-deck", virtu.putOnBottom);
 $(document).on("click", "#back-in-hand", virtu.backInHand);
+$(document).on("click", ".full-hero", virtu.selectHeroInHQ);
+$(document).on("click", "#remove-hero", virtu.removeHeroFromHQ);
