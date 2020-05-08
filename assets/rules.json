@@ -2,12 +2,12 @@
     {
         "name": "Size-Changing",
         "description": "Can recruit/fight for 2 less if you play a specific card type this turn",
-        "sets": ["Civil War"]
+        "set": ["Civil War"]
     },
     {
         "name": "Divided Card",
         "description": "Choose which side of the card to play on your turn. While the card is in your hand, you may use both classes/teams for other cards you have already played this turn.",
-        "sets": ["Civil War"]
+        "set": ["Civil War"]
     },
     {
         "name": "Phasing",

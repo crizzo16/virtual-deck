@@ -1,4 +1,5 @@
 let virtu = {
+  rules: [],
   allHeroes: [],
   gameHeroes: [],
   gameHeroesList: "Main Set Cards Sidekicks",
@@ -157,10 +158,8 @@ let virtu = {
     virtu.deck.sort(() => Math.random() - 0.5);
   },
   parseHeroes: function() {
-    const url = "https://crizzo16.github.io/virtual-deck/assets/heroes.json";
-
     $.ajax({
-      url: url,
+      url: "https://crizzo16.github.io/virtual-deck/assets/heroes.json",
       dataType: "json"
     }).done(function(result) {
       virtu.allHeroes = result;
@@ -173,6 +172,24 @@ let virtu = {
     }).done(function(data) {
       virtu.gameHeroes = data;
       virtu.loadGameHeroes();
+    });
+
+    $.ajax({
+      url: "https://crizzo16.github.io/virtual-deck/assets/rules.json",
+      dataType: "json"
+    }).done(function(data) {
+      virtu.rules = data;
+      virtu.loadRules();
+    });
+  },
+  loadRules: function() {
+    virtu.rules.forEach(function(item,index,array){
+      let total = $("<ul>");
+
+      let ruleName = $("<span>").addClass("font-bold").text(item.name + ": ");
+      total.append(ruleName).append(item.description + " [" + item.set + "]");
+
+      $("#rules-go-here").append(total);
     });
   },
   loadAllHeroes: function() {
