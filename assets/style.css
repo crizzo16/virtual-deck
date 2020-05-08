@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .img {
     object-fit: contain;
     max-height: 300px;
@@ -18,6 +22,16 @@
 
 .img-big {
     max-height: 450px;
+}
+
+.img-modal {
+    max-height: 375px;
+}
+
+#hq-full-modal {
+    width: 80vw;
+    max-height: 100%;
+    overflow: visible;
 }
 
 .m-10 {

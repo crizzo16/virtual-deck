@@ -593,6 +593,17 @@ let virtu = {
   toggleBold: function() {
     $(".hero-sel-highlight").toggleClass("in-HQ");
     $(".hero-sel-highlight").removeClass("hero-sel-highlight");
+  },
+  viewHQCards: function() {
+    $("#hq-full-modal-content").html("");
+    $(".in-HQ").each(function() {
+      let heroCard = $("<div>").addClass("flex flex-column flex-center");
+      let title = $("<h5>").text($(this).text());
+      let image = $("<img>").attr("src", $(this).attr("img")).addClass("img-modal");
+      heroCard.append(title).append(image);
+
+      $("#hq-full-modal-content").append(heroCard);
+    });
   }
 };
 
@@ -630,3 +641,4 @@ $(document).on("click", "#sort-by-name", virtu.sortByName);
 $(document).on("click", "#sort-by-set", virtu.sortBySet);
 $(document).on("click", "#sort-by-team", virtu.sortByTeam);
 $(document).on("click", "#toggle-bold", virtu.toggleBold);
+$(document).on("click", "#view-hq-cards", virtu.viewHQCards);
