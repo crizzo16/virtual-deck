@@ -1,3 +1,19 @@
+body {
+    font-family: "Jost", sans-serif;
+}
+
+html {
+    font-family: "Jost", sans-serif;
+}
+
+.title-font {
+    font-family: "Bangers", cursive; 
+}
+
+button {
+    font-family: "Jost", sans-serif;
+}
+
 .flex {
     display: flex;
 }
