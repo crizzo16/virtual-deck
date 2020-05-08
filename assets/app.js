@@ -15,7 +15,8 @@ let virtu = {
       recruit: 1,
       attack: 0,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -27,7 +28,8 @@ let virtu = {
       recruit: 1,
       attack: 0,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -39,7 +41,8 @@ let virtu = {
       recruit: 1,
       attack: 0,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -51,7 +54,8 @@ let virtu = {
       recruit: 1,
       attack: 0,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -63,7 +67,8 @@ let virtu = {
       recruit: 1,
       attack: 0,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -75,7 +80,8 @@ let virtu = {
       recruit: 1,
       attack: 0,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -87,7 +93,8 @@ let virtu = {
       recruit: 1,
       attack: 0,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -99,7 +106,8 @@ let virtu = {
       recruit: 1,
       attack: 0,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -111,7 +119,8 @@ let virtu = {
       recruit: 0,
       attack: 1,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -123,7 +132,8 @@ let virtu = {
       recruit: 0,
       attack: 1,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -135,7 +145,8 @@ let virtu = {
       recruit: 0,
       attack: 1,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     },
     {
       hero: "",
@@ -147,7 +158,8 @@ let virtu = {
       recruit: 0,
       attack: 1,
       team: "SHIELD",
-      class: [""]
+      class: [""],
+      rules: []
     }
   ],
   hand: [],
