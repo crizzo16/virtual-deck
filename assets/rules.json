@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Size-Changing",
+        "description": "Can recruit/fight for 2 less if you play a specific card type this turn",
+        "sets": ["Civil War"]
+    },
+    {
+        "name": "Divided Card",
+        "description": "Choose which side of the card to play on your turn. While the card is in your hand, you may use both classes/teams for other cards you have already played this turn.",
+        "sets": ["Civil War"]
+    },
+    {
+        "name": "Phasing",
+        "description": "Can swap Phasing card with the top card of your deck.",
+        "set": ["Civil War"]
+    },
+    {
+        "name": "One-Time Use",
+        "description": "After playing this card you must return it to the bottom of its original pile.",
+        "set": ["Civil War"]
+    },
+    {
+        "name": "Hyperspeed",
+        "description": "Reveal the top X cards of your deck to get +1 Attack for each card that can attack.",
+        "set": ["Revelations"]
+    },
+    {
+        "name": "Dark Memories",
+        "description": "Get +1 Attack for each hero class in your discard pile (i.e. covert, range, etc.).",
+        "set": ["Revelations"]
+    },
+    {
+        "name": "Last Stand",
+        "description": "Get +1 Attack for each empty space in the city.",
+        "set": ["Revelations"]
+    },
+    {
+        "name": "Switcheroo",
+        "description": "Can discard the card to put a hero of the specified printed cost from the HQ into your hand.",
+        "set": ["Dimensions"]
+    },
+    {
+        "name": "Investigate",
+        "description": "Draw the top 2 cards from your deck and keep any with the specified thing (i.e. attack, recruit, team, etc.).",
+        "set": ["Dimensions"]
+    },
+    {
+        "name": "Teleport",
+        "description": "Instead of playing the card, you can add it to y our hand next round as an extra card.",
+        "set": ["Dimensions", "Secret Wars Vol. 2"]
+    },
+    {
+        "name": "Spectrum",
+        "description": "Can only use Spectrum ability if you have at least 3 different classes (i.e. covert, range, etc.) in your hand.",
+        "set": ["Secret Wars Vol. 2"]
+    },
+    {
+        "name": "Patrol",
+        "description": "Can only use Patrol ability if specified city space is empty before you play the card, not after.",
+        "set": ["Secret Wars Vol. 2"]
+    },
+    {
+        "name": "Wall-Crawl",
+        "description": "When you recruit this hero, put them on top of your deck instead of into your discard pile.",
+        "set": ["Secret Wars Vol. 2"]
+    },
+    {
+        "name": "Cross-Dimensional Rampage",
+        "description": "Each player reveals a X hero or a X card in their Victory Pile or gains a wound.",
+        "set": ["Secret Wars Vol. 2"]
+    },
+    {
+        "name": "Worthy",
+        "description": "Can only use Worthy ability if you have a Hero that costs 5 or more in your hand.",
+        "set": ["Heroes of Asgard"]
+    },
+    {
+        "name": "Conqueror",
+        "description": "Gain +X Attack bonus while a Villain occupies the indicated city space.",
+        "set": ["Heroes of Asgard"]
+    },
+    {
+        "name": "Artifact",
+        "description": "When first played, keep it front of your to potentially use on any future or current turn. You can 'throw' an artifact to the bottom of your deck to use the indicated ability.",
+        "set": ["Heroes of Asgard"]
+    }
+]

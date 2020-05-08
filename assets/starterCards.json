@@ -52,7 +52,8 @@
                 "team": "Avengers",
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules":[3]
             },
             {
                 "id": 2172,
@@ -65,7 +66,8 @@
                 "team": "Avengers",
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules":[3]
             },
             {
                 "id": 2173,
@@ -78,7 +80,8 @@
                 "team": "Avengers",
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules":[3]
             },
             {
                 "id": 2174,
@@ -91,7 +94,8 @@
                 "team": "Avengers",
                 "class": [
                     "Range"
-                ]
+                ],
+                "rules":[3,2]
             },
             {
                 "id": 2175,
@@ -104,7 +108,8 @@
                 "team": "Avengers",
                 "class": [
                     "Range"
-                ]
+                ],
+                "rules":[3]
             },
             {
                 "id": 2176,
@@ -117,7 +122,8 @@
                 "team": "Avengers",
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules":[3]
             },
             {
                 "id": 2177,
@@ -130,7 +136,8 @@
                 "team": "Avengers",
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules":[3]
             }
         ]
     }

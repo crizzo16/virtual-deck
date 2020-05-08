@@ -20,6 +20,10 @@
                 ],
                 "class": [
                     "Tech"
+                ],
+                "rules": [
+                    12,
+                    10
                 ]
             },
             {
@@ -35,7 +39,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Silk",
@@ -51,6 +56,10 @@
                 "class": [
                     "Punch",
                     "Instinct"
+                ],
+                "rules": [
+                    12,
+                    10
                 ]
             },
             {
@@ -66,6 +75,9 @@
                 ],
                 "class": [
                     "Range"
+                ],
+                "rules": [
+                    10
                 ]
             }
         ]
@@ -89,7 +101,8 @@
                 "team": "Avengers",
                 "class": [
                     "Range"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "The Captain & The Devil",
@@ -102,6 +115,9 @@
                 "team": "Avengers",
                 "class": [
                     "Covert"
+                ],
+                "rules": [
+                    11
                 ]
             },
             {
@@ -116,6 +132,9 @@
                 "class": [
                     "Punch",
                     "Tech"
+                ],
+                "rules": [
+                    10
                 ]
             },
             {
@@ -129,6 +148,9 @@
                 "team": "Avengers",
                 "class": [
                     "Instinct"
+                ],
+                "rules": [
+                    10
                 ]
             }
         ]
@@ -152,6 +174,9 @@
                 "team": "Asgardians",
                 "class": [
                     "Covert"
+                ],
+                "rules": [
+                    16
                 ]
             },
             {
@@ -165,7 +190,8 @@
                 "team": "Asgardians",
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             },
             {
                 "id": 6023,
@@ -178,6 +204,9 @@
                 "team": "Asgardians",
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    16
                 ]
             },
             {
@@ -191,6 +220,9 @@
                 "team": "Asgardians",
                 "class": [
                     "Instinct"
+                ],
+                "rules": [
+                    16
                 ]
             }
         ]
@@ -216,7 +248,8 @@
                 ],
                 "class": [
                     "Range"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Wiccan",
@@ -232,6 +265,9 @@
                 "class": [
                     "Range",
                     "Tech"
+                ],
+                "rules": [
+                    1
                 ]
             },
             {
@@ -247,6 +283,9 @@
                 ],
                 "class": [
                     "Range"
+                ],
+                "rules": [
+                    2
                 ]
             },
             {
@@ -262,6 +301,9 @@
                 ],
                 "class": [
                     "Covert"
+                ],
+                "rules": [
+                    2
                 ]
             }
         ]
@@ -287,6 +329,9 @@
                 ],
                 "class": [
                     "Covert"
+                ],
+                "rules": [
+                    0
                 ]
             },
             {
@@ -302,6 +347,9 @@
                 ],
                 "class": [
                     "Covert"
+                ],
+                "rules": [
+                    0
                 ]
             },
             {
@@ -318,6 +366,10 @@
                 "class": [
                     "Punch",
                     "Covert"
+                ],
+                "rules": [
+                    0,
+                    1
                 ]
             },
             {
@@ -333,6 +385,9 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    0
                 ]
             }
         ]
@@ -358,7 +413,8 @@
                 ],
                 "class": [
                     "Range"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Captain America, Secret Avenger",
@@ -373,7 +429,8 @@
                 ],
                 "class": [
                     "Tech"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Captain America, Secret Avenger",
@@ -388,7 +445,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Captain America, Secret Avenger",
@@ -404,6 +462,9 @@
                 "class": [
                     "Punch",
                     "Instinct"
+                ],
+                "rules": [
+                    1
                 ]
             }
         ]
@@ -430,7 +491,8 @@
                 ],
                 "class": [
                     "Range"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Cloak & Dagger",
@@ -447,6 +509,9 @@
                 "class": [
                     "Covert",
                     "Range"
+                ],
+                "rules": [
+                    1
                 ]
             },
             {
@@ -464,6 +529,9 @@
                 "class": [
                     "Covert",
                     "Range"
+                ],
+                "rules": [
+                    1
                 ]
             },
             {
@@ -481,6 +549,10 @@
                 "class": [
                     "Covert",
                     "Range"
+                ],
+                "rules": [
+                    1,
+                    2
                 ]
             }
         ]
@@ -506,7 +578,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Daredevil",
@@ -523,6 +596,9 @@
                 "class": [
                     "Instinct",
                     "Punch"
+                ],
+                "rules": [
+                    1
                 ]
             },
             {
@@ -538,7 +614,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Daredevil",
@@ -553,7 +630,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -578,7 +656,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Falcon",
@@ -593,7 +672,8 @@
                 ],
                 "class": [
                     "Range"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Falcon",
@@ -609,6 +689,9 @@
                 "class": [
                     "Range",
                     "Instinct"
+                ],
+                "rules": [
+                    1
                 ]
             },
             {
@@ -624,7 +707,8 @@
                 ],
                 "class": [
                     "Tech"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -649,6 +733,9 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    0
                 ]
             },
             {
@@ -664,6 +751,9 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    0
                 ]
             },
             {
@@ -679,6 +769,9 @@
                 ],
                 "class": [
                     "Tech"
+                ],
+                "rules": [
+                    0
                 ]
             },
             {
@@ -695,6 +788,10 @@
                 "class": [
                     "Tech",
                     "Punch"
+                ],
+                "rules": [
+                    1,
+                    0
                 ]
             }
         ]
@@ -720,7 +817,8 @@
                 ],
                 "class": [
                     "Tech"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Patriot",
@@ -736,6 +834,9 @@
                 "class": [
                     "Covert",
                     "Tech"
+                ],
+                "rules": [
+                    1
                 ]
             },
             {
@@ -751,7 +852,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Patriot",
@@ -766,7 +868,8 @@
                 ],
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -791,6 +894,9 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    0
                 ]
             },
             {
@@ -806,6 +912,9 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    0
                 ]
             },
             {
@@ -822,6 +931,10 @@
                 "class": [
                     "Punch",
                     "Tech"
+                ],
+                "rules": [
+                    1,
+                    0
                 ]
             },
             {
@@ -837,6 +950,9 @@
                 ],
                 "class": [
                     "Tech"
+                ],
+                "rules": [
+                    0
                 ]
             }
         ]
@@ -862,7 +978,8 @@
                 ],
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Rogue",
@@ -877,7 +994,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Rogue",
@@ -892,7 +1010,8 @@
                 ],
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Rogue",
@@ -907,7 +1026,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -932,7 +1052,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Wolverine",
@@ -947,7 +1068,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Wolverine",
@@ -962,7 +1084,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Wolverine",
@@ -977,7 +1100,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -1002,7 +1126,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Gambit",
@@ -1017,7 +1142,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Gambit",
@@ -1032,7 +1158,8 @@
                 ],
                 "class": [
                     "Range"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Gambit",
@@ -1047,7 +1174,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -1072,7 +1200,8 @@
                 ],
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Captain Britain",
@@ -1088,6 +1217,9 @@
                 "class": [
                     "Punch",
                     "Covert"
+                ],
+                "rules": [
+                    11
                 ]
             },
             {
@@ -1103,7 +1235,8 @@
                 ],
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Captain Britain",
@@ -1118,7 +1251,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -1143,6 +1277,9 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    10
                 ]
             },
             {
@@ -1158,6 +1295,9 @@
                 ],
                 "class": [
                     "Range"
+                ],
+                "rules": [
+                    12
                 ]
             },
             {
@@ -1173,6 +1313,9 @@
                 ],
                 "class": [
                     "Instinct"
+                ],
+                "rules": [
+                    10
                 ]
             },
             {
@@ -1189,6 +1332,9 @@
                 "class": [
                     "Covert",
                     "Tech"
+                ],
+                "rules": [
+                    11
                 ]
             }
         ]
@@ -1214,7 +1360,8 @@
                 ],
                 "class": [
                     "Range"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Ruby Summers",
@@ -1229,7 +1376,8 @@
                 ],
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Ruby Summers",
@@ -1244,6 +1392,9 @@
                 ],
                 "class": [
                     "Range"
+                ],
+                "rules": [
+                    9
                 ]
             },
             {
@@ -1260,7 +1411,8 @@
                 "class": [
                     "Punch",
                     "Range"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -1285,6 +1437,9 @@
                 ],
                 "class": [
                     "Covert"
+                ],
+                "rules": [
+                    12
                 ]
             },
             {
@@ -1300,6 +1455,10 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    12,
+                    11
                 ]
             },
             {
@@ -1316,6 +1475,9 @@
                 "class": [
                     "Instinct",
                     "Tech"
+                ],
+                "rules": [
+                    11
                 ]
             },
             {
@@ -1331,6 +1493,9 @@
                 ],
                 "class": [
                     "Tech"
+                ],
+                "rules": [
+                    11
                 ]
             }
         ]
@@ -1356,6 +1521,9 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    6
                 ]
             },
             {
@@ -1371,6 +1539,9 @@
                 ],
                 "class": [
                     "Range"
+                ],
+                "rules": [
+                    6
                 ]
             },
             {
@@ -1386,7 +1557,8 @@
                 ],
                 "class": [
                     "Range"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Captain Marvel, Agent of SHIELD",
@@ -1401,7 +1573,8 @@
                 ],
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -1426,7 +1599,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Hellcat",
@@ -1441,7 +1615,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Hellcat",
@@ -1456,7 +1631,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Hellcat",
@@ -1471,7 +1647,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -1496,6 +1673,9 @@
                 ],
                 "class": [
                     "Covert"
+                ],
+                "rules": [
+                    4
                 ]
             },
             {
@@ -1511,7 +1691,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "Speed",
@@ -1526,6 +1707,9 @@
                 ],
                 "class": [
                     "Instinct"
+                ],
+                "rules": [
+                    4
                 ]
             },
             {
@@ -1541,7 +1725,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             }
         ]
     },
@@ -1566,6 +1751,9 @@
                 ],
                 "class": [
                     "Covert"
+                ],
+                "rules": [
+                    8
                 ]
             },
             {
@@ -1581,6 +1769,10 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    7,
+                    8
                 ]
             },
             {
@@ -1596,6 +1788,10 @@
                 ],
                 "class": [
                     "Covert"
+                ],
+                "rules": [
+                    7,
+                    8
                 ]
             },
             {
@@ -1611,6 +1807,9 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    7
                 ]
             }
         ]
@@ -1636,7 +1835,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "America Chavez",
@@ -1651,6 +1851,9 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    9
                 ]
             },
             {
@@ -1666,6 +1869,10 @@
                 ],
                 "class": [
                     "Range"
+                ],
+                "rules": [
+                    8,
+                    9
                 ]
             },
             {
@@ -1681,6 +1888,9 @@
                 ],
                 "class": [
                     "Punch"
+                ],
+                "rules": [
+                    9
                 ]
             }
         ]
@@ -1706,6 +1916,9 @@
                 ],
                 "class": [
                     "Instinct"
+                ],
+                "rules": [
+                    7
                 ]
             },
             {
@@ -1721,6 +1934,9 @@
                 ],
                 "class": [
                     "Covert"
+                ],
+                "rules": [
+                    7
                 ]
             },
             {
@@ -1736,6 +1952,9 @@
                 ],
                 "class": [
                     "Instinct"
+                ],
+                "rules": [
+                    7
                 ]
             },
             {
@@ -1751,6 +1970,10 @@
                 ],
                 "class": [
                     "Instinct"
+                ],
+                "rules": [
+                    7,
+                    8
                 ]
             }
         ]
@@ -1776,7 +1999,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": [15]
             },
             {
                 "hero": "Valkyrie",
@@ -1791,7 +2015,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": [15]
             },
             {
                 "hero": "Valkyrie",
@@ -1806,7 +2031,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": [15]
             },
             {
                 "hero": "Valkyrie",
@@ -1821,7 +2047,8 @@
                 ],
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules": [15,16]
             }
         ]
     },
@@ -1846,7 +2073,8 @@
                 ],
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules": [15]
             },
             {
                 "hero": "The Warriors Three",
@@ -1861,7 +2089,8 @@
                 ],
                 "class": [
                     "Punch"
-                ]
+                ],
+                "rules": [15]
             },
             {
                 "hero": "The Warriors Three",
@@ -1876,7 +2105,8 @@
                 ],
                 "class": [
                     "Covert"
-                ]
+                ],
+                "rules": []
             },
             {
                 "hero": "The Warriors Three",
@@ -1891,7 +2121,8 @@
                 ],
                 "class": [
                     "Instinct"
-                ]
+                ],
+                "rules": []
             }
         ]
     }
