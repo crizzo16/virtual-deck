@@ -441,7 +441,7 @@ let virtu = {
         if (id == it.id) {
           virtu.deck.unshift(it);
           virtu.updateDeckNum();
-          $(".hero-sel-highlight").removeClass("hero-sel-highlight");
+          $(".hero-sel-highlight").removeClass("hero-sel-highlight").removeClass("in-HQ");
           return;
         }
       });
@@ -454,7 +454,7 @@ let virtu = {
         if (id == it.id) {
           virtu.discard.push(it);
           virtu.updateDiscNum();
-          $(".hero-sel-highlight").removeClass("hero-sel-highlight");
+          $(".hero-sel-highlight").removeClass("hero-sel-highlight").removeClass("in-HQ");
           return;
         }
       });
