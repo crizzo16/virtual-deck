@@ -1,5 +1,6 @@
 body {
     font-family: "Jost", sans-serif;
+    background: lightgrey;
 }
 
 html {
@@ -8,6 +9,10 @@ html {
 
 .title-font {
     font-family: "Bangers", cursive; 
+}
+
+.white-back {
+    background: white;
 }
 
 button {
