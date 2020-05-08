@@ -597,12 +597,9 @@ let virtu = {
   viewHQCards: function() {
     $("#hq-full-modal-content").html("");
     $(".in-HQ").each(function() {
-      let heroCard = $("<div>").addClass("flex flex-column flex-center");
-      let title = $("<h5>").text($(this).text());
       let image = $("<img>").attr("src", $(this).attr("img")).addClass("img-modal");
-      heroCard.append(title).append(image);
 
-      $("#hq-full-modal-content").append(heroCard);
+      $("#hq-full-modal-content").append(image);
     });
   }
 };
