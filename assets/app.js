@@ -195,10 +195,12 @@ let virtu = {
     });
   },
   loadRules: function() {
-    virtu.rules.forEach(function(item,index,array){
+    virtu.rules.forEach(function(item, index, array) {
       let total = $("<ul>");
 
-      let ruleName = $("<span>").addClass("font-bold").text(item.name + ": ");
+      let ruleName = $("<span>")
+        .addClass("font-bold")
+        .text(item.name + ": ");
       total.append(ruleName).append(item.description + " [" + item.set + "]");
 
       $("#rules-go-here").append(total);
@@ -323,6 +325,7 @@ let virtu = {
           .addClass("hq-card pointer")
           .attr("hero-id", it.id)
           .attr("img", it.img)
+          .attr("rules", it.rules)
           .text(it.name + " (" + it.cost + ")");
 
         $("#hq-cards").append(newCard);
@@ -471,7 +474,9 @@ let virtu = {
         if (id == it.id) {
           virtu.deck.unshift(it);
           virtu.updateDeckNum();
-          $(".hero-sel-highlight").removeClass("hero-sel-highlight").removeClass("in-HQ");
+          $(".hero-sel-highlight")
+            .removeClass("hero-sel-highlight")
+            .removeClass("in-HQ");
           return;
         }
       });
@@ -484,7 +489,9 @@ let virtu = {
         if (id == it.id) {
           virtu.discard.push(it);
           virtu.updateDiscNum();
-          $(".hero-sel-highlight").removeClass("hero-sel-highlight").removeClass("in-HQ");
+          $(".hero-sel-highlight")
+            .removeClass("hero-sel-highlight")
+            .removeClass("in-HQ");
           return;
         }
       });
@@ -549,6 +556,7 @@ let virtu = {
     $("#hq-modal-content").html("");
     let name = $(".hero-sel-highlight").text();
     let img = $(".hero-sel-highlight").attr("img");
+    let rulez = $(".hero-sel-highlight").attr("rules");
     let viewName = $("<h4>").text(name);
     let viewImg = $("<img>")
       .attr("src", img)
@@ -556,11 +564,49 @@ let virtu = {
     $("#hq-modal-content")
       .append(viewName)
       .append(viewImg);
+
+    if (rulez.includes(",")) {
+      let rule1 = parseInt(rulez.split(",")[0]);
+      let rule2 = parseInt(rulez.split(",")[1]);
+
+      let r1 = $("<ul>");
+      let r2 = $("<ul>");
+
+      let r1name = $("<span>")
+        .addClass("font-bold")
+        .text(virtu.rules[rule1].name + ": ");
+      r1.append(r1name).append(
+        virtu.rules[rule1].description + " [" + virtu.rules[rule1].set + "]"
+      );
+      let r2name = $("<span>")
+        .addClass("font-bold")
+        .text(virtu.rules[rule2].name + ": ");
+      r2.append(r2name).append(
+        virtu.rules[rule2].description + " [" + virtu.rules[rule2].set + "]"
+      );
+
+      $("#hq-modal-content").append(r1, r2);
+    } else {
+      let total = $("<ul>");
+      let num = parseInt(rulez);
+
+      let ruleName = $("<span>")
+        .addClass("font-bold")
+        .text(virtu.rules[num].name + ": ");
+      total
+        .append(ruleName)
+        .append(
+          virtu.rules[num].description + " [" + virtu.rules[num].set + "]"
+        );
+
+      $("#hq-modal-content").append(total);
+    }
   },
   fillHandModal: function() {
     $("#hand-modal-content").html("");
     let name = $(".selected-card-highlight").attr("name");
     let img = $(".selected-card-highlight").attr("src");
+    let rulez = $(".selected-card-highlight").attr("rules");
     let viewName = $("<h4>").text(name);
     let viewImg = $("<img>")
       .attr("src", img)
@@ -568,6 +614,43 @@ let virtu = {
     $("#hand-modal-content")
       .append(viewName)
       .append(viewImg);
+
+    if (rulez.includes(",")) {
+      let rule1 = parseInt(rulez.split(",")[0]);
+      let rule2 = parseInt(rulez.split(",")[1]);
+
+      let r1 = $("<ul>");
+      let r2 = $("<ul>");
+
+      let r1name = $("<span>")
+        .addClass("font-bold")
+        .text(virtu.rules[rule1].name + ": ");
+      r1.append(r1name).append(
+        virtu.rules[rule1].description + " [" + virtu.rules[rule1].set + "]"
+      );
+      let r2name = $("<span>")
+        .addClass("font-bold")
+        .text(virtu.rules[rule2].name + ": ");
+      r2.append(r2name).append(
+        virtu.rules[rule2].description + " [" + virtu.rules[rule2].set + "]"
+      );
+
+      $("#hand-modal-content").append(r1, r2);
+    } else {
+      let total = $("<ul>");
+      let num = parseInt(rulez);
+
+      let ruleName = $("<span>")
+        .addClass("font-bold")
+        .text(virtu.rules[num].name + ": ");
+      total
+        .append(ruleName)
+        .append(
+          virtu.rules[num].description + " [" + virtu.rules[num].set + "]"
+        );
+
+      $("#hand-modal-content").append(total);
+    }
   },
   compareName: function(a, b) {
     const nameA = a.hero.toUpperCase();
@@ -626,9 +709,11 @@ let virtu = {
   },
   viewHQCards: function() {
     $("#hq-full-modal-content").html("");
+    
     $(".in-HQ").each(function() {
-      let image = $("<img>").attr("src", $(this).attr("img")).addClass("img-modal");
-
+      let image = $("<img>")
+        .attr("src", $(this).attr("img"))
+        .addClass("img-modal");
 
       $("#hq-full-modal-content").append(image);
     });
