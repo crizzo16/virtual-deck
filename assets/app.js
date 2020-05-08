@@ -178,10 +178,6 @@ let virtu = {
   loadAllHeroes: function() {
     $("#all-heroes").html("");
     let checking = "";
-    if (virtu.sortMethod=="team") {
-      let wip = $("<h3>").text("Work In Progress");
-      $("#all-heroes").append(wip);
-    }
 
     virtu.allHeroes.forEach(function(item, index, array) {
       if (virtu.sortMethod == "set" && !checking.includes(item.set)) {
@@ -189,25 +185,31 @@ let virtu = {
         checking += item.set + " ";
         $("#all-heroes").append(header);
       } else if (virtu.sortMethod == "team" && !checking.includes(item.team)) {
-        let header = $("<h4>").text(item.team);
+        let header = $("<h4>").text(item.team[0]);
         checking += item.team + " ";
-        $("#all-heroes").append(header); 
+        $("#all-heroes").append(header);
       }
 
       let newCard = $("<ul>")
         .addClass("all-hero-card pointer")
         .attr("set-id", item.id)
         .attr("name", item.hero);
-        let heroName = $("<span>").addClass("font-bold").text(item.hero);
-        newCard.append(heroName);
+      let heroName = $("<span>")
+        .addClass("font-bold")
+        .text(item.hero);
 
-        if (virtu.sortMethod == "set") {
-          newCard.append(" - " + item.team);
-        } else if (virtu.sortMethod == "team") {
-          newCard.append(" - " + item.set);
-        } else {
-          newCard.append(" - " + item.team + " - " + item.set);
+      newCard.append(heroName);
+
+      if (virtu.sortMethod == "set") {
+        newCard.append(" - " + item.team);
+      } else if (virtu.sortMethod == "team") {
+        newCard.append(" - " + item.set);
+        if (item.team.length > 1) {
+          newCard.append(" - Also on " + item.team[1]);
         }
+      } else {
+        newCard.append(" - " + item.team + " - " + item.set);
+      }
       $("#all-heroes").append(newCard);
     });
   },
@@ -218,7 +220,10 @@ let virtu = {
       let end = 6;
       if (virtu.deck.length < 6) {
         end = virtu.deck.length;
-        M.toast({html: "You will need to replenish your deck to be able to draw a full hand!"});
+        M.toast({
+          html:
+            "You will need to replenish your deck to be able to draw a full hand!"
+        });
       }
       for (let i = 0; i < end; i++) {
         virtu.hand.push(virtu.deck.shift());
@@ -331,10 +336,7 @@ let virtu = {
     const name = $(".all-hero-highlight").attr("name");
     $(".all-hero-highlight").removeClass("all-hero-highlight");
     for (let i = 0; i < virtu.allHeroes.length; i++) {
-      if (
-        id == virtu.allHeroes[i].id &&
-        !virtu.gameHeroesList.includes(name)
-      ) {
+      if (id == virtu.allHeroes[i].id && !virtu.gameHeroesList.includes(name)) {
         virtu.gameHeroes.push(virtu.allHeroes[i]);
         virtu.gameHeroesList += " " + virtu.allHeroes[i].hero;
         virtu.loadGameHeroes();
