@@ -1391,5 +1391,109 @@
                 "class": ["Instinct"]
             }
         ]
+    },
+    {
+        "hero": "Valkyrie",
+        "id": 604,
+        "set": "Heroes of Asgard",
+        "team": ["Asgardians"],
+        "cards": [
+            {
+                "hero": "Valkyrie",
+                "id": 6041,
+                "name": "Ride of the Valkyries",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-01-1.jpg?w=700&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 4,
+                "team": ["Asgardians"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero":"Valkyrie",
+                "id":6042,
+                "name": "Usher to Valhalla",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-02-1.jpg?w=700&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["Asgardians"],
+                "class": ["Covert"]
+            },
+            {
+                "hero":"Valkyrie",
+                "id": 6043,
+                "name": "Flying Stallion",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-03-1.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack":2,
+                "team": ["Asgardians"],
+                "class": ["Instinct"]
+            },
+            {
+                "hero":"Valkyrie",
+                "id": 6044,
+                "name": "Dragonfang",
+                "img":"https://marveldbg.files.wordpress.com/2020/04/valkyrie-04-1.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 0,
+                "team": ["Asgardians"],
+                "class": ["Punch"]
+            }
+        ]
+    },
+    {
+        "hero": "The Warriors Three",
+        "id":605,
+        "set": "Heroes of Asgard",
+        "team": ["Asgardians"],
+        "cards": [
+            {
+                "hero":"The Warriors Three",
+                "id": 6051,
+                "name": "Three Stand As One",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-01-1.jpg?w=700&h=",
+                "cost": 8,
+                "recruit": 0,
+                "attack": 4,
+                "team": ["Asgardians"],
+                "class": ["Punch"]
+            },
+            {
+                "hero":"The Warriors Three",
+                "id": 6052,
+                "name": "Volstagg the Valiant",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-02-1.jpg?w=700&h=",
+                "cost": 6,
+                "recruit": 0,
+                "attack": 3,
+                "team": ["Asgardians"],
+                "class": ["Punch"]
+            },
+            {
+                "hero":"The Warriors Three",
+                "id": 6053,
+                "name": "Hogun the Grim",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-03-1.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 2,
+                "attack": 0,
+                "team": ["Asgardians"],
+                "class": ["Covert"]
+            },
+            {
+                "hero":"The Warriors Three",
+                "id":6054,
+                "name": "Fandral the Dashing",
+                "img":"https://marveldbg.files.wordpress.com/2020/04/warriors-three-04-1.jpg?w=700&h=",
+                "cost": 3,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["Asgardians"],
+                "class": ["Instinct"]
+            }
+        ]
     }
 ]
