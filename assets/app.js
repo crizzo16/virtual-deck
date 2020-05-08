@@ -16,7 +16,7 @@ let virtu = {
       attack: 0,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -29,7 +29,7 @@ let virtu = {
       attack: 0,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -42,7 +42,7 @@ let virtu = {
       attack: 0,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -55,7 +55,7 @@ let virtu = {
       attack: 0,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -68,7 +68,7 @@ let virtu = {
       attack: 0,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -81,7 +81,7 @@ let virtu = {
       attack: 0,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -94,7 +94,7 @@ let virtu = {
       attack: 0,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -107,7 +107,7 @@ let virtu = {
       attack: 0,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -120,7 +120,7 @@ let virtu = {
       attack: 1,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -133,7 +133,7 @@ let virtu = {
       attack: 1,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -146,7 +146,7 @@ let virtu = {
       attack: 1,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     },
     {
       hero: "",
@@ -159,7 +159,7 @@ let virtu = {
       attack: 1,
       team: "SHIELD",
       class: [""],
-      rules: []
+      rules: [""]
     }
   ],
   hand: [],
@@ -281,6 +281,7 @@ let virtu = {
         .addClass("img hand-card pointer")
         .attr("hero-id", item.id)
         .attr("name", item.name + " " + item.hero)
+        .attr("rules", item.rules)
         .attr("src", item.img);
       $("#hand").append(singleCard);
       // Check for base recruit and attack
@@ -627,6 +628,7 @@ let virtu = {
     $("#hq-full-modal-content").html("");
     $(".in-HQ").each(function() {
       let image = $("<img>").attr("src", $(this).attr("img")).addClass("img-modal");
+
 
       $("#hq-full-modal-content").append(image);
     });
