@@ -74,7 +74,9 @@
         "hero": "The Captain & The Devil",
         "id": 515,
         "set": "Secret Wars Vol. 2",
-        "team": ["Avengers"],
+        "team": [
+            "Avengers"
+        ],
         "cards": [
             {
                 "hero": "The Captain & The Devil",
@@ -135,7 +137,9 @@
         "hero": "Lady Sif",
         "id": 602,
         "set": "Heroes of Asgard",
-        "team": ["Asgardians"],
+        "team": [
+            "Asgardians"
+        ],
         "cards": [
             {
                 "id": 6021,
@@ -195,7 +199,9 @@
         "hero": "Wiccan",
         "id": 216,
         "set": "Civil War",
-        "team": ["Avengers"],
+        "team": [
+            "Avengers"
+        ],
         "cards": [
             {
                 "hero": "Wiccan",
@@ -407,52 +413,75 @@
         "id": 202,
         "set": "Civil War",
         "team": [
-            "Marvel Knights","Avengers"
+            "Marvel Knights",
+            "Avengers"
         ],
         "cards": [
             {
-                "hero":"Cloak & Dagger",
-                "id":2021,
+                "hero": "Cloak & Dagger",
+                "id": 2021,
                 "name": "Penumbra",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-01.jpg?w=700&h=",
                 "cost": 7,
                 "recruit": 0,
                 "attack": 4,
-                "team": ["Avengers"],
-                "class": ["Range"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
                 "hero": "Cloak & Dagger",
-                "id":2022,
+                "id": 2022,
                 "name": "Darkness/Light",
-                "img":"https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-02.jpg?w=1000&h=",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-02.jpg?w=1000&h=",
                 "cost": 6,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Marvel Knights","Avengers"],
-                "class": ["Covert", "Range"]
+                "team": [
+                    "Marvel Knights",
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert",
+                    "Range"
+                ]
             },
             {
                 "hero": "Cloak & Dagger",
-                "id":2023,
+                "id": 2023,
                 "name": "Above/Below",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-03.jpg?w=1000&h=",
                 "cost": 3,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Marvel Knights","Avengers"],
-                "class": ["Covert", "Range"]
+                "team": [
+                    "Marvel Knights",
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert",
+                    "Range"
+                ]
             },
             {
-                "hero":"Cloak & Dagger",
-                "id":2024,
+                "hero": "Cloak & Dagger",
+                "id": 2024,
                 "name": "Flee/Fight",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-04.jpg?w=1000&h=",
                 "cost": 4,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Marvel Knights","Avengers"],
-                "class": ["Covert", "Range"]
+                "team": [
+                    "Marvel Knights",
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert",
+                    "Range"
+                ]
             }
         ]
     },
@@ -460,7 +489,9 @@
         "hero": "Daredevil",
         "id": 203,
         "set": "Civil War",
-        "team": ["Avengers"],
+        "team": [
+            "Avengers"
+        ],
         "cards": [
             {
                 "hero": "Daredevil",
@@ -470,19 +501,29 @@
                 "cost": 8,
                 "recruit": 0,
                 "attack": 4,
-                "team": ["Avengers"],
-                "class": ["Covert"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
-                "hero":"Daredevil",
+                "hero": "Daredevil",
                 "id": 2032,
                 "name": "Hidden Identity/Revealed Identity",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-02-1.jpg?w=1000&h=",
                 "cost": 6,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers", "Marvel Knights"],
-                "class": ["Instinct", "Punch"]
+                "team": [
+                    "Avengers",
+                    "Marvel Knights"
+                ],
+                "class": [
+                    "Instinct",
+                    "Punch"
+                ]
             },
             {
                 "hero": "Daredevil",
@@ -492,8 +533,12 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Avengers"],
-                "class": ["Covert"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
                 "hero": "Daredevil",
@@ -503,16 +548,22 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             }
         ]
     },
     {
         "hero": "Falcon",
         "id": 204,
-        "set":"Civil War",
-        "team": ["Avengers"],
+        "set": "Civil War",
+        "team": [
+            "Avengers"
+        ],
         "cards": [
             {
                 "hero": "Falcon",
@@ -522,8 +573,12 @@
                 "cost": 7,
                 "recruit": 0,
                 "attack": 4,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Falcon",
@@ -533,8 +588,12 @@
                 "cost": 6,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Range"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
                 "hero": "Falcon",
@@ -544,8 +603,13 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Range", "Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Range",
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Falcon",
@@ -555,16 +619,22 @@
                 "cost": 3,
                 "recruit": 2,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Tech"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Tech"
+                ]
             }
         ]
     },
     {
         "hero": "Goliath",
         "id": 205,
-        "set":"Civil War",
-        "team": ["Avengers"],
+        "set": "Civil War",
+        "team": [
+            "Avengers"
+        ],
         "cards": [
             {
                 "hero": "Goliath",
@@ -574,8 +644,12 @@
                 "cost": 8,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Punch"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "hero": "Goliath",
@@ -585,8 +659,12 @@
                 "cost": 6,
                 "recruit": 0,
                 "attack": 3,
-                "team": ["Avengers"],
-                "class": ["Punch"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "hero": "Goliath",
@@ -596,8 +674,12 @@
                 "cost": 5,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Avengers"],
-                "class": ["Tech"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Tech"
+                ]
             },
             {
                 "hero": "Goliath",
@@ -607,16 +689,23 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Tech", "Punch"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Tech",
+                    "Punch"
+                ]
             }
         ]
     },
     {
         "hero": "Patriot",
         "id": 209,
-        "set":"Civil War",
-        "team": ["Avengers"],
+        "set": "Civil War",
+        "team": [
+            "Avengers"
+        ],
         "cards": [
             {
                 "hero": "Patriot",
@@ -626,8 +715,12 @@
                 "cost": 8,
                 "recruit": 0,
                 "attack": 3,
-                "team": ["Avengers"],
-                "class": ["Tech"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Tech"
+                ]
             },
             {
                 "hero": "Patriot",
@@ -637,8 +730,13 @@
                 "cost": 5,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Covert", "Tech"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert",
+                    "Tech"
+                ]
             },
             {
                 "hero": "Patriot",
@@ -648,8 +746,12 @@
                 "cost": 3,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Patriot",
@@ -659,8 +761,12 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Punch"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch"
+                ]
             }
         ]
     },
@@ -668,18 +774,24 @@
         "hero": "Stature",
         "id": 212,
         "set": "Civil War",
-        "team": ["Avengers"],
+        "team": [
+            "Avengers"
+        ],
         "cards": [
             {
                 "hero": "Stature",
-                "id":2121,
+                "id": 2121,
                 "name": "Trample the Tiny",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/stature-01.jpg?w=700&h=",
                 "cost": 8,
                 "recruit": 0,
                 "attack": 5,
-                "team": ["Avengers"],
-                "class": ["Punch"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "hero": "Stature",
@@ -689,8 +801,12 @@
                 "cost": 6,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Avengers"],
-                "class": ["Punch"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "hero": "Stature",
@@ -700,8 +816,13 @@
                 "cost": 5,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Punch", "Tech"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch",
+                    "Tech"
+                ]
             },
             {
                 "hero": "Stature",
@@ -711,8 +832,12 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Tech"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Tech"
+                ]
             }
         ]
     },
@@ -720,7 +845,9 @@
         "hero": "Rogue",
         "id": 114,
         "set": "Main",
-        "team": ["X-Men"],
+        "team": [
+            "X-Men"
+        ],
         "cards": [
             {
                 "hero": "Rogue",
@@ -730,8 +857,12 @@
                 "cost": 8,
                 "recruit": 0,
                 "attack": 4,
-                "team": ["X-Men"],
-                "class": ["Punch"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "hero": "Rogue",
@@ -741,8 +872,12 @@
                 "cost": 5,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["X-Men"],
-                "class": ["Covert"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
                 "hero": "Rogue",
@@ -752,8 +887,12 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["X-Men"],
-                "class": ["Punch"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "hero": "Rogue",
@@ -763,8 +902,12 @@
                 "cost": 3,
                 "recruit": 2,
                 "attack": 0,
-                "team": ["X-Men"],
-                "class": ["Covert"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Covert"
+                ]
             }
         ]
     },
@@ -772,8 +915,10 @@
         "hero": "Wolverine",
         "id": 118,
         "set": "Main",
-        "team": ["X-Men"],
-        "cards":[
+        "team": [
+            "X-Men"
+        ],
+        "cards": [
             {
                 "hero": "Wolverine",
                 "id": 1181,
@@ -782,8 +927,12 @@
                 "cost": 8,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["X-Men"],
-                "class": ["Instinct"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Wolverine",
@@ -793,8 +942,12 @@
                 "cost": 5,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["X-Men"],
-                "class": ["Instinct"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Wolverine",
@@ -804,8 +957,12 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["X-Men"],
-                "class": ["Instinct"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Wolverine",
@@ -815,8 +972,12 @@
                 "cost": 3,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["X-Men"],
-                "class": ["Instinct"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             }
         ]
     },
@@ -824,7 +985,9 @@
         "hero": "Gambit",
         "id": 109,
         "set": "Main",
-        "team": ["X-Men"],
+        "team": [
+            "X-Men"
+        ],
         "cards": [
             {
                 "hero": "Gambit",
@@ -834,8 +997,12 @@
                 "cost": 7,
                 "recruit": 0,
                 "attack": 4,
-                "team": ["X-Men"],
-                "class": ["Instinct"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Gambit",
@@ -845,8 +1012,12 @@
                 "cost": 3,
                 "recruit": 2,
                 "attack": 0,
-                "team": ["X-Men"],
-                "class": ["Instinct"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Gambit",
@@ -856,8 +1027,12 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["X-Men"],
-                "class": ["Range"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
                 "hero": "Gambit",
@@ -867,8 +1042,12 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["X-Men"],
-                "class": ["Covert"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Covert"
+                ]
             }
         ]
     },
@@ -876,7 +1055,9 @@
         "hero": "Captain Britain",
         "id": 505,
         "set": "Secret Wars Vol. 2",
-        "team": ["Illuminati"],
+        "team": [
+            "Illuminati"
+        ],
         "cards": [
             {
                 "hero": "Captain Britain",
@@ -886,8 +1067,12 @@
                 "cost": 7,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Illuminati"],
-                "class": ["Punch"]
+                "team": [
+                    "Illuminati"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "hero": "Captain Britain",
@@ -897,8 +1082,13 @@
                 "cost": 5,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Illuminati"],
-                "class": ["Punch","Covert"]
+                "team": [
+                    "Illuminati"
+                ],
+                "class": [
+                    "Punch",
+                    "Covert"
+                ]
             },
             {
                 "hero": "Captain Britain",
@@ -908,19 +1098,27 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Illuminati"],
-                "class": ["Punch"]
+                "team": [
+                    "Illuminati"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
-                "hero":"Captain Britain",
+                "hero": "Captain Britain",
                 "id": 5054,
                 "name": "Transatlantic Savior",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-04.jpg?w=700&h=",
                 "cost": 3,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Illuminati"],
-                "class": ["Covert"]
+                "team": [
+                    "Illuminati"
+                ],
+                "class": [
+                    "Covert"
+                ]
             }
         ]
     },
@@ -928,51 +1126,70 @@
         "hero": "Elsa Bloodstone",
         "id": 508,
         "set": "Secret Wars Vol. 2",
-        "team": ["SHIELD"],
+        "team": [
+            "SHIELD"
+        ],
         "cards": [
             {
-                "hero":"Elsa Bloodstone",
+                "hero": "Elsa Bloodstone",
                 "id": 5081,
                 "name": "Prodigy of Ulysses Bloodstone",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-01.jpg?w=700&h=",
                 "cost": 8,
                 "recruit": 0,
                 "attack": 6,
-                "team": ["SHIELD"],
-                "class": ["Punch"]
+                "team": [
+                    "SHIELD"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
-                "hero":"Elsa Bloodstone",
+                "hero": "Elsa Bloodstone",
                 "id": 5082,
                 "name": "Defend the SHIELD Wall",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-02.jpg?w=700&h=",
                 "cost": 6,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["SHIELD"],
-                "class": ["Range"]
+                "team": [
+                    "SHIELD"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
-                "hero":"Elsa Bloodstone",
+                "hero": "Elsa Bloodstone",
                 "id": 5083,
                 "name": "Bloodstone Pendant",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-03.jpg?w=700&h=",
                 "cost": 5,
                 "recruit": 2,
                 "attack": 0,
-                "team": ["SHIELD"],
-                "class": ["Instinct"]
+                "team": [
+                    "SHIELD"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
-                "hero":"Elsa Bloodstone",
+                "hero": "Elsa Bloodstone",
                 "id": 5084,
                 "name": "Monster Hunter",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-04.jpg?w=700&h=",
                 "cost": 3,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["SHIELD"],
-                "class": ["Covert","Tech"]
+                "team": [
+                    "SHIELD"
+                ],
+                "class": [
+                    "Covert",
+                    "Tech"
+                ]
             }
         ]
     },
@@ -980,8 +1197,10 @@
         "hero": "Ruby Summers",
         "id": 510,
         "set": "Secret Wars Vol. 2",
-        "team": ["X-Men"],
-        "cards":[
+        "team": [
+            "X-Men"
+        ],
+        "cards": [
             {
                 "hero": "Ruby Summers",
                 "id": 5101,
@@ -990,8 +1209,12 @@
                 "cost": 8,
                 "recruit": 0,
                 "attack": 10,
-                "team": ["X-Men"],
-                "class": ["Range"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
                 "hero": "Ruby Summers",
@@ -1001,19 +1224,27 @@
                 "cost": 6,
                 "recruit": 0,
                 "attack": 4,
-                "team": ["X-Men"],
-                "class": ["Punch"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
-                "hero":"Ruby Summers",
+                "hero": "Ruby Summers",
                 "id": 5103,
                 "name": "Guerrilla Warfare",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-03.jpg?w=700&h=",
                 "cost": 3,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["X-Men"],
-                "class": ["Range"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
                 "hero": "Ruby Summers",
@@ -1023,8 +1254,13 @@
                 "cost": 5,
                 "recruit": 2,
                 "attack": 2,
-                "team": ["X-Men"],
-                "class": ["Punch","Range"]
+                "team": [
+                    "X-Men"
+                ],
+                "class": [
+                    "Punch",
+                    "Range"
+                ]
             }
         ]
     },
@@ -1032,51 +1268,70 @@
         "hero": "Spider-Gwen",
         "id": 514,
         "set": "Secret Wars Vol. 2",
-        "team": ["Spider-Friends"],
+        "team": [
+            "Spider-Friends"
+        ],
         "cards": [
             {
                 "hero": "Spider-Gwen",
-                "id":5141,
+                "id": 5141,
                 "name": "Intertwining Webs",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-01.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Spider-Friends"],
-                "class": ["Covert"]
+                "team": [
+                    "Spider-Friends"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
                 "hero": "Spider-Gwen",
-                "id":5142,
+                "id": 5142,
                 "name": "First Adventure",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-02.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["Spider-Friends"],
-                "class": ["Punch"]
+                "team": [
+                    "Spider-Friends"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "hero": "Spider-Gwen",
-                "id":5143,
+                "id": 5143,
                 "name": "Fateful Bridge",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-03.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Spider-Friends"],
-                "class": ["Instinct","Tech"]
+                "team": [
+                    "Spider-Friends"
+                ],
+                "class": [
+                    "Instinct",
+                    "Tech"
+                ]
             },
             {
                 "hero": "Spider-Gwen",
-                "id":5144,
+                "id": 5144,
                 "name": "Save the Day",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-04.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["Spider-Friends"],
-                "class": ["Tech"]
+                "team": [
+                    "Spider-Friends"
+                ],
+                "class": [
+                    "Tech"
+                ]
             }
         ]
     },
@@ -1084,18 +1339,24 @@
         "hero": "Captain Marvel, Agent of SHIELD",
         "id": 401,
         "set": "Revelations",
-        "team": ["SHIELD"],
-        "cards":[
+        "team": [
+            "SHIELD"
+        ],
+        "cards": [
             {
-                "hero":"Captain Marvel, Agent of SHIELD",
+                "hero": "Captain Marvel, Agent of SHIELD",
                 "id": 4011,
                 "name": "Higher, Further, Faster",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-01.jpg?w=700&h=",
                 "cost": 7,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["SHIELD"],
-                "class": ["Punch"]
+                "team": [
+                    "SHIELD"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "hero": "Captain Marvel, Agent of SHIELD",
@@ -1105,30 +1366,42 @@
                 "cost": 6,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["SHIELD"],
-                "class": ["Range"]
+                "team": [
+                    "SHIELD"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
-                "hero":"Captain Marvel, Agent of SHIELD",
+                "hero": "Captain Marvel, Agent of SHIELD",
                 "id": 4013,
                 "name": "Radiant Blast",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-03.jpg?w=700&h=",
                 "cost": 4,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["SHIELD"],
-                "class": ["Range"]
+                "team": [
+                    "SHIELD"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
-                "hero":"Captain Marvel, Agent of SHIELD",
+                "hero": "Captain Marvel, Agent of SHIELD",
                 "id": 4014,
                 "name": "The Sword of SHIELD",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-04.jpg?w=700&h=",
                 "cost": 3,
                 "recruit": 2,
                 "attack": 0,
-                "team": ["SHIELD"],
-                "class": ["Punch"]
+                "team": [
+                    "SHIELD"
+                ],
+                "class": [
+                    "Punch"
+                ]
             }
         ]
     },
@@ -1136,18 +1409,24 @@
         "hero": "Hellcat",
         "id": 403,
         "set": "Revelations",
-        "team": ["Avengers"],
-        "cards":[
+        "team": [
+            "Avengers"
+        ],
+        "cards": [
             {
                 "hero": "Hellcat",
-                "id":4031,
+                "id": 4031,
                 "name": "Second Chance at Life",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_01.jpg?w=700&h=",
                 "cost": 8,
                 "recruit": 0,
                 "attack": 6,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Hellcat",
@@ -1157,19 +1436,27 @@
                 "cost": 5,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Avengers"],
-                "class": ["Covert"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
-                "hero":"Hellcat",
+                "hero": "Hellcat",
                 "id": 4033,
                 "name": "Part-Time P.I.",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_03.jpg?w=700&h=",
                 "cost": 3,
                 "recruit": 2,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Hellcat",
@@ -1179,8 +1466,12 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             }
         ]
     },
@@ -1188,29 +1479,39 @@
         "hero": "Speed",
         "id": 408,
         "set": "Revelations",
-        "team": ["Avengers"],
+        "team": [
+            "Avengers"
+        ],
         "cards": [
             {
                 "hero": "Speed",
-                "id":4081,
+                "id": 4081,
                 "name": "Break the Sound Barrier",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/speed_01.jpg?w=700&h=",
                 "cost": 8,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Covert"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
                 "hero": "Speed",
-                "id":4082,
+                "id": 4082,
                 "name": "Race to the Rescue",
                 "img": "https://marveldbg.files.wordpress.com/2019/09/speed_02.jpg?w=700&h=",
                 "cost": 5,
                 "recruit": 0,
                 "attack": 3,
-                "team": ["Avengers"],
-                "class": ["Covert"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
                 "hero": "Speed",
@@ -1220,8 +1521,12 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Speed",
@@ -1231,38 +1536,52 @@
                 "cost": 4,
                 "recruit": 2,
                 "attack": 1,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             }
         ]
     },
     {
         "hero": "Jessica Jones",
-        "id":302,
+        "id": 302,
         "set": "Dimensions",
-        "team": ["Marvel Knights"],
+        "team": [
+            "Marvel Knights"
+        ],
         "cards": [
             {
-                "hero":"Jessica Jones",
+                "hero": "Jessica Jones",
                 "id": 3021,
                 "name": "Uncover Hidden Evil",
                 "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_01.png?w=700&h=",
                 "cost": 7,
                 "recruit": 0,
                 "attack": 4,
-                "team": ["Marvel Knights"],
-                "class": ["Covert"]
+                "team": [
+                    "Marvel Knights"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
-                "hero":"Jessica Jones",
+                "hero": "Jessica Jones",
                 "id": 3022,
                 "name": "Crack the Case",
                 "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_02.png?w=700&h=",
                 "cost": 5,
                 "recruit": 3,
                 "attack": 0,
-                "team": ["Marvel Knights"],
-                "class": ["Punch"]
+                "team": [
+                    "Marvel Knights"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
                 "hero": "Jessica Jones",
@@ -1272,19 +1591,27 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["Marvel Knights"],
-                "class": ["Covert"]
+                "team": [
+                    "Marvel Knights"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
-                "hero":"Jessica Jones",
+                "hero": "Jessica Jones",
                 "id": 3024,
                 "name": "ALter Ego",
-                "img":"https://marveldbg.files.wordpress.com/2019/06/jessica_04.png?w=700&h=",
+                "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_04.png?w=700&h=",
                 "cost": 3,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Marvel Knights"],
-                "class": ["Punch"]
+                "team": [
+                    "Marvel Knights"
+                ],
+                "class": [
+                    "Punch"
+                ]
             }
         ]
     },
@@ -1292,51 +1619,69 @@
         "hero": "America Chavez",
         "id": 304,
         "set": "Dimensions",
-        "team": ["Avengers"],
+        "team": [
+            "Avengers"
+        ],
         "cards": [
             {
-                "hero":"America Chavez",
+                "hero": "America Chavez",
                 "id": 3041,
                 "name": "Hyper-Cosmic Awareness",
                 "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_01.png?w=700&h=",
                 "cost": 7,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Covert"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
-                "hero":"America Chavez",
+                "hero": "America Chavez",
                 "id": 3042,
                 "name": "Kick a Hole in Reality",
                 "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_02.png?w=700&h=",
                 "cost": 6,
                 "recruit": 0,
                 "attack": 3,
-                "team": ["Avengers"],
-                "class": ["Punch"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
-                "hero":"America Chavez",
+                "hero": "America Chavez",
                 "id": 3043,
                 "name": "Search Parallel Dimensions",
                 "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_03.png?w=700&h=",
                 "cost": 4,
                 "recruit": 2,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Range"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Range"
+                ]
             },
             {
-                "hero":"America Chavez",
+                "hero": "America Chavez",
                 "id": 3044,
                 "name": "Star Power",
                 "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_04.png?w=700&h=",
                 "cost": 3,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["Avengers"],
-                "class": ["Punch"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Punch"
+                ]
             }
         ]
     },
@@ -1344,7 +1689,9 @@
         "hero": "Squirrel Girl",
         "id": 305,
         "set": "Dimensions",
-        "team": ["Avengers"],
+        "team": [
+            "Avengers"
+        ],
         "cards": [
             {
                 "hero": "Squirrel Girl",
@@ -1354,8 +1701,12 @@
                 "cost": 8,
                 "recruit": 0,
                 "attack": 5,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Squirrel Girl",
@@ -1365,8 +1716,12 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Avengers"],
-                "class": ["Covert"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
                 "hero": "Squirrel Girl",
@@ -1376,8 +1731,12 @@
                 "cost": 3,
                 "recruit": 0,
                 "attack": 1,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
                 "hero": "Squirrel Girl",
@@ -1387,8 +1746,12 @@
                 "cost": 2,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
-                "class": ["Instinct"]
+                "team": [
+                    "Avengers"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             }
         ]
     },
@@ -1396,7 +1759,9 @@
         "hero": "Valkyrie",
         "id": 604,
         "set": "Heroes of Asgard",
-        "team": ["Asgardians"],
+        "team": [
+            "Asgardians"
+        ],
         "cards": [
             {
                 "hero": "Valkyrie",
@@ -1406,93 +1771,127 @@
                 "cost": 7,
                 "recruit": 0,
                 "attack": 4,
-                "team": ["Asgardians"],
-                "class": ["Instinct"]
+                "team": [
+                    "Asgardians"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
-                "hero":"Valkyrie",
-                "id":6042,
+                "hero": "Valkyrie",
+                "id": 6042,
                 "name": "Usher to Valhalla",
                 "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-02-1.jpg?w=700&h=",
                 "cost": 6,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Asgardians"],
-                "class": ["Covert"]
+                "team": [
+                    "Asgardians"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
-                "hero":"Valkyrie",
+                "hero": "Valkyrie",
                 "id": 6043,
                 "name": "Flying Stallion",
                 "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-03-1.jpg?w=700&h=",
                 "cost": 4,
                 "recruit": 0,
-                "attack":2,
-                "team": ["Asgardians"],
-                "class": ["Instinct"]
+                "attack": 2,
+                "team": [
+                    "Asgardians"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             },
             {
-                "hero":"Valkyrie",
+                "hero": "Valkyrie",
                 "id": 6044,
                 "name": "Dragonfang",
-                "img":"https://marveldbg.files.wordpress.com/2020/04/valkyrie-04-1.jpg?w=700&h=",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-04-1.jpg?w=700&h=",
                 "cost": 3,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Asgardians"],
-                "class": ["Punch"]
+                "team": [
+                    "Asgardians"
+                ],
+                "class": [
+                    "Punch"
+                ]
             }
         ]
     },
     {
         "hero": "The Warriors Three",
-        "id":605,
+        "id": 605,
         "set": "Heroes of Asgard",
-        "team": ["Asgardians"],
+        "team": [
+            "Asgardians"
+        ],
         "cards": [
             {
-                "hero":"The Warriors Three",
+                "hero": "The Warriors Three",
                 "id": 6051,
                 "name": "Three Stand As One",
                 "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-01-1.jpg?w=700&h=",
                 "cost": 8,
                 "recruit": 0,
                 "attack": 4,
-                "team": ["Asgardians"],
-                "class": ["Punch"]
+                "team": [
+                    "Asgardians"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
-                "hero":"The Warriors Three",
+                "hero": "The Warriors Three",
                 "id": 6052,
                 "name": "Volstagg the Valiant",
                 "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-02-1.jpg?w=700&h=",
                 "cost": 6,
                 "recruit": 0,
                 "attack": 3,
-                "team": ["Asgardians"],
-                "class": ["Punch"]
+                "team": [
+                    "Asgardians"
+                ],
+                "class": [
+                    "Punch"
+                ]
             },
             {
-                "hero":"The Warriors Three",
+                "hero": "The Warriors Three",
                 "id": 6053,
                 "name": "Hogun the Grim",
                 "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-03-1.jpg?w=700&h=",
                 "cost": 4,
                 "recruit": 2,
                 "attack": 0,
-                "team": ["Asgardians"],
-                "class": ["Covert"]
+                "team": [
+                    "Asgardians"
+                ],
+                "class": [
+                    "Covert"
+                ]
             },
             {
-                "hero":"The Warriors Three",
-                "id":6054,
+                "hero": "The Warriors Three",
+                "id": 6054,
                 "name": "Fandral the Dashing",
-                "img":"https://marveldbg.files.wordpress.com/2020/04/warriors-three-04-1.jpg?w=700&h=",
+                "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-04-1.jpg?w=700&h=",
                 "cost": 3,
                 "recruit": 0,
                 "attack": 2,
-                "team": ["Asgardians"],
-                "class": ["Instinct"]
+                "team": [
+                    "Asgardians"
+                ],
+                "class": [
+                    "Instinct"
+                ]
             }
         ]
     }
