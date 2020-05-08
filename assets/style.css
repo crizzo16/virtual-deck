@@ -71,6 +71,13 @@
     cursor: pointer;
 }
 
+.in-HQ {
+    font-weight: bold;
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 
 #hand {
     width: 100%;

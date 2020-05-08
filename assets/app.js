@@ -589,6 +589,10 @@ let virtu = {
     virtu.allHeroes.sort(virtu.compareTeam);
     virtu.sortMethod = "team";
     virtu.loadAllHeroes();
+  },
+  toggleBold: function() {
+    $(".hero-sel-highlight").toggleClass("in-HQ");
+    $(".hero-sel-highlight").removeClass("hero-sel-highlight");
   }
 };
 
@@ -625,3 +629,4 @@ $(document).on("click", "#view-hand-card", virtu.fillHandModal);
 $(document).on("click", "#sort-by-name", virtu.sortByName);
 $(document).on("click", "#sort-by-set", virtu.sortBySet);
 $(document).on("click", "#sort-by-team", virtu.sortByTeam);
+$(document).on("click", "#toggle-bold", virtu.toggleBold);
