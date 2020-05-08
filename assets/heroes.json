@@ -407,7 +407,7 @@
         "id": 202,
         "set": "Civil War",
         "team": [
-            "Avengers","Marvel Knights"
+            "Marvel Knights","Avengers"
         ],
         "cards": [
             {
@@ -429,7 +429,7 @@
                 "cost": 6,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
+                "team": ["Marvel Knights","Avengers"],
                 "class": ["Covert", "Range"]
             },
             {
@@ -440,7 +440,7 @@
                 "cost": 3,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
+                "team": ["Marvel Knights","Avengers"],
                 "class": ["Covert", "Range"]
             },
             {
@@ -451,7 +451,7 @@
                 "cost": 4,
                 "recruit": 0,
                 "attack": 0,
-                "team": ["Avengers"],
+                "team": ["Marvel Knights","Avengers"],
                 "class": ["Covert", "Range"]
             }
         ]
