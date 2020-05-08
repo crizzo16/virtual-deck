@@ -64,24 +64,6 @@
         >
           Put on Bottom of Deck
         </button>
-        <button
-          id="back-in-hand"
-          class="btn waves-effect waves-light blue lighten-1 m-10"
-        >
-          Put Back in Hand
-        </button>
-        <button
-          id="replenish-deck"
-          class="btn waves-effect waves-light blue lighten-1 m-10"
-        >
-          Replenish Deck
-        </button>
-        <button
-          id="ko-card-btn"
-          class="btn waves-effect waves-light grey lighten-1 m-10"
-        >
-          KO Card
-        </button>
       </div>
       <div id="hand-data" class="row m-10">
         <div class="col s2 flex flex-center">
@@ -133,7 +115,27 @@
             <div class="collapsible-header">
               Discard Pile: &nbsp;<span id="disc-num"> 0 </span>&nbsp; cards
             </div>
-            <div id="discard-pile" class="collapsible-body"></div>
+            <div class="collapsible-body">
+              <button
+                id="back-in-hand"
+                class="btn waves-effect waves-light blue lighten-1 m-10"
+              >
+                Put Back in Hand
+              </button>
+              <button
+                id="replenish-deck"
+                class="btn waves-effect waves-light blue lighten-1 m-10"
+              >
+                Replenish Deck
+              </button>
+              <button
+                id="ko-card-btn"
+                class="btn waves-effect waves-light grey lighten-1 m-10"
+              >
+                KO Card
+              </button>
+              <div id="discard-pile"></div>
+            </div>
           </li>
           <li class="hidden-list">
             <div class="collapsible-header">HQ Cards</div>
