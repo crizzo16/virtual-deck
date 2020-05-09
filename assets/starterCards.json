@@ -34,6 +34,30 @@
                     ""
                 ],
                 "rules":[]
+            },
+            {
+                "hero": "",
+                "id": 1011,
+                "name": "Shield Agent",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
+                "cost": 0,
+                "recruit": 1,
+                "attack": 0,
+                "team": "SHIELD",
+                "class": [""],
+                "rules":[""]
+            },
+            {
+                "hero": "",
+                "id": 1021,
+                "name": "Shield Trooper",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/shield-trooper.jpg?w=700&h=",
+                "cost": 0,
+                "recruit": 0,
+                "attack": 1,
+                "team": "SHIELD",
+                "class": [""],
+                "rules": [""]
             }
         ]
     },
