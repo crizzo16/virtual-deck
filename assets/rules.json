@@ -83,5 +83,10 @@
         "name": "Artifact",
         "description": "When first played, keep it front of your to potentially use on any future or current turn. You can 'throw' an artifact to the bottom of your deck to use the indicated ability.",
         "set": ["Heroes of Asgard"]
+    },
+    {
+        "name": "Villains You Gain as Heroes",
+        "description": "When you fight this villain you gain it as a hero. If a card effect wants to know their cost, use their old Villain Attack value",
+        "set": ["Secret Wars Vol. 2"]
     }
 ]
