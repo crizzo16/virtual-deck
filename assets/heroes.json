@@ -1468,7 +1468,7 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-03.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
-                "attack": 0,
+                "attack": 2,
                 "team": [
                     "Spider-Friends"
                 ],
@@ -2123,6 +2123,50 @@
                     "Instinct"
                 ],
                 "rules": [""]
+            }
+        ]
+    },
+    {
+        "hero": "X-Men '92",
+        "id": 517,
+        "set": "Secret Wars Vol. 2",
+        "team": ["X-Men"],
+        "cards": [
+            {
+                "hero": "X-Men '92",
+                "id": 5171,
+                "name": "'92 Beast",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-01.jpg?w=700&h=",
+                "cost": 5,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["X-Men"],
+                "class": ["Punch"],
+                "rules": [17]
+            },
+            {
+                "hero": "X-Men '92",
+                "id":5172,
+                "name": "'92 Jubilee",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-02.jpg?w=700&h=",
+                "cost": 4,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["X-Men"],
+                "class": ["Range"],
+                "rules": [17,10]
+            },
+            {
+                "hero": "X-Men '92",
+                "id":5173,
+                "name": "'92 Wolverine",
+                "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-04.jpg?w=700&h=",
+                "cost": 7,
+                "recruit": 0,
+                "attack": 2,
+                "team": ["X-Men"],
+                "class": ["Instinct"],
+                "rules": [17]
             }
         ]
     }
