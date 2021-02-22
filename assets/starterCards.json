@@ -14,6 +14,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/09/wound.jpg?w=700&h=",
                 "cost": 0,
                 "recruit": 0,
+                "rec": false,
+                "att": true,
                 "attack": 0,
                 "team": "",
                 "class": [
@@ -28,6 +30,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/09/shield-officer.jpg?w=700&h=",
                 "cost": 3,
                 "recruit": 2,
+                "rec": true,
+                "att": false,
                 "attack": 0,
                 "team": "SHIELD",
                 "class": [
@@ -42,6 +46,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
                 "cost": 0,
                 "recruit": 1,
+                "rec": true,
+                "att": false,
                 "attack": 0,
                 "team": "SHIELD",
                 "class": [""],
@@ -54,6 +60,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/09/shield-trooper.jpg?w=700&h=",
                 "cost": 0,
                 "recruit": 0,
+                "rec": false,
+                "att": true,
                 "attack": 1,
                 "team": "SHIELD",
                 "class": [""],
@@ -74,6 +82,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/10/ss_zabu.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
+                "rec": false,
+                "att": true,
                 "attack": 0,
                 "team": "Avengers",
                 "class": [
@@ -88,6 +98,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/10/ss_throg.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 2,
+                "rec": true,
+                "att": true,
                 "attack": 0,
                 "team": "Avengers",
                 "class": [
@@ -102,6 +114,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/10/ss_redwing.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
+                "rec": false,
+                "att": false,
                 "attack": 0,
                 "team": "Avengers",
                 "class": [
@@ -116,6 +130,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/10/ss_lockjaw.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
+                "rec": false,
+                "att": true,
                 "attack": 2,
                 "team": "Avengers",
                 "class": [
@@ -130,6 +146,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/10/ss_lockheed.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
+                "rec": false,
+                "att": true,
                 "attack": 2,
                 "team": "Avengers",
                 "class": [
@@ -144,6 +162,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/10/ss_lion.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
+                "rec": false,
+                "att": false,
                 "attack": 2,
                 "team": "Avengers",
                 "class": [
@@ -158,6 +178,8 @@
                 "img": "https://marveldbg.files.wordpress.com/2019/10/ss_hairball.jpg?w=700&h=",
                 "cost": 2,
                 "recruit": 0,
+                "rec": false,
+                "att": true,
                 "attack": 1,
                 "team": "Avengers",
                 "class": [
