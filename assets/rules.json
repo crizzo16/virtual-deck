@@ -1,92 +1,128 @@
 [
     {
+        "id": 0,
         "name": "Size-Changing",
         "description": "Can recruit/fight for 2 less if you play a specific card type this turn",
         "set": ["Civil War"]
     },
     {
+        "id": 1,
         "name": "Divided Card",
         "description": "Choose which side of the card to play on your turn. While the card is in your hand, you may use both classes/teams for other cards you have already played this turn.",
         "set": ["Civil War"]
     },
     {
+        "id": 2,
         "name": "Phasing",
         "description": "Can swap Phasing card with the top card of your deck.",
         "set": ["Civil War"]
     },
     {
+        "id": 3,
         "name": "One-Time Use",
         "description": "After playing this card you must return it to the bottom of its original pile.",
         "set": ["Civil War"]
     },
     {
+        "id": 4,
         "name": "Hyperspeed",
         "description": "Reveal the top X cards of your deck to get +1 Attack for each card that can attack.",
         "set": ["Revelations"]
     },
     {
+        "id": 5,
         "name": "Dark Memories",
         "description": "Get +1 Attack for each hero class in your discard pile (i.e. covert, range, etc.).",
         "set": ["Revelations"]
     },
     {
+        "id": 6,
         "name": "Last Stand",
         "description": "Get +1 Attack for each empty space in the city.",
         "set": ["Revelations"]
     },
     {
+        "id": 7,
         "name": "Switcheroo",
         "description": "Can discard the card to put a hero of the specified printed cost from the HQ into your hand.",
         "set": ["Dimensions"]
     },
     {
+        "id": 8,
         "name": "Investigate",
         "description": "Draw the top 2 cards from your deck and keep any with the specified thing (i.e. attack, recruit, team, etc.).",
         "set": ["Dimensions"]
     },
     {
+        "id": 9,
         "name": "Teleport",
         "description": "Instead of playing the card, you can add it to y our hand next round as an extra card.",
         "set": ["Dimensions", "Secret Wars Vol. 2"]
     },
     {
+        "id": 10,
         "name": "Spectrum",
         "description": "Can only use Spectrum ability if you have at least 3 different classes (i.e. covert, range, etc.) in your hand.",
         "set": ["Secret Wars Vol. 2"]
     },
     {
+        "id": 11,
         "name": "Patrol",
         "description": "Can only use Patrol ability if specified city space is empty before you play the card, not after.",
         "set": ["Secret Wars Vol. 2"]
     },
     {
+        "id": 12,
         "name": "Wall-Crawl",
         "description": "When you recruit this hero, put them on top of your deck instead of into your discard pile.",
         "set": ["Secret Wars Vol. 2"]
     },
     {
+        "id": 13,
         "name": "Cross-Dimensional Rampage",
         "description": "Each player reveals a X hero or a X card in their Victory Pile or gains a wound.",
         "set": ["Secret Wars Vol. 2"]
     },
     {
+        "id": 14,
         "name": "Worthy",
         "description": "Can only use Worthy ability if you have a Hero that costs 5 or more in your hand.",
         "set": ["Heroes of Asgard"]
     },
     {
+        "id": 15,
         "name": "Conqueror",
         "description": "Gain +X Attack bonus while a Villain occupies the indicated city space.",
         "set": ["Heroes of Asgard"]
     },
     {
+        "id": 16,
         "name": "Artifact",
         "description": "When first played, keep it front of your to potentially use on any future or current turn. You can 'throw' an artifact to the bottom of your deck to use the indicated ability.",
         "set": ["Heroes of Asgard"]
     },
     {
+        "id": 17,
         "name": "Villains You Gain as Heroes",
         "description": "When you fight this villain you gain it as a hero. If a card effect wants to know their cost, use their old Villain Attack value",
         "set": ["Secret Wars Vol. 2"]
+    },
+    {
+        "id": 18,
+        "name": "Cheering Crowds",
+        "description": "You may play this card twice in a row if you return a Bystander from your Victory Pile to the bottom of the Bystander Stack.",
+        "set": ["Champions"]
+    },
+    {
+        "id": 19,
+        "name": "Versatile",
+        "description": "<strong>\"Versatile 2\"</strong> means \"You get +2 recruit or +2 attack.\" You can't divide between the two for each Versatile card.",
+        "set": ["Champions"]
+    },
+    {
+        "id": 20,
+        "name": "Demolish",
+        "description": "Reveal the top card of the Hero Deck, note its cost, and put it on the bottom of the Hero Deck. Each player reveals their hand and discards a card with that cost.",
+        "set": ["Champions"]
     }
 ]
