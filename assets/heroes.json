@@ -19,7 +19,7 @@
         "Avengers"
       ],
       "class": [
-        "Tech"
+        "Ranged"
       ],
       "rules": []
     },
@@ -35,7 +35,7 @@
         "Avengers"
       ],
       "class": [
-        "Tech"
+        "Ranged"
       ],
       "rules": []
     },
@@ -51,7 +51,7 @@
         "Avengers"
       ],
       "class": [
-        "Tech"
+        "Ranged"
       ],
       "rules": []
     },
@@ -93,7 +93,7 @@
         "Avengers"
       ],
       "class": [
-        "Tech"
+        "Ranged"
       ],
       "rules": []
     },
@@ -218,9 +218,83 @@
         "Instinct"
       ],
       "rules": []
-      }
-     ]
+    }
+  ]
+},
+{
+  "hero": "Vision",
+  "id": 4001,
+  "set": "Champions",
+  "team": [
+    "Avengers"
+  ],
+  "cards": [
+    {
+      "hero": "Vision",
+      "id": 40011,
+      "name": "Insubstantial Accomplishments",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-01.jpg",
+      "cost": 7,
+      "recruit": 0,
+      "attack": 4,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Tech"
+      ],
+      "rules": []
     },
+    {
+      "hero": "Vision",
+      "id": 40012,
+      "name": "Through Solid Objects",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-03.jpg",
+      "cost": 4,
+      "recruit": 2,
+      "attack": 0,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Tech"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Vision",
+      "id": 40013,
+      "name": "Solar Energy",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-04.jpg",
+      "cost": 3,
+      "recruit": 0,
+      "attack": 1,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Ranged"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Vision",
+      "id": 40014,
+      "name": "Lighter Than Air/Harder Than Diamond",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-02.jpg",
+      "cost": 6,
+      "recruit": 0,
+      "attack": 0,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Ranged", "Tech"
+      ],
+      "rules": []
+    }
+  ]
+},
     {
         "hero": "Silk",
         "id": 512,
