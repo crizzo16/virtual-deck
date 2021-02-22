@@ -152,3 +152,31 @@ button {
 .red-border {
     border: 1px solid red;
 }
+
+.circ {
+    border-radius: 50%;
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    margin: 0px 5px;
+    display: inline-block;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: #01579b;
+}
+
+#hyperspeed-num {
+    width: 50px;
+}
+
+#hyperspeed-div {
+    border: 2px solid purple;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
