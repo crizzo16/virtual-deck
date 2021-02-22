@@ -13,6 +13,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
       cost: 0,
       recruit: 1,
+      rec: true,
+      att: false,
       attack: 0,
       team: "SHIELD",
       class: [""],
@@ -26,6 +28,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
       cost: 0,
       recruit: 1,
+      rec: true,
+      att: false,
       attack: 0,
       team: "SHIELD",
       class: [""],
@@ -39,6 +43,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
       cost: 0,
       recruit: 1,
+      rec: true,
+      att: false,
       attack: 0,
       team: "SHIELD",
       class: [""],
@@ -52,6 +58,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
       cost: 0,
       recruit: 1,
+      rec: true,
+      att: false,
       attack: 0,
       team: "SHIELD",
       class: [""],
@@ -65,6 +73,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
       cost: 0,
       recruit: 1,
+      rec: true,
+      att: false,
       attack: 0,
       team: "SHIELD",
       class: [""],
@@ -78,6 +88,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
       cost: 0,
       recruit: 1,
+      rec: true,
+      att: false,
       attack: 0,
       team: "SHIELD",
       class: [""],
@@ -91,6 +103,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
       cost: 0,
       recruit: 1,
+      rec: true,
+      att: false,
       attack: 0,
       team: "SHIELD",
       class: [""],
@@ -104,6 +118,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-agent.jpg?w=700&h=",
       cost: 0,
       recruit: 1,
+      rec: true,
+      att: false,
       attack: 0,
       team: "SHIELD",
       class: [""],
@@ -117,6 +133,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-trooper.jpg?w=700&h=",
       cost: 0,
       recruit: 0,
+      rec: false,
+      att: true,
       attack: 1,
       team: "SHIELD",
       class: [""],
@@ -130,6 +148,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-trooper.jpg?w=700&h=",
       cost: 0,
       recruit: 0,
+      rec: false,
+      att: true,
       attack: 1,
       team: "SHIELD",
       class: [""],
@@ -143,6 +163,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-trooper.jpg?w=700&h=",
       cost: 0,
       recruit: 0,
+      rec: false,
+      att: true,
       attack: 1,
       team: "SHIELD",
       class: [""],
@@ -156,6 +178,8 @@ let virtu = {
         "https://marveldbg.files.wordpress.com/2019/09/shield-trooper.jpg?w=700&h=",
       cost: 0,
       recruit: 0,
+      rec: false,
+      att: true,
       attack: 1,
       team: "SHIELD",
       class: [""],
@@ -164,16 +188,18 @@ let virtu = {
   ],
   hand: [],
   discard: [],
+  hyperDeck: [],
+  hqCards: [],
   deckSelectedCard: "",
   discardSelectedCard: -1,
-  shuffleDeck: function() {
+  shuffleDeck: function () {
     virtu.deck.sort(() => Math.random() - 0.5);
   },
-  parseHeroes: function() {
+  parseHeroes: function () {
     $.ajax({
       url: "https://crizzo16.github.io/virtual-deck/assets/heroes.json",
       dataType: "json"
-    }).done(function(result) {
+    }).done(function (result) {
       virtu.allHeroes = result;
       virtu.loadAllHeroes();
     });
@@ -181,7 +207,7 @@ let virtu = {
     $.ajax({
       url: "https://crizzo16.github.io/virtual-deck/assets/starterCards.json",
       dataType: "json"
-    }).done(function(data) {
+    }).done(function (data) {
       virtu.gameHeroes = data;
       virtu.loadGameHeroes();
     });
@@ -189,13 +215,13 @@ let virtu = {
     $.ajax({
       url: "https://crizzo16.github.io/virtual-deck/assets/rules.json",
       dataType: "json"
-    }).done(function(data) {
+    }).done(function (data) {
       virtu.rules = data;
       virtu.loadRules();
     });
   },
-  loadRules: function() {
-    virtu.rules.forEach(function(item, index, array) {
+  loadRules: function () {
+    virtu.rules.forEach(function (item, index, array) {
       let total = $("<ul>");
 
       let ruleName = $("<span>")
@@ -206,11 +232,11 @@ let virtu = {
       $("#rules-go-here").append(total);
     });
   },
-  loadAllHeroes: function() {
+  loadAllHeroes: function () {
     $("#all-heroes").html("");
     let checking = "";
 
-    virtu.allHeroes.forEach(function(item, index, array) {
+    virtu.allHeroes.forEach(function (item, index, array) {
       if (virtu.sortMethod == "set" && !checking.includes(item.set)) {
         let header = $("<h4>").text(item.set);
         checking += item.set + " ";
@@ -244,7 +270,7 @@ let virtu = {
       $("#all-heroes").append(newCard);
     });
   },
-  drawHand: function() {
+  drawHand: function () {
     if (virtu.deck.length < 1) {
       M.toast({ html: "Replenish your deck!" });
     } else {
@@ -255,6 +281,8 @@ let virtu = {
           html:
             "You will need to replenish your deck to be able to draw a full hand!"
         });
+      } else if (virtu.hand.length < 6 && virtu.hand.length > 0) {
+        end = 6 - virtu.hand.length;
       }
       for (let i = 0; i < end; i++) {
         virtu.hand.push(virtu.deck.shift());
@@ -263,7 +291,7 @@ let virtu = {
       virtu.updateDeckNum();
     }
   },
-  drawCard: function() {
+  drawCard: function () {
     if (virtu.deck.length < 1) {
       M.toast({ html: "Replenish your deck!" });
     } else {
@@ -272,13 +300,13 @@ let virtu = {
       virtu.updateDeckNum();
     }
   },
-  loadHand: function() {
+  loadHand: function () {
     $("#hand").html("");
     let rec = 0;
     let att = 0;
     let teams = "";
     let classes = "";
-    virtu.hand.forEach(function(item, index, array) {
+    virtu.hand.forEach(function (item, index, array) {
       let singleCard = $("<img>")
         .addClass("img hand-card pointer")
         .attr("hero-id", item.id)
@@ -297,7 +325,7 @@ let virtu = {
         teams += item.team;
       }
       // check for new classes
-      item.class.forEach(function(it, ind, arr) {
+      item.class.forEach(function (it, ind, arr) {
         if (!classes.includes(it)) {
           if (classes.length > 0) {
             classes += ", ";
@@ -312,15 +340,20 @@ let virtu = {
     $("#base-teams").text(" " + teams);
     $("#base-classes").text(" " + classes);
   },
-  loadGameHeroes: function() {
+  loadGameHeroes: function () {
     $("#hq-cards").html("");
-    virtu.gameHeroes.forEach(function(item, index, array) {
+    virtu.gameHeroes.forEach(function (item, index, array) {
+      let div = $("<div>").addClass("flex");
       let head = $("<h5>")
         .addClass("full-hero pointer")
         .attr("set-id", item.id)
         .text(item.hero);
-      $("#hq-cards").append(head);
-      item.cards.forEach(function(it, ind, arr) {
+      let btn = $("<button>")
+        .addClass("toggle-bold btn waves-effect waves-light deep-purple lighten-2 m-10")
+        .text("Toggle Card");  
+      div.append(head).append(btn);
+      $("#hq-cards").append(div);
+      item.cards.forEach(function (it, ind, arr) {
         let newCard = $("<ul>")
           .addClass("hq-card pointer")
           .attr("hero-id", it.id)
@@ -334,7 +367,7 @@ let virtu = {
       $("#hq-cards").append(line);
     });
   },
-  selectMainHero: function() {
+  selectMainHero: function () {
     const sel = $(".all-hero-highlight").attr("set-id");
     const id = $(this).attr("set-id");
     $(".all-hero-highlight").removeClass("all-hero-highlight");
@@ -343,7 +376,7 @@ let virtu = {
       $(this).addClass("all-hero-highlight");
     }
   },
-  selectHeroInHQ: function() {
+  selectHeroInHQ: function () {
     const sel = $(".full-hero-highlight").attr("set-id");
     const id = $(this).attr("set-id");
     const name = $(this).text();
@@ -355,7 +388,7 @@ let virtu = {
       M.toast({ html: "Cannot Remove From HQ!" });
     }
   },
-  removeHeroFromHQ: function() {
+  removeHeroFromHQ: function () {
     const selID = $(".full-hero-highlight").attr("set-id");
     for (let i = 0; i < virtu.gameHeroes.length; i++) {
       if (selID == virtu.gameHeroes[i].id) {
@@ -364,7 +397,7 @@ let virtu = {
       }
     }
   },
-  addSelectedHero: function() {
+  addSelectedHero: function () {
     const id = $(".all-hero-highlight").attr("set-id");
     const name = $(".all-hero-highlight").attr("name");
     $(".all-hero-highlight").removeClass("all-hero-highlight");
@@ -384,7 +417,7 @@ let virtu = {
       M.toast({ html: "Can't Have More Than 6 Heroes!" });
     }*/
   },
-  putBackOnDeck: function() {
+  putBackOnDeck: function () {
     const id = $(".selected-card-highlight").attr("hero-id");
     for (let i = 0; i < virtu.hand.length; i++) {
       if (id == virtu.hand[i].id) {
@@ -398,7 +431,7 @@ let virtu = {
       }
     }
   },
-  discardCard: function() {
+  discardCard: function () {
     const selID = $(".selected-card-highlight").attr("hero-id");
     for (let i = 0; i < virtu.hand.length; i++) {
       if (selID == virtu.hand[i].id) {
@@ -410,7 +443,7 @@ let virtu = {
       }
     }
   },
-  discardHand: function() {
+  discardHand: function () {
     let end = virtu.hand.length;
     for (let i = 0; i < end; i++) {
       virtu.discard.push(virtu.hand.shift());
@@ -418,25 +451,109 @@ let virtu = {
     virtu.updateDiscNum();
     virtu.loadHand();
   },
-  updateDiscNum: function() {
+  updateDiscNum: function () {
     $("#disc-num")
       .html("")
       .text(virtu.discard.length);
     $("#discard-pile").html("");
-    virtu.discard.forEach(function(item, index, array) {
+    virtu.discard.forEach(function (item, index, array) {
+      // create colored dots to represent class
+      const col1 = virtu.classColors(item.class[0]);
+      let col2 = "";
+      let classCol1 = $("<li>").addClass("circ").addClass(col1);
+      if (item.class[1]) {
+        col2 = virtu.classColors(item.class[1]);
+      }
+      let classCol2 = $("<li>").addClass("circ").addClass(col2);
+      //Create discard card line
       let newDisc = $("<ul>")
         .addClass("discard-card pointer")
         .attr("hero-id", item.id)
-        .text(item.name + " " + item.hero);
+        .text(item.name + " " + item.hero)
+        .append(classCol1).append(classCol2);
+      // change text color if wound or sidekick for ease of identifying
+      if (item.name === "Wound") { 
+        newDisc.addClass("text-red"); 
+      } else if (item.hero === "Sidekicks") {
+        newDisc.addClass("text-blue");
+      }
       $("#discard-pile").append(newDisc);
     });
   },
-  updateDeckNum: function() {
+  classColors: function (color) {
+    if (color === "Ranged") {
+      return "blue";
+    } else if (color === "Tech") {
+      return "blue-grey darken-4";
+    } else if (color === "Instinct") {
+      return "orange darken-3";
+    } else if (color === "Covert") {
+      return "red darken-4";
+    } else if (color === "Punch") {
+      return "green darken-3";
+    } else {
+      return "white";
+    }
+  },
+  hyperspeed: function() {
+    let num = $("#hyperspeed-num")[0].value;
+    let att = 0;
+    let rec = 0;
+    console.log(num);
+    // If deck is big enough to not have to shuffle
+    if (virtu.deck.length >= num) {
+      for (let i=0; i < num; i++) {
+        if (virtu.deck[0].rec) {
+          rec++;
+        } else if (virtu.deck[0].att) {
+          att++;
+        }
+        virtu.hyperDeck.push(virtu.deck.shift());
+        virtu.updateDeckNum();
+      }
+    } else {
+      let remain = num - virtu.deck.length; // do second
+      let left = virtu.deck.length; // do first
+      //do the remaining cards
+      for (let i=0; i < left; i++) {
+        if (virtu.deck[0].rec) {
+          rec++;
+        } else if (virtu.deck[0].att) {
+          att++;
+        }
+        virtu.hyperDeck.push(virtu.deck.shift());
+        virtu.updateDeckNum();
+      }
+      //replenish the deck
+      virtu.discardToDeck();
+      //do the loop again for the remaining amount
+      for (let i=0; i < remain; i++) {
+        if (virtu.deck[0].rec) {
+          rec++;
+        } else if (virtu.deck[0].att) {
+          att++;
+        }
+        virtu.hyperDeck.push(virtu.deck.shift());
+        virtu.updateDeckNum();
+      }
+    }
+    $("#hyp-rec").text(rec);
+    $("#hyp-att").text(att);
+    // move all cards from hyperdeck back to discard
+    console.log(virtu.hyperDeck);
+    const length = virtu.hyperDeck.length;
+    for (let i=0; i< length; i++) {
+      virtu.discard.push(virtu.hyperDeck.shift());
+    }
+    
+    virtu.updateDiscNum();
+  },
+  updateDeckNum: function () {
     $("#deck-num")
       .html("")
       .text(virtu.deck.length);
   },
-  discardToDeck: function() {
+  discardToDeck: function () {
     const end = virtu.discard.length;
     for (let i = 0; i < end; i++) {
       virtu.deck.push(virtu.discard.shift());
@@ -446,7 +563,7 @@ let virtu = {
     virtu.updateDiscNum();
     virtu.shuffleDeck();
   },
-  koCard: function() {
+  koCard: function () {
     const hero = $(".disc-sel-highlight").attr("hero-id");
     const end = virtu.discard.length;
 
@@ -458,7 +575,7 @@ let virtu = {
       }
     }
   },
-  selectHero: function() {
+  selectHero: function () {
     const sel = $(".hero-sel-highlight").attr("hero-id");
     const id = $(this).attr("hero-id");
     $(".hero-sel-highlight").removeClass("hero-sel-highlight");
@@ -467,10 +584,10 @@ let virtu = {
       $(this).addClass("hero-sel-highlight");
     }
   },
-  addTopDeck: function() {
+  addTopDeck: function () {
     const id = $(".hero-sel-highlight").attr("hero-id");
-    virtu.gameHeroes.forEach(function(item, index, array) {
-      item.cards.forEach(function(it, ind, arr) {
+    virtu.gameHeroes.forEach(function (item, index, array) {
+      item.cards.forEach(function (it, ind, arr) {
         if (id == it.id) {
           virtu.deck.unshift(it);
           virtu.updateDeckNum();
@@ -482,10 +599,10 @@ let virtu = {
       });
     });
   },
-  addDiscard: function() {
+  addDiscard: function () {
     const id = $(".hero-sel-highlight").attr("hero-id");
-    virtu.gameHeroes.forEach(function(item, index, array) {
-      item.cards.forEach(function(it, ind, arr) {
+    virtu.gameHeroes.forEach(function (item, index, array) {
+      item.cards.forEach(function (it, ind, arr) {
         if (id == it.id) {
           virtu.discard.push(it);
           virtu.updateDiscNum();
@@ -499,14 +616,14 @@ let virtu = {
   },
   removeIndex(arr, ind) {
     let arr2 = [];
-    arr.forEach(function(item, index, array) {
+    arr.forEach(function (item, index, array) {
       if (index != ind) {
         arr2.push(item);
       }
     });
     return arr2;
   },
-  selectCard: function() {
+  selectCard: function () {
     const sel = $(".selected-card-highlight").attr("src");
     let source = $(this).attr("src");
 
@@ -517,7 +634,7 @@ let virtu = {
       $(this).addClass("selected-card-highlight");
     }
   },
-  selectDiscardItem: function() {
+  selectDiscardItem: function () {
     const oid = $(".disc-sel-highlight").attr("hero-id");
     const nid = $(this).attr("hero-id");
 
@@ -527,7 +644,7 @@ let virtu = {
       $(this).addClass("disc-sel-highlight");
     }
   },
-  putOnBottom: function() {
+  putOnBottom: function () {
     const id = $(".selected-card-highlight").attr("hero-id");
     for (let i = 0; i < virtu.hand.length; i++) {
       if (id == virtu.hand[i].id) {
@@ -539,7 +656,7 @@ let virtu = {
       }
     }
   },
-  backInHand: function() {
+  backInHand: function () {
     const id = $(".disc-sel-highlight").attr("hero-id");
 
     for (let i = 0; i < virtu.discard.length; i++) {
@@ -552,7 +669,7 @@ let virtu = {
       }
     }
   },
-  fillModal: function() {
+  fillModal: function () {
     $("#hq-modal-content").html("");
     let name = $(".hero-sel-highlight").text();
     let img = $(".hero-sel-highlight").attr("img");
@@ -602,7 +719,7 @@ let virtu = {
       $("#hq-modal-content").append(total);
     }
   },
-  fillHandModal: function() {
+  fillHandModal: function () {
     $("#hand-modal-content").html("");
     let name = $(".selected-card-highlight").attr("name");
     let img = $(".selected-card-highlight").attr("src");
@@ -652,7 +769,7 @@ let virtu = {
       $("#hand-modal-content").append(total);
     }
   },
-  compareName: function(a, b) {
+  compareName: function (a, b) {
     const nameA = a.hero.toUpperCase();
     const nameB = b.hero.toUpperCase();
 
@@ -664,7 +781,7 @@ let virtu = {
     }
     return comparison;
   },
-  compareSet: function(a, b) {
+  compareSet: function (a, b) {
     const setA = a.set.toUpperCase();
     const setB = b.set.toUpperCase();
 
@@ -676,7 +793,7 @@ let virtu = {
     }
     return comparison;
   },
-  compareTeam: function(a, b) {
+  compareTeam: function (a, b) {
     const teamA = a.team[0].toUpperCase();
     const teamB = b.team[0].toUpperCase();
 
@@ -688,29 +805,29 @@ let virtu = {
     }
     return comparison;
   },
-  sortByName: function() {
+  sortByName: function () {
     virtu.allHeroes.sort(virtu.compareName);
     virtu.sortMethod = "name";
     virtu.loadAllHeroes();
   },
-  sortBySet: function() {
+  sortBySet: function () {
     virtu.allHeroes.sort(virtu.compareSet);
     virtu.sortMethod = "set";
     virtu.loadAllHeroes();
   },
-  sortByTeam: function() {
+  sortByTeam: function () {
     virtu.allHeroes.sort(virtu.compareTeam);
     virtu.sortMethod = "team";
     virtu.loadAllHeroes();
   },
-  toggleBold: function() {
+  toggleBold: function () {
     $(".hero-sel-highlight").toggleClass("in-HQ");
     $(".hero-sel-highlight").removeClass("hero-sel-highlight");
   },
-  viewHQCards: function() {
+  viewHQCards: function () {
     $("#hq-full-modal-content").html("");
-    
-    $(".in-HQ").each(function() {
+
+    $(".in-HQ").each(function () {
       let image = $("<img>")
         .attr("src", $(this).attr("img"))
         .addClass("img-modal");
@@ -720,7 +837,7 @@ let virtu = {
   }
 };
 
-$(document).ready(function() {
+$(document).ready(function () {
   $(".collapsible").collapsible();
   $(".modal").modal();
   virtu.updateDiscNum();
@@ -753,5 +870,6 @@ $(document).on("click", "#view-hand-card", virtu.fillHandModal);
 $(document).on("click", "#sort-by-name", virtu.sortByName);
 $(document).on("click", "#sort-by-set", virtu.sortBySet);
 $(document).on("click", "#sort-by-team", virtu.sortByTeam);
-$(document).on("click", "#toggle-bold", virtu.toggleBold);
+$(document).on("click", ".toggle-bold", virtu.toggleBold);
 $(document).on("click", "#view-hq-cards", virtu.viewHQCards);
+$(document).on("click", "#hyperspeed-btn", virtu.hyperspeed);
