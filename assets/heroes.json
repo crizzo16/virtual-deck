@@ -1,2469 +1,2596 @@
 [
-    {
-  "hero": "Photon",
-  "id": 1001,
-  "set": "Champions",
-  "team": [
-    "Avengers"
-  ],
-  "cards": [
-    {
-      "hero": "Photon",
-      "id": 10011,
-      "name": "Ultraviolet Radiation",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-03.jpg",
-      "cost": 4,
-      "recruit": 0,
-      "attack": 3,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Ranged"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Photon",
-      "id": 10012,
-      "name": "Infrared Conversion",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-04.jpg",
-      "cost": 3,
-      "recruit": 0,
-      "attack": 0,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Ranged"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Photon",
-      "id": 10013,
-      "name": "Coruscating Vengeance",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-01.jpg",
-      "cost": 8,
-      "recruit": 0,
-      "attack": 6,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Ranged"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Photon",
-      "id": 10014,
-      "name": "Light The Way",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-02.jpg",
-      "cost": 6,
-      "recruit": 0,
-      "attack": 3,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Covert"
-      ],
-      "rules": []
-    }
-  ]
-},
-{
-  "hero": "Scarlet Witch",
-  "id": 2001,
-  "set": "Champions",
-  "team": [
-    "Avengers"
-  ],
-  "cards": [
-    {
-      "hero": "Scarlet Witch",
-      "id": 20011,
-      "name": "Hex Bolt",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-03.jpg",
-      "cost": 2,
-      "recruit": 0,
-      "attack": 1,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Ranged"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Scarlet Witch",
-      "id": 20012,
-      "name": "Alter Reality",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-04.jpg",
-      "cost": 3,
-      "recruit": 2,
-      "attack": 0,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Covert"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Scarlet Witch",
-      "id": 20013,
-      "name": "Warp Time and Space",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-01.jpg",
-      "cost": 7,
-      "recruit": 0,
-      "attack": 0,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Covert"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Scarlet Witch",
-      "id": 20014,
-      "name": "Chaos Magic",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-02.jpg",
-      "cost": 4,
-      "recruit": 0,
-      "attack": 0,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Covert"
-      ],
-      "rules": []
-    }
-  ]
-},
-{
-  "hero": "Quicksilver",
-  "id": 3001,
-  "set": "Champions",
-  "team": [
-    "Avengers"
-  ],
-  "cards": [
-    {
-      "hero": "Quicksilver",
-      "id": 30011,
-      "name": "Around the World Punch",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-01.jpg",
-      "cost": 8,
-      "recruit": 0,
-      "attack": 0,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Punch"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Quicksilver",
-      "id": 30012,
-      "name": "Jittery Impatience",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-02.jpg",
-      "cost": 6,
-      "recruit": 2,
-      "attack": 2,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Instinct"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Quicksilver",
-      "id": 30013,
-      "name": "Perpetual Motion",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-03.jpg",
-      "cost": 4,
-      "recruit": 0,
-      "attack": 2,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Punch"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Quicksilver",
-      "id": 30014,
-      "name": "Too Fast to See",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-04.jpg",
-      "cost": 3,
-      "recruit": 0,
-      "attack": 0,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Instinct"
-      ],
-      "rules": []
-    }
-  ]
-},
-{
-  "hero": "Vision",
-  "id": 4001,
-  "set": "Champions",
-  "team": [
-    "Avengers"
-  ],
-  "cards": [
-    {
-      "hero": "Vision",
-      "id": 40011,
-      "name": "Insubstantial Accomplishments",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-01.jpg",
-      "cost": 7,
-      "recruit": 0,
-      "attack": 4,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Tech"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Vision",
-      "id": 40012,
-      "name": "Through Solid Objects",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-03.jpg",
-      "cost": 4,
-      "recruit": 2,
-      "attack": 0,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Tech"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Vision",
-      "id": 40013,
-      "name": "Solar Energy",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-04.jpg",
-      "cost": 3,
-      "recruit": 0,
-      "attack": 1,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Ranged"
-      ],
-      "rules": []
-    },
-    {
-      "hero": "Vision",
-      "id": 40014,
-      "name": "Lighter Than Air/Harder Than Diamond",
-      "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-02.jpg",
-      "cost": 6,
-      "recruit": 0,
-      "attack": 0,
-      "team": [
-        "Avengers"
-      ],
-      "class": [
-        "Ranged", "Tech"
-      ],
-      "rules": []
-    }
-  ]
-},
-    {
+  {
+    "hero": "Photon",
+    "id": 1001,
+    "set": "Champions",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
+        "hero": "Photon",
+        "id": 10011,
+        "name": "Ultraviolet Radiation",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-03.jpg",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 3,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Ranged"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Photon",
+        "id": 10012,
+        "name": "Infrared Conversion",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-04.jpg",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Ranged"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Photon",
+        "id": 10013,
+        "name": "Coruscating Vengeance",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-01.jpg",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 6,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Ranged"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Photon",
+        "id": 10014,
+        "name": "Light The Way",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-02.jpg",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 3,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": []
+      }
+    ]
+  },
+  {
+    "hero": "Scarlet Witch",
+    "id": 2001,
+    "set": "Champions",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
+        "hero": "Scarlet Witch",
+        "id": 20011,
+        "name": "Hex Bolt",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-03.jpg",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Ranged"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Scarlet Witch",
+        "id": 20012,
+        "name": "Alter Reality",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-04.jpg",
+        "cost": 3,
+        "recruit": 2,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Scarlet Witch",
+        "id": 20013,
+        "name": "Warp Time and Space",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-01.jpg",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Scarlet Witch",
+        "id": 20014,
+        "name": "Chaos Magic",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-02.jpg",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": []
+      }
+    ]
+  },
+  {
+    "hero": "Quicksilver",
+    "id": 3001,
+    "set": "Champions",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
+        "hero": "Quicksilver",
+        "id": 30011,
+        "name": "Around the World Punch",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-01.jpg",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Quicksilver",
+        "id": 30012,
+        "name": "Jittery Impatience",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-02.jpg",
+        "cost": 6,
+        "recruit": 2,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Quicksilver",
+        "id": 30013,
+        "name": "Perpetual Motion",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-03.jpg",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Quicksilver",
+        "id": 30014,
+        "name": "Too Fast to See",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-04.jpg",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": []
+      }
+    ]
+  },
+  {
+    "hero": "Vision",
+    "id": 4001,
+    "set": "Champions",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
+        "hero": "Vision",
+        "id": 40011,
+        "name": "Insubstantial Accomplishments",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-01.jpg",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 4,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Vision",
+        "id": 40012,
+        "name": "Through Solid Objects",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-03.jpg",
+        "cost": 4,
+        "recruit": 2,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Vision",
+        "id": 40013,
+        "name": "Solar Energy",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-04.jpg",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Ranged"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Vision",
+        "id": 40014,
+        "name": "Lighter Than Air/Harder Than Diamond",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-02.jpg",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Ranged",
+          "Tech"
+        ],
+        "rules": []
+      }
+    ]
+  },
+  {
+    "hero": "Silk",
+    "id": 512,
+    "set": "Secret Wars Vol. 2",
+    "team": [
+      "Spider-Friends"
+    ],
+    "cards": [
+      {
         "hero": "Silk",
-        "id": 512,
-        "set": "Secret Wars Vol. 2",
+        "id": 5121,
+        "name": "Borrowed Cloaking Device",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/silk-01.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 1,
         "team": [
-            "Spider-Friends"
+          "Spider-Friends"
         ],
-        "cards": [
-            {
-                "hero": "Silk",
-                "id": 5121,
-                "name": "Borrowed Cloaking Device",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/silk-01.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "Spider-Friends"
-                ],
-                "class": [
-                    "Tech"
-                ],
-                "rules": [
-                    12,
-                    10
-                ]
-            },
-            {
-                "hero": "Silk",
-                "id": 5122,
-                "name": "Silk Stalking",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/silk-02.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "Spider-Friends"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Silk",
-                "id": 5123,
-                "name": "Cascading Maneuver",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/silk-03.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "Spider-Friends"
-                ],
-                "class": [
-                    "Punch",
-                    "Instinct"
-                ],
-                "rules": [
-                    12,
-                    10
-                ]
-            },
-            {
-                "hero": "Silk",
-                "id": 5124,
-                "name": "Long-Range Spider-Sense",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/silk-04.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Spider-Friends"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [
-                    10
-                ]
-            }
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          12,
+          10
         ]
-    },
-    {
+      },
+      {
+        "hero": "Silk",
+        "id": 5122,
+        "name": "Silk Stalking",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/silk-02.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "Spider-Friends"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Silk",
+        "id": 5123,
+        "name": "Cascading Maneuver",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/silk-03.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "Spider-Friends"
+        ],
+        "class": [
+          "Punch",
+          "Instinct"
+        ],
+        "rules": [
+          12,
+          10
+        ]
+      },
+      {
+        "hero": "Silk",
+        "id": 5124,
+        "name": "Long-Range Spider-Sense",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/silk-04.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Spider-Friends"
+        ],
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "The Captain & The Devil",
+    "id": 515,
+    "set": "Secret Wars Vol. 2",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "The Captain & The Devil",
-        "id": 515,
-        "set": "Secret Wars Vol. 2",
-        "team": [
-            "Avengers"
+        "id": 5151,
+        "name": "Dino-Roar of Triumph",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-01.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 6,
+        "team": "Avengers",
+        "class": [
+          "Range"
         ],
-        "cards": [
-            {
-                "hero": "The Captain & The Devil",
-                "id": 5151,
-                "name": "Dino-Roar of Triumph",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-01.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 6,
-                "team": "Avengers",
-                "class": [
-                    "Range"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "The Captain & The Devil",
-                "id": 5152,
-                "name": "Feeding Grounds",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-02.jpg?w=700&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 3,
-                "team": "Avengers",
-                "class": [
-                    "Covert"
-                ],
-                "rules": [
-                    11
-                ]
-            },
-            {
-                "hero": "The Captain & The Devil",
-                "id": 5153,
-                "name": "Jurassic America",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-03.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 1,
-                "attack": 0,
-                "team": "Avengers",
-                "class": [
-                    "Punch",
-                    "Tech"
-                ],
-                "rules": [
-                    10
-                ]
-            },
-            {
-                "hero": "The Captain & The Devil",
-                "id": 5154,
-                "name": "Patriotic Chomp",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-04.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 2,
-                "team": "Avengers",
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [
-                    10
-                ]
-            }
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "The Captain & The Devil",
+        "id": 5152,
+        "name": "Feeding Grounds",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-02.jpg?w=700&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 3,
+        "team": "Avengers",
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          11
+        ]
+      },
+      {
+        "hero": "The Captain & The Devil",
+        "id": 5153,
+        "name": "Jurassic America",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-03.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 1,
+        "attack": 0,
+        "team": "Avengers",
+        "class": [
+          "Punch",
+          "Tech"
+        ],
+        "rules": [
+          10
+        ]
+      },
+      {
+        "hero": "The Captain & The Devil",
+        "id": 5154,
+        "name": "Patriotic Chomp",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-04.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 2,
+        "team": "Avengers",
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Lady Sif",
+    "id": 602,
+    "set": "Heroes of Asgard",
+    "team": [
+      "Asgardians"
+    ],
+    "cards": [
+      {
+        "id": 6021,
         "hero": "Lady Sif",
-        "id": 602,
-        "set": "Heroes of Asgard",
-        "team": [
-            "Asgardians"
+        "name": "Golden Apples of Idunn",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-01-1.jpg?w=555&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 0,
+        "team": "Asgardians",
+        "class": [
+          "Covert"
         ],
-        "cards": [
-            {
-                "id": 6021,
-                "hero": "Lady Sif",
-                "name": "Golden Apples of Idunn",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-01-1.jpg?w=555&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 0,
-                "team": "Asgardians",
-                "class": [
-                    "Covert"
-                ],
-                "rules": [
-                    16
-                ]
-            },
-            {
-                "id": 6022,
-                "hero": "Lady Sif",
-                "name": "Weapons Master",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-02-1.jpg?w=555&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 2,
-                "team": "Asgardians",
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            },
-            {
-                "id": 6023,
-                "hero": "Lady Sif",
-                "name": "Winged Helm",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-03-1.jpg?w=555&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 0,
-                "team": "Asgardians",
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    16
-                ]
-            },
-            {
-                "id": 6024,
-                "hero": "Lady Sif",
-                "name": "Dimensional Blade",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-04-1.jpg?w=555&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 0,
-                "team": "Asgardians",
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [
-                    16
-                ]
-            }
+        "rules": [
+          16
         ]
-    },
-    {
+      },
+      {
+        "id": 6022,
+        "hero": "Lady Sif",
+        "name": "Weapons Master",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-02-1.jpg?w=555&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 2,
+        "team": "Asgardians",
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "id": 6023,
+        "hero": "Lady Sif",
+        "name": "Winged Helm",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-03-1.jpg?w=555&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 0,
+        "team": "Asgardians",
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          16
+        ]
+      },
+      {
+        "id": 6024,
+        "hero": "Lady Sif",
+        "name": "Dimensional Blade",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-04-1.jpg?w=555&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 0,
+        "team": "Asgardians",
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Wiccan",
+    "id": 216,
+    "set": "Civil War",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Wiccan",
-        "id": 216,
-        "set": "Civil War",
+        "id": 2161,
+        "name": "Clairvoyance",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-01.jpg?w=700&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 3,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Wiccan",
-                "id": 2161,
-                "name": "Clairvoyance",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-01.jpg?w=700&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 3,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Wiccan",
-                "id": 2162,
-                "name": "Supersonic Spells/Supersonic Speed",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-02.jpg?w=1000&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Range",
-                    "Tech"
-                ],
-                "rules": [
-                    1
-                ]
-            },
-            {
-                "hero": "Wiccan",
-                "id": 2163,
-                "name": "Astral Projection",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-03.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [
-                    2
-                ]
-            },
-            {
-                "hero": "Wiccan",
-                "id": 2164,
-                "name": "Sorcerous Illusions",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-04.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 1,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [
-                    2
-                ]
-            }
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Wiccan",
+        "id": 2162,
+        "name": "Supersonic Spells/Supersonic Speed",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-02.jpg?w=1000&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Range",
+          "Tech"
+        ],
+        "rules": [
+          1
+        ]
+      },
+      {
+        "hero": "Wiccan",
+        "id": 2163,
+        "name": "Astral Projection",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-03.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          2
+        ]
+      },
+      {
+        "hero": "Wiccan",
+        "id": 2164,
+        "name": "Sorcerous Illusions",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-04.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 1,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Hulkling",
+    "id": 207,
+    "set": "Civil War",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Hulkling",
-        "id": 207,
-        "set": "Civil War",
+        "id": 2071,
+        "name": "Enormous Shapeshifter",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-01.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 4,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Hulkling",
-                "id": 2071,
-                "name": "Enormous Shapeshifter",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-01.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 4,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [
-                    0
-                ]
-            },
-            {
-                "hero": "Hulkling",
-                "id": 2072,
-                "name": "Impersonate",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-02.jpg?w=700&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [
-                    0
-                ]
-            },
-            {
-                "hero": "Hulkling",
-                "id": 2073,
-                "name": "Half-Kree/Half-Skrull",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-03.jpg?w=1000&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch",
-                    "Covert"
-                ],
-                "rules": [
-                    0,
-                    1
-                ]
-            },
-            {
-                "hero": "Hulkling",
-                "id": 2074,
-                "name": "Cellular Regeneration",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-04.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    0
-                ]
-            }
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          0
         ]
-    },
-    {
+      },
+      {
+        "hero": "Hulkling",
+        "id": 2072,
+        "name": "Impersonate",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-02.jpg?w=700&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          0
+        ]
+      },
+      {
+        "hero": "Hulkling",
+        "id": 2073,
+        "name": "Half-Kree/Half-Skrull",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-03.jpg?w=1000&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch",
+          "Covert"
+        ],
+        "rules": [
+          0,
+          1
+        ]
+      },
+      {
+        "hero": "Hulkling",
+        "id": 2074,
+        "name": "Cellular Regeneration",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-04.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Captain America, Secret Avenger",
+    "id": 201,
+    "set": "Civil War",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Captain America, Secret Avenger",
-        "id": 201,
-        "set": "Civil War",
+        "id": 2011,
+        "name": "Freedom Never Dies",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-01.jpg?w=700&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 5,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Captain America, Secret Avenger",
-                "id": 2011,
-                "name": "Freedom Never Dies",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-01.jpg?w=700&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 5,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Captain America, Secret Avenger",
-                "id": 2012,
-                "name": "Secret Avengers Assemble!",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-02.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Tech"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Captain America, Secret Avenger",
-                "id": 2013,
-                "name": "Bold Leadership",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-03.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Captain America, Secret Avenger",
-                "id": 2014,
-                "name": "Inspire A Nation/Inspire A Man",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-04.jpg?w=1000&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch",
-                    "Instinct"
-                ],
-                "rules": [
-                    1
-                ]
-            }
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Captain America, Secret Avenger",
+        "id": 2012,
+        "name": "Secret Avengers Assemble!",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-02.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Captain America, Secret Avenger",
+        "id": 2013,
+        "name": "Bold Leadership",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-03.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Captain America, Secret Avenger",
+        "id": 2014,
+        "name": "Inspire A Nation/Inspire A Man",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-04.jpg?w=1000&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch",
+          "Instinct"
+        ],
+        "rules": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Cloak & Dagger",
+    "id": 202,
+    "set": "Civil War",
+    "team": [
+      "Marvel Knights",
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Cloak & Dagger",
-        "id": 202,
-        "set": "Civil War",
+        "id": 2021,
+        "name": "Penumbra",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-01.jpg?w=700&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 4,
         "team": [
-            "Marvel Knights",
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Cloak & Dagger",
-                "id": 2021,
-                "name": "Penumbra",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-01.jpg?w=700&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 4,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Cloak & Dagger",
-                "id": 2022,
-                "name": "Darkness/Light",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-02.jpg?w=1000&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Marvel Knights",
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert",
-                    "Range"
-                ],
-                "rules": [
-                    1
-                ]
-            },
-            {
-                "hero": "Cloak & Dagger",
-                "id": 2023,
-                "name": "Above/Below",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-03.jpg?w=1000&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Marvel Knights",
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert",
-                    "Range"
-                ],
-                "rules": [
-                    1
-                ]
-            },
-            {
-                "hero": "Cloak & Dagger",
-                "id": 2024,
-                "name": "Flee/Fight",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-04.jpg?w=1000&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Marvel Knights",
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert",
-                    "Range"
-                ],
-                "rules": [
-                    1,
-                    2
-                ]
-            }
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Cloak & Dagger",
+        "id": 2022,
+        "name": "Darkness/Light",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-02.jpg?w=1000&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Marvel Knights",
+          "Avengers"
+        ],
+        "class": [
+          "Covert",
+          "Range"
+        ],
+        "rules": [
+          1
+        ]
+      },
+      {
+        "hero": "Cloak & Dagger",
+        "id": 2023,
+        "name": "Above/Below",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-03.jpg?w=1000&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Marvel Knights",
+          "Avengers"
+        ],
+        "class": [
+          "Covert",
+          "Range"
+        ],
+        "rules": [
+          1
+        ]
+      },
+      {
+        "hero": "Cloak & Dagger",
+        "id": 2024,
+        "name": "Flee/Fight",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-04.jpg?w=1000&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Marvel Knights",
+          "Avengers"
+        ],
+        "class": [
+          "Covert",
+          "Range"
+        ],
+        "rules": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Daredevil",
+    "id": 203,
+    "set": "Civil War",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Daredevil",
-        "id": 203,
-        "set": "Civil War",
+        "id": 2031,
+        "name": "Master of Martial Arts",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-01-1.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 4,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Daredevil",
-                "id": 2031,
-                "name": "Master of Martial Arts",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-01-1.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 4,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Daredevil",
-                "id": 2032,
-                "name": "Hidden Identity/Revealed Identity",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-02-1.jpg?w=1000&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers",
-                    "Marvel Knights"
-                ],
-                "class": [
-                    "Instinct",
-                    "Punch"
-                ],
-                "rules": [
-                    1
-                ]
-            },
-            {
-                "hero": "Daredevil",
-                "id": 2033,
-                "name": "Roundhouse Side Kick",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-03-1.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Daredevil",
-                "id": 2034,
-                "name": "Dual Existence",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-04-1.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Daredevil",
+        "id": 2032,
+        "name": "Hidden Identity/Revealed Identity",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-02-1.jpg?w=1000&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers",
+          "Marvel Knights"
+        ],
+        "class": [
+          "Instinct",
+          "Punch"
+        ],
+        "rules": [
+          1
+        ]
+      },
+      {
+        "hero": "Daredevil",
+        "id": 2033,
+        "name": "Roundhouse Side Kick",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-03-1.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Daredevil",
+        "id": 2034,
+        "name": "Dual Existence",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-04-1.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Falcon",
+    "id": 204,
+    "set": "Civil War",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Falcon",
-        "id": 204,
-        "set": "Civil War",
+        "id": 2041,
+        "name": "Fly In A Friend",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-01-1.jpg?w=555&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 4,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Falcon",
-                "id": 2041,
-                "name": "Fly In A Friend",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-01-1.jpg?w=555&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 4,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Falcon",
-                "id": 2042,
-                "name": "Scout the Battlefield",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-02-1.jpg?w=555&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Falcon",
-                "id": 2043,
-                "name": "Talk With Birds/Squawk Back",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-03-1.jpg?w=1050&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Range",
-                    "Instinct"
-                ],
-                "rules": [
-                    1
-                ]
-            },
-            {
-                "hero": "Falcon",
-                "id": 2044,
-                "name": "Rapid Reinforcements",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-04-1.jpg?w=555&h=",
-                "cost": 3,
-                "recruit": 2,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Tech"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Falcon",
+        "id": 2042,
+        "name": "Scout the Battlefield",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-02-1.jpg?w=555&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Falcon",
+        "id": 2043,
+        "name": "Talk With Birds/Squawk Back",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-03-1.jpg?w=1050&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Range",
+          "Instinct"
+        ],
+        "rules": [
+          1
+        ]
+      },
+      {
+        "hero": "Falcon",
+        "id": 2044,
+        "name": "Rapid Reinforcements",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-04-1.jpg?w=555&h=",
+        "cost": 3,
+        "recruit": 2,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Goliath",
+    "id": 205,
+    "set": "Civil War",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Goliath",
-        "id": 205,
-        "set": "Civil War",
+        "id": 2051,
+        "name": "Enormous Implications",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-01.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 0,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Goliath",
-                "id": 2051,
-                "name": "Enormous Implications",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-01.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    0
-                ]
-            },
-            {
-                "hero": "Goliath",
-                "id": 2052,
-                "name": "Being Big Is Best",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-02.jpg?w=700&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 3,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    0
-                ]
-            },
-            {
-                "hero": "Goliath",
-                "id": 2053,
-                "name": "Growth Industry",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-03.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Tech"
-                ],
-                "rules": [
-                    0
-                ]
-            },
-            {
-                "hero": "Goliath",
-                "id": 2054,
-                "name": "Brilliant Biochemist/Massive Warrior",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-04.jpg?w=1000&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Tech",
-                    "Punch"
-                ],
-                "rules": [
-                    1,
-                    0
-                ]
-            }
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          0
         ]
-    },
-    {
+      },
+      {
+        "hero": "Goliath",
+        "id": 2052,
+        "name": "Being Big Is Best",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-02.jpg?w=700&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 3,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          0
+        ]
+      },
+      {
+        "hero": "Goliath",
+        "id": 2053,
+        "name": "Growth Industry",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-03.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          0
+        ]
+      },
+      {
+        "hero": "Goliath",
+        "id": 2054,
+        "name": "Brilliant Biochemist/Massive Warrior",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-04.jpg?w=1000&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech",
+          "Punch"
+        ],
+        "rules": [
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Patriot",
+    "id": 209,
+    "set": "Civil War",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Patriot",
-        "id": 209,
-        "set": "Civil War",
+        "id": 2091,
+        "name": "Lead the Young Avengers",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-01.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 3,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Patriot",
-                "id": 2091,
-                "name": "Lead the Young Avengers",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-01.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 3,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Tech"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Patriot",
-                "id": 2092,
-                "name": "Incredible Effort/Effortless",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-02.jpg?w=1000&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert",
-                    "Tech"
-                ],
-                "rules": [
-                    1
-                ]
-            },
-            {
-                "hero": "Patriot",
-                "id": 2093,
-                "name": "Intuitive Tactician",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-03.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Patriot",
-                "id": 2094,
-                "name": "New Generation of Heroes",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-04.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Patriot",
+        "id": 2092,
+        "name": "Incredible Effort/Effortless",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-02.jpg?w=1000&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert",
+          "Tech"
+        ],
+        "rules": [
+          1
+        ]
+      },
+      {
+        "hero": "Patriot",
+        "id": 2093,
+        "name": "Intuitive Tactician",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-03.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Patriot",
+        "id": 2094,
+        "name": "New Generation of Heroes",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-04.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Stature",
+    "id": 212,
+    "set": "Civil War",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Stature",
-        "id": 212,
-        "set": "Civil War",
+        "id": 2121,
+        "name": "Trample the Tiny",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/stature-01.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 5,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Stature",
-                "id": 2121,
-                "name": "Trample the Tiny",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/stature-01.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 5,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    0
-                ]
-            },
-            {
-                "hero": "Stature",
-                "id": 2122,
-                "name": "Growing Confidence",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/stature-02.jpg?w=700&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    0
-                ]
-            },
-            {
-                "hero": "Stature",
-                "id": 2123,
-                "name": "Crush Ants/Crush File Sizes",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/stature-03.jpg?w=1000&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch",
-                    "Tech"
-                ],
-                "rules": [
-                    1,
-                    0
-                ]
-            },
-            {
-                "hero": "Stature",
-                "id": 2124,
-                "name": "Shrink to Nothing",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/stature-04.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Tech"
-                ],
-                "rules": [
-                    0
-                ]
-            }
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          0
         ]
-    },
-    {
+      },
+      {
+        "hero": "Stature",
+        "id": 2122,
+        "name": "Growing Confidence",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/stature-02.jpg?w=700&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          0
+        ]
+      },
+      {
+        "hero": "Stature",
+        "id": 2123,
+        "name": "Crush Ants/Crush File Sizes",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/stature-03.jpg?w=1000&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch",
+          "Tech"
+        ],
+        "rules": [
+          1,
+          0
+        ]
+      },
+      {
+        "hero": "Stature",
+        "id": 2124,
+        "name": "Shrink to Nothing",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/stature-04.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Rogue",
+    "id": 114,
+    "set": "Main",
+    "team": [
+      "X-Men"
+    ],
+    "cards": [
+      {
         "hero": "Rogue",
-        "id": 114,
-        "set": "Main",
+        "id": 1141,
+        "name": "Steal Abilities",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-01.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 4,
         "team": [
-            "X-Men"
+          "X-Men"
         ],
-        "cards": [
-            {
-                "hero": "Rogue",
-                "id": 1141,
-                "name": "Steal Abilities",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-01.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 4,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Rogue",
-                "id": 1142,
-                "name": "Copy Powers",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-02.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Rogue",
-                "id": 1143,
-                "name": "Borrowed Brawn",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-03.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Rogue",
-                "id": 1144,
-                "name": "Energy Drain",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-04.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 2,
-                "attack": 0,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Rogue",
+        "id": 1142,
+        "name": "Copy Powers",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-02.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Rogue",
+        "id": 1143,
+        "name": "Borrowed Brawn",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-03.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Rogue",
+        "id": 1144,
+        "name": "Energy Drain",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-04.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 2,
+        "attack": 0,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Wolverine",
+    "id": 118,
+    "set": "Main",
+    "team": [
+      "X-Men"
+    ],
+    "cards": [
+      {
         "hero": "Wolverine",
-        "id": 118,
-        "set": "Main",
+        "id": 1181,
+        "name": "Berserker Rage",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-01.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 0,
         "team": [
-            "X-Men"
+          "X-Men"
         ],
-        "cards": [
-            {
-                "hero": "Wolverine",
-                "id": 1181,
-                "name": "Berserker Rage",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-01.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Wolverine",
-                "id": 1182,
-                "name": "Frenzied Slashing",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-02.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Wolverine",
-                "id": 1183,
-                "name": "Keen Senses",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-04.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Wolverine",
-                "id": 1183,
-                "name": "Healing Factor",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-03.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Wolverine",
+        "id": 1182,
+        "name": "Frenzied Slashing",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-02.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Wolverine",
+        "id": 1183,
+        "name": "Keen Senses",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-04.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Wolverine",
+        "id": 1183,
+        "name": "Healing Factor",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-03.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Gambit",
+    "id": 109,
+    "set": "Main",
+    "team": [
+      "X-Men"
+    ],
+    "cards": [
+      {
         "hero": "Gambit",
-        "id": 109,
-        "set": "Main",
+        "id": 1091,
+        "name": "High Stakes Jackpot",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-01.jpg?w=700&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 4,
         "team": [
-            "X-Men"
+          "X-Men"
         ],
-        "cards": [
-            {
-                "hero": "Gambit",
-                "id": 1091,
-                "name": "High Stakes Jackpot",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-01.jpg?w=700&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 4,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Gambit",
-                "id": 1092,
-                "name": "Hypnotic Charm",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-02.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 2,
-                "attack": 0,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Gambit",
-                "id": 1093,
-                "name": "Card Shark",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-03.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Gambit",
-                "id": 1094,
-                "name": "Stack the Deck",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-04.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Gambit",
+        "id": 1092,
+        "name": "Hypnotic Charm",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-02.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 2,
+        "attack": 0,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Gambit",
+        "id": 1093,
+        "name": "Card Shark",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-03.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Gambit",
+        "id": 1094,
+        "name": "Stack the Deck",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-04.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Captain Britain",
+    "id": 505,
+    "set": "Secret Wars Vol. 2",
+    "team": [
+      "Illuminati"
+    ],
+    "cards": [
+      {
         "hero": "Captain Britain",
-        "id": 505,
-        "set": "Secret Wars Vol. 2",
+        "id": 5051,
+        "name": "Lead the Captain Britain Corps",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-01.jpg?w=700&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 0,
         "team": [
-            "Illuminati"
+          "Illuminati"
         ],
-        "cards": [
-            {
-                "hero": "Captain Britain",
-                "id": 5051,
-                "name": "Lead the Captain Britain Corps",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-01.jpg?w=700&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Illuminati"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Captain Britain",
-                "id": 5052,
-                "name": "Raise the Union Jack",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-02.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Illuminati"
-                ],
-                "class": [
-                    "Punch",
-                    "Covert"
-                ],
-                "rules": [
-                    11
-                ]
-            },
-            {
-                "hero": "Captain Britain",
-                "id": 5053,
-                "name": "Combined Strength",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-03.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Illuminati"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Captain Britain",
-                "id": 5054,
-                "name": "Transatlantic Savior",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-04.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Illuminati"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Captain Britain",
+        "id": 5052,
+        "name": "Raise the Union Jack",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-02.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Illuminati"
+        ],
+        "class": [
+          "Punch",
+          "Covert"
+        ],
+        "rules": [
+          11
+        ]
+      },
+      {
+        "hero": "Captain Britain",
+        "id": 5053,
+        "name": "Combined Strength",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-03.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Illuminati"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Captain Britain",
+        "id": 5054,
+        "name": "Transatlantic Savior",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-04.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Illuminati"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Elsa Bloodstone",
+    "id": 508,
+    "set": "Secret Wars Vol. 2",
+    "team": [
+      "SHIELD"
+    ],
+    "cards": [
+      {
         "hero": "Elsa Bloodstone",
-        "id": 508,
-        "set": "Secret Wars Vol. 2",
+        "id": 5081,
+        "name": "Prodigy of Ulysses Bloodstone",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-01.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 6,
         "team": [
-            "SHIELD"
+          "SHIELD"
         ],
-        "cards": [
-            {
-                "hero": "Elsa Bloodstone",
-                "id": 5081,
-                "name": "Prodigy of Ulysses Bloodstone",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-01.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 6,
-                "team": [
-                    "SHIELD"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    10
-                ]
-            },
-            {
-                "hero": "Elsa Bloodstone",
-                "id": 5082,
-                "name": "Defend the SHIELD Wall",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-02.jpg?w=700&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "SHIELD"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [
-                    12
-                ]
-            },
-            {
-                "hero": "Elsa Bloodstone",
-                "id": 5083,
-                "name": "Bloodstone Pendant",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-03.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 2,
-                "attack": 0,
-                "team": [
-                    "SHIELD"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [
-                    10
-                ]
-            },
-            {
-                "hero": "Elsa Bloodstone",
-                "id": 5084,
-                "name": "Monster Hunter",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-04.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "SHIELD"
-                ],
-                "class": [
-                    "Covert",
-                    "Tech"
-                ],
-                "rules": [
-                    11
-                ]
-            }
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          10
         ]
-    },
-    {
+      },
+      {
+        "hero": "Elsa Bloodstone",
+        "id": 5082,
+        "name": "Defend the SHIELD Wall",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-02.jpg?w=700&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "SHIELD"
+        ],
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          12
+        ]
+      },
+      {
+        "hero": "Elsa Bloodstone",
+        "id": 5083,
+        "name": "Bloodstone Pendant",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-03.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 2,
+        "attack": 0,
+        "team": [
+          "SHIELD"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          10
+        ]
+      },
+      {
+        "hero": "Elsa Bloodstone",
+        "id": 5084,
+        "name": "Monster Hunter",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-04.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "SHIELD"
+        ],
+        "class": [
+          "Covert",
+          "Tech"
+        ],
+        "rules": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Ruby Summers",
+    "id": 510,
+    "set": "Secret Wars Vol. 2",
+    "team": [
+      "X-Men"
+    ],
+    "cards": [
+      {
         "hero": "Ruby Summers",
-        "id": 510,
-        "set": "Secret Wars Vol. 2",
+        "id": 5101,
+        "name": "Extinction Blast",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-04.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 10,
         "team": [
-            "X-Men"
+          "X-Men"
         ],
-        "cards": [
-            {
-                "hero": "Ruby Summers",
-                "id": 5101,
-                "name": "Extinction Blast",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-04.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 10,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Ruby Summers",
-                "id": 5102,
-                "name": "Form of Solid Ruby",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-02.jpg?w=700&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 4,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Ruby Summers",
-                "id": 5103,
-                "name": "Guerrilla Warfare",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-03.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [
-                    9
-                ]
-            },
-            {
-                "hero": "Ruby Summers",
-                "id": 5104,
-                "name": "Heir to Legends",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-04.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 2,
-                "attack": 2,
-                "team": [
-                    "X-Men"
-                ],
-                "class": [
-                    "Punch",
-                    "Range"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Ruby Summers",
+        "id": 5102,
+        "name": "Form of Solid Ruby",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-02.jpg?w=700&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 4,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Ruby Summers",
+        "id": 5103,
+        "name": "Guerrilla Warfare",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-03.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          9
+        ]
+      },
+      {
+        "hero": "Ruby Summers",
+        "id": 5104,
+        "name": "Heir to Legends",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-04.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 2,
+        "attack": 2,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Punch",
+          "Range"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Spider-Gwen",
+    "id": 514,
+    "set": "Secret Wars Vol. 2",
+    "team": [
+      "Spider-Friends"
+    ],
+    "cards": [
+      {
         "hero": "Spider-Gwen",
-        "id": 514,
-        "set": "Secret Wars Vol. 2",
+        "id": 5141,
+        "name": "Intertwining Webs",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-01.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 0,
         "team": [
-            "Spider-Friends"
+          "Spider-Friends"
         ],
-        "cards": [
-            {
-                "hero": "Spider-Gwen",
-                "id": 5141,
-                "name": "Intertwining Webs",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-01.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Spider-Friends"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [
-                    12
-                ]
-            },
-            {
-                "hero": "Spider-Gwen",
-                "id": 5142,
-                "name": "First Adventure",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-02.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "Spider-Friends"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    12,
-                    11
-                ]
-            },
-            {
-                "hero": "Spider-Gwen",
-                "id": 5143,
-                "name": "Fateful Bridge",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-03.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Spider-Friends"
-                ],
-                "class": [
-                    "Instinct",
-                    "Tech"
-                ],
-                "rules": [
-                    11
-                ]
-            },
-            {
-                "hero": "Spider-Gwen",
-                "id": 5144,
-                "name": "Save the Day",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-04.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "Spider-Friends"
-                ],
-                "class": [
-                    "Tech"
-                ],
-                "rules": [
-                    11
-                ]
-            }
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          12
         ]
-    },
-    {
+      },
+      {
+        "hero": "Spider-Gwen",
+        "id": 5142,
+        "name": "First Adventure",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-02.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "Spider-Friends"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          12,
+          11
+        ]
+      },
+      {
+        "hero": "Spider-Gwen",
+        "id": 5143,
+        "name": "Fateful Bridge",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-03.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Spider-Friends"
+        ],
+        "class": [
+          "Instinct",
+          "Tech"
+        ],
+        "rules": [
+          11
+        ]
+      },
+      {
+        "hero": "Spider-Gwen",
+        "id": 5144,
+        "name": "Save the Day",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-04.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "Spider-Friends"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Captain Marvel, Agent of SHIELD",
+    "id": 401,
+    "set": "Revelations",
+    "team": [
+      "SHIELD"
+    ],
+    "cards": [
+      {
         "hero": "Captain Marvel, Agent of SHIELD",
-        "id": 401,
-        "set": "Revelations",
+        "id": 4011,
+        "name": "Higher, Further, Faster",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-01.jpg?w=700&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 0,
         "team": [
-            "SHIELD"
+          "SHIELD"
         ],
-        "cards": [
-            {
-                "hero": "Captain Marvel, Agent of SHIELD",
-                "id": 4011,
-                "name": "Higher, Further, Faster",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-01.jpg?w=700&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "SHIELD"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    6
-                ]
-            },
-            {
-                "hero": "Captain Marvel, Agent of SHIELD",
-                "id": 4012,
-                "name": "Dominate the Battlefield",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-02.jpg?w=700&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "SHIELD"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [
-                    6
-                ]
-            },
-            {
-                "hero": "Captain Marvel, Agent of SHIELD",
-                "id": 4013,
-                "name": "Radiant Blast",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-03.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "SHIELD"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Captain Marvel, Agent of SHIELD",
-                "id": 4014,
-                "name": "The Sword of SHIELD",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-04.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 2,
-                "attack": 0,
-                "team": [
-                    "SHIELD"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          6
         ]
-    },
-    {
+      },
+      {
+        "hero": "Captain Marvel, Agent of SHIELD",
+        "id": 4012,
+        "name": "Dominate the Battlefield",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-02.jpg?w=700&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "SHIELD"
+        ],
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          6
+        ]
+      },
+      {
+        "hero": "Captain Marvel, Agent of SHIELD",
+        "id": 4013,
+        "name": "Radiant Blast",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-03.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "SHIELD"
+        ],
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Captain Marvel, Agent of SHIELD",
+        "id": 4014,
+        "name": "The Sword of SHIELD",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-04.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 2,
+        "attack": 0,
+        "team": [
+          "SHIELD"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Hellcat",
+    "id": 403,
+    "set": "Revelations",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Hellcat",
-        "id": 403,
-        "set": "Revelations",
+        "id": 4031,
+        "name": "Second Chance at Life",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_01.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 6,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Hellcat",
-                "id": 4031,
-                "name": "Second Chance at Life",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_01.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 6,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Hellcat",
-                "id": 4032,
-                "name": "Demon Sight",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_02.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Hellcat",
-                "id": 4033,
-                "name": "Part-Time P.I.",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_03.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 2,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Hellcat",
-                "id": 4034,
-                "name": "Catlike Agility",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_04.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "Hellcat",
+        "id": 4032,
+        "name": "Demon Sight",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_02.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Hellcat",
+        "id": 4033,
+        "name": "Part-Time P.I.",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_03.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 2,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Hellcat",
+        "id": 4034,
+        "name": "Catlike Agility",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_04.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Speed",
+    "id": 408,
+    "set": "Revelations",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Speed",
-        "id": 408,
-        "set": "Revelations",
+        "id": 4081,
+        "name": "Break the Sound Barrier",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/speed_01.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 0,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Speed",
-                "id": 4081,
-                "name": "Break the Sound Barrier",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/speed_01.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [
-                    4
-                ]
-            },
-            {
-                "hero": "Speed",
-                "id": 4082,
-                "name": "Race to the Rescue",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/speed_02.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 3,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "Speed",
-                "id": 4083,
-                "name": "Accelerate",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/speed_03.jpg?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [
-                    4
-                ]
-            },
-            {
-                "hero": "Speed",
-                "id": 4084,
-                "name": "Speedy Delivery",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/speed_04.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 2,
-                "attack": 1,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          4
         ]
-    },
-    {
+      },
+      {
+        "hero": "Speed",
+        "id": 4082,
+        "name": "Race to the Rescue",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/speed_02.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 3,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "Speed",
+        "id": 4083,
+        "name": "Accelerate",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/speed_03.jpg?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          4
+        ]
+      },
+      {
+        "hero": "Speed",
+        "id": 4084,
+        "name": "Speedy Delivery",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/speed_04.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 2,
+        "attack": 1,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Jessica Jones",
+    "id": 302,
+    "set": "Dimensions",
+    "team": [
+      "Marvel Knights"
+    ],
+    "cards": [
+      {
         "hero": "Jessica Jones",
-        "id": 302,
-        "set": "Dimensions",
+        "id": 3021,
+        "name": "Uncover Hidden Evil",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_01.png?w=700&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 4,
         "team": [
-            "Marvel Knights"
+          "Marvel Knights"
         ],
-        "cards": [
-            {
-                "hero": "Jessica Jones",
-                "id": 3021,
-                "name": "Uncover Hidden Evil",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_01.png?w=700&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 4,
-                "team": [
-                    "Marvel Knights"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [
-                    8
-                ]
-            },
-            {
-                "hero": "Jessica Jones",
-                "id": 3022,
-                "name": "Crack the Case",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_02.png?w=700&h=",
-                "cost": 5,
-                "recruit": 3,
-                "attack": 0,
-                "team": [
-                    "Marvel Knights"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    7,
-                    8
-                ]
-            },
-            {
-                "hero": "Jessica Jones",
-                "id": 3023,
-                "name": "Alias Investigations",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_03.png?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "Marvel Knights"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [
-                    7,
-                    8
-                ]
-            },
-            {
-                "hero": "Jessica Jones",
-                "id": 3024,
-                "name": "Alter Ego",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_04.png?w=700&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Marvel Knights"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    7
-                ]
-            }
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          8
         ]
-    },
-    {
+      },
+      {
+        "hero": "Jessica Jones",
+        "id": 3022,
+        "name": "Crack the Case",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_02.png?w=700&h=",
+        "cost": 5,
+        "recruit": 3,
+        "attack": 0,
+        "team": [
+          "Marvel Knights"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          7,
+          8
+        ]
+      },
+      {
+        "hero": "Jessica Jones",
+        "id": 3023,
+        "name": "Alias Investigations",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_03.png?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "Marvel Knights"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          7,
+          8
+        ]
+      },
+      {
+        "hero": "Jessica Jones",
+        "id": 3024,
+        "name": "Alter Ego",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_04.png?w=700&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Marvel Knights"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "America Chavez",
+    "id": 304,
+    "set": "Dimensions",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "America Chavez",
-        "id": 304,
-        "set": "Dimensions",
+        "id": 3041,
+        "name": "Hyper-Cosmic Awareness",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_01.png?w=700&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 0,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "America Chavez",
-                "id": 3041,
-                "name": "Hyper-Cosmic Awareness",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_01.png?w=700&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "America Chavez",
-                "id": 3042,
-                "name": "Kick a Hole in Reality",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_02.png?w=700&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 3,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    9
-                ]
-            },
-            {
-                "hero": "America Chavez",
-                "id": 3043,
-                "name": "Search Parallel Dimensions",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_03.png?w=700&h=",
-                "cost": 4,
-                "recruit": 2,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Range"
-                ],
-                "rules": [
-                    8,
-                    9
-                ]
-            },
-            {
-                "hero": "America Chavez",
-                "id": 3044,
-                "name": "Star Power",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_04.png?w=700&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [
-                    9
-                ]
-            }
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
         ]
-    },
-    {
+      },
+      {
+        "hero": "America Chavez",
+        "id": 3042,
+        "name": "Kick a Hole in Reality",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_02.png?w=700&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 3,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          9
+        ]
+      },
+      {
+        "hero": "America Chavez",
+        "id": 3043,
+        "name": "Search Parallel Dimensions",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_03.png?w=700&h=",
+        "cost": 4,
+        "recruit": 2,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          8,
+          9
+        ]
+      },
+      {
+        "hero": "America Chavez",
+        "id": 3044,
+        "name": "Star Power",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_04.png?w=700&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Squirrel Girl",
+    "id": 305,
+    "set": "Dimensions",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
         "hero": "Squirrel Girl",
-        "id": 305,
-        "set": "Dimensions",
+        "id": 3051,
+        "name": "Unbeatable Squirrel Girl",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_01.png?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 5,
         "team": [
-            "Avengers"
+          "Avengers"
         ],
-        "cards": [
-            {
-                "hero": "Squirrel Girl",
-                "id": 3051,
-                "name": "Unbeatable Squirrel Girl",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_01.png?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 5,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [
-                    7
-                ]
-            },
-            {
-                "hero": "Squirrel Girl",
-                "id": 3052,
-                "name": "Squirrelgility",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_02.png?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [
-                    7
-                ]
-            },
-            {
-                "hero": "Squirrel Girl",
-                "id": 3053,
-                "name": "Nut Punch",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_03.png?w=700&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 1,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [
-                    7
-                ]
-            },
-            {
-                "hero": "Squirrel Girl",
-                "id": 3054,
-                "name": "Find Tiny Friends",
-                "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_04.png?w=700&h=",
-                "cost": 2,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Avengers"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [
-                    7,
-                    8
-                ]
-            }
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          7
         ]
-    },
-    {
+      },
+      {
+        "hero": "Squirrel Girl",
+        "id": 3052,
+        "name": "Squirrelgility",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_02.png?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          7
+        ]
+      },
+      {
+        "hero": "Squirrel Girl",
+        "id": 3053,
+        "name": "Nut Punch",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_03.png?w=700&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 1,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          7
+        ]
+      },
+      {
+        "hero": "Squirrel Girl",
+        "id": 3054,
+        "name": "Find Tiny Friends",
+        "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_04.png?w=700&h=",
+        "cost": 2,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Valkyrie",
+    "id": 604,
+    "set": "Heroes of Asgard",
+    "team": [
+      "Asgardians"
+    ],
+    "cards": [
+      {
         "hero": "Valkyrie",
-        "id": 604,
-        "set": "Heroes of Asgard",
+        "id": 6041,
+        "name": "Ride of the Valkyries",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-01-1.jpg?w=700&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 4,
         "team": [
-            "Asgardians"
+          "Asgardians"
         ],
-        "cards": [
-            {
-                "hero": "Valkyrie",
-                "id": 6041,
-                "name": "Ride of the Valkyries",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-01-1.jpg?w=700&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 4,
-                "team": [
-                    "Asgardians"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [15]
-            },
-            {
-                "hero": "Valkyrie",
-                "id": 6042,
-                "name": "Usher to Valhalla",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-02-1.jpg?w=700&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Asgardians"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [15]
-            },
-            {
-                "hero": "Valkyrie",
-                "id": 6043,
-                "name": "Flying Stallion",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-03-1.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Asgardians"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [15]
-            },
-            {
-                "hero": "Valkyrie",
-                "id": 6044,
-                "name": "Dragonfang",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-04-1.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 0,
-                "team": [
-                    "Asgardians"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [15,16]
-            }
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          15
         ]
-    },
-    {
+      },
+      {
+        "hero": "Valkyrie",
+        "id": 6042,
+        "name": "Usher to Valhalla",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-02-1.jpg?w=700&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Asgardians"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          15
+        ]
+      },
+      {
+        "hero": "Valkyrie",
+        "id": 6043,
+        "name": "Flying Stallion",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-03-1.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Asgardians"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          15
+        ]
+      },
+      {
+        "hero": "Valkyrie",
+        "id": 6044,
+        "name": "Dragonfang",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-04-1.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 0,
+        "team": [
+          "Asgardians"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          15,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "The Warriors Three",
+    "id": 605,
+    "set": "Heroes of Asgard",
+    "team": [
+      "Asgardians"
+    ],
+    "cards": [
+      {
         "hero": "The Warriors Three",
-        "id": 605,
-        "set": "Heroes of Asgard",
+        "id": 6051,
+        "name": "Three Stand As One",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-01-1.jpg?w=700&h=",
+        "cost": 8,
+        "recruit": 0,
+        "attack": 4,
         "team": [
-            "Asgardians"
+          "Asgardians"
         ],
-        "cards": [
-            {
-                "hero": "The Warriors Three",
-                "id": 6051,
-                "name": "Three Stand As One",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-01-1.jpg?w=700&h=",
-                "cost": 8,
-                "recruit": 0,
-                "attack": 4,
-                "team": [
-                    "Asgardians"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [15]
-            },
-            {
-                "hero": "The Warriors Three",
-                "id": 6052,
-                "name": "Volstagg the Valiant",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-02-1.jpg?w=700&h=",
-                "cost": 6,
-                "recruit": 0,
-                "attack": 3,
-                "team": [
-                    "Asgardians"
-                ],
-                "class": [
-                    "Punch"
-                ],
-                "rules": [15]
-            },
-            {
-                "hero": "The Warriors Three",
-                "id": 6053,
-                "name": "Hogun the Grim",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-03-1.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 2,
-                "attack": 0,
-                "team": [
-                    "Asgardians"
-                ],
-                "class": [
-                    "Covert"
-                ],
-                "rules": [""]
-            },
-            {
-                "hero": "The Warriors Three",
-                "id": 6054,
-                "name": "Fandral the Dashing",
-                "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-04-1.jpg?w=700&h=",
-                "cost": 3,
-                "recruit": 0,
-                "attack": 2,
-                "team": [
-                    "Asgardians"
-                ],
-                "class": [
-                    "Instinct"
-                ],
-                "rules": [""]
-            }
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          15
         ]
-    },
-    {
+      },
+      {
+        "hero": "The Warriors Three",
+        "id": 6052,
+        "name": "Volstagg the Valiant",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-02-1.jpg?w=700&h=",
+        "cost": 6,
+        "recruit": 0,
+        "attack": 3,
+        "team": [
+          "Asgardians"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          15
+        ]
+      },
+      {
+        "hero": "The Warriors Three",
+        "id": 6053,
+        "name": "Hogun the Grim",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-03-1.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 2,
+        "attack": 0,
+        "team": [
+          "Asgardians"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "hero": "The Warriors Three",
+        "id": 6054,
+        "name": "Fandral the Dashing",
+        "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-04-1.jpg?w=700&h=",
+        "cost": 3,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "Asgardians"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "X-Men '92",
+    "id": 517,
+    "set": "Secret Wars Vol. 2",
+    "team": [
+      "X-Men"
+    ],
+    "cards": [
+      {
         "hero": "X-Men '92",
-        "id": 517,
-        "set": "Secret Wars Vol. 2",
-        "team": ["X-Men"],
-        "cards": [
-            {
-                "hero": "X-Men '92",
-                "id": 5171,
-                "name": "'92 Beast",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-01.jpg?w=700&h=",
-                "cost": 5,
-                "recruit": 0,
-                "attack": 2,
-                "team": ["X-Men"],
-                "class": ["Punch"],
-                "rules": [17]
-            },
-            {
-                "hero": "X-Men '92",
-                "id":5172,
-                "name": "'92 Jubilee",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-02.jpg?w=700&h=",
-                "cost": 4,
-                "recruit": 0,
-                "attack": 2,
-                "team": ["X-Men"],
-                "class": ["Range"],
-                "rules": [17,10]
-            },
-            {
-                "hero": "X-Men '92",
-                "id":5173,
-                "name": "'92 Wolverine",
-                "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-04.jpg?w=700&h=",
-                "cost": 7,
-                "recruit": 0,
-                "attack": 2,
-                "team": ["X-Men"],
-                "class": ["Instinct"],
-                "rules": [17]
-            }
+        "id": 5171,
+        "name": "'92 Beast",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-01.jpg?w=700&h=",
+        "cost": 5,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          17
         ]
-    }
+      },
+      {
+        "hero": "X-Men '92",
+        "id": 5172,
+        "name": "'92 Jubilee",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-02.jpg?w=700&h=",
+        "cost": 4,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Range"
+        ],
+        "rules": [
+          17,
+          10
+        ]
+      },
+      {
+        "hero": "X-Men '92",
+        "id": 5173,
+        "name": "'92 Wolverine",
+        "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-04.jpg?w=700&h=",
+        "cost": 7,
+        "recruit": 0,
+        "attack": 2,
+        "team": [
+          "X-Men"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": [
+          17
+        ]
+      }
+    ]
+  }
 ]
