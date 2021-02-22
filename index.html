@@ -1,295 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Marvel Legendary Virtu-Deck</title>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
 
-    <!-- Link to CSS -->
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <title>Marvel Legendary Virtu-Deck</title>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="./favicon.ico" type="image/x-icon" />
 
-    <!-- Fonts! -->
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
-      <header class="flex flex-center">
-        <h1 class="title-font">Virtual Marvel Legendary Deck</h1>
-      </header>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
 
-      <div id="buttons" class="flex flex-wrap flex-center">
-        <button
-          id="draw-card-btn"
-          class="btn waves-effect waves-light green lighten-2 m-10"
-        >
-          Draw Card
-        </button>
-        <button
-          id="draw-hand-btn"
-          class="btn waves-effect waves-light green lighten-2 m-10"
-        >
-          Draw Hand
-        </button>
-        <button
-          id="discard-card-btn"
-          class="btn waves-effect waves-light red lighten-1 m-10"
-        >
-          Discard Card
-        </button>
-        <button
-          id="discard-hand-btn"
-          class="btn waves-effect waves-light red lighten-1 m-10"
-        >
-          Discard Hand
-        </button>
-        <button
-          id="view-hand-card"
-          class="btn waves-effect waves-light red lighten-1 m-10 modal-trigger"
-          data-target="hand-modal"
-        >
-          View Card
-        </button>
-        <button
-          id="put-back"
-          class="btn waves-effect waves-light red lighten-1 m-10"
-        >
-          Put on Top of Deck
-        </button>
+  <!-- Fonts! -->
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
 
-        <button
-          id="bottom-deck"
-          class="btn waves-effect waves-light waves-effect waves-light red lighten-1 m-10"
-        >
-          Put on Bottom of Deck
-        </button>
-        <button
-          id="replenish-deck"
-          class="btn waves-effect waves-light blue lighten-1 m-10"
-        >
-          Replenish Deck
-        </button>
+<body>
+  <div class="container">
+    <header class="flex flex-center">
+      <h1 class="title-font">Virtual Marvel Legendary Deck</h1>
+    </header>
+
+    <!-- buttons for Hand -->
+    <div id="buttons" class="flex flex-wrap flex-center">
+      <button id="draw-card-btn" class="btn waves-effect waves-light green lighten-2 m-10">
+        Draw Card
+      </button>
+      <button id="draw-hand-btn" class="btn waves-effect waves-light green lighten-2 m-10">
+        Draw Hand
+      </button>
+      <button id="discard-card-btn" class="btn waves-effect waves-light red lighten-1 m-10">
+        Discard Card
+      </button>
+      <button id="discard-hand-btn" class="btn waves-effect waves-light red lighten-1 m-10">
+        Discard Hand
+      </button>
+      <button id="view-hand-card" class="btn waves-effect waves-light red lighten-1 m-10 modal-trigger"
+        data-target="hand-modal">
+        View Card
+      </button>
+      <button id="put-back" class="btn waves-effect waves-light red lighten-1 m-10">
+        Put on Top of Deck
+      </button>
+
+      <button id="bottom-deck" class="btn waves-effect waves-light waves-effect waves-light red lighten-1 m-10">
+        Put on Bottom of Deck
+      </button>
+      <button id="replenish-deck" class="btn waves-effect waves-light blue lighten-1 m-10">
+        Replenish Deck
+      </button>
+      <div id="hyperspeed-div" class="white-back">
+        <button id="hyperspeed-btn" class="btn waves-effect waves-light orange lighten-1 m-10">Hyperspeed</button>
+        <input type="number" id="hyperspeed-num" name="hyperspeed-num" min="0" max="10" value="0" />
+        <p class="m-10">Rec: <span id="hyp-rec"></span></p>
+        <p class="m-10">Att: <span id="hyp-att"></span></p>
       </div>
-      <div id="hand-data" class="row m-10 white-back">
-        <div class="col s2 flex flex-center">
-          <span class="font-bold">Base Recruit:</span> &nbsp;<span
-            id="base-recruit"
-          ></span>
-        </div>
-        <div class="col s2 flex flex-center">
-          <span class="font-bold">Base Attack:</span> &nbsp;<span
-            id="base-attack"
-          ></span>
-        </div>
-        <div class="col s4 flex flex-center">
-          <span class="font-bold">Teams:</span> &nbsp;<span
-            id="base-teams"
-          ></span>
-        </div>
-        <div class="col s4 flex flex-center">
-          <span class="font-bold">Classes:</span> &nbsp;<span
-            id="base-classes"
-          ></span>
-        </div>
+    </div>
+    <!-- basic hand info -->
+    <div id="hand-data" class="row m-10 white-back">
+      <div class="col s2 flex flex-center">
+        <span class="font-bold">Base Recruit:</span> &nbsp;<span id="base-recruit"></span>
       </div>
-      <div id="hand" class="flex flex-wrap "></div>
-      <div id="hand-modal" class="modal">
-        <div class="modal-content flex-flex-center">
-          <div
-            id="hand-modal-content"
-            class="flex flex-center"
-            style="flex-direction: column"
-          ></div>
-        </div>
-        <div class="modal-footer">
-          <button
-            class="btn red lighten-1 m-10 modal-close waves-effect waves-purple"
-          >
-            Close
-          </button>
-        </div>
+      <div class="col s2 flex flex-center">
+        <span class="font-bold">Base Attack:</span> &nbsp;<span id="base-attack"></span>
       </div>
-      <div class="row">
-        <div id="discard" class="collapsible expandable">
-          <li class="hidden-list">
-            <div class="collapsible-header">
-              Deck: &nbsp;<span id="deck-num"></span>&nbsp; cards
-            </div>
-          </li>
-          <li class="hidden-list">
-            <div class="collapsible-header">
-              Discard Pile: &nbsp;<span id="disc-num"> 0 </span>&nbsp; cards
-            </div>
-            <div class="collapsible-body white-back">
-              <button
-                id="back-in-hand"
-                class="btn waves-effect waves-light blue lighten-1 m-10"
-              >
-                Put Back in Hand
-              </button>
-              <button
-                id="ko-card-btn"
-                class="btn waves-effect waves-light grey lighten-1 m-10"
-              >
-                KO Card
-              </button>
-              <div id="discard-pile"></div>
-            </div>
-          </li>
-          <li class="hidden-list">
-            <div class="collapsible-header">HQ Cards</div>
-            <div class="collapsible-body white-back">
-              <button
-                id="view-card"
-                class="btn waves-effect waves-light deep-purple lighten-2 m-10 modal-trigger"
-                data-target="hq-modal"
-              >
-                View Card
-              </button>
-              <button
-                id="add-discard"
-                class="btn waves-effect waves-light deep-purple lighten-2 m-10"
-              >
-                Add to Discard
-              </button>
-              <button
-                id="add-top-card"
-                class="btn waves-effect waves-light deep-purple lighten-2 m-10"
-              >
-                Add to Top of Deck
-              </button>
-              <button
-                id="remove-hero"
-                class="btn waves-effect waves-light orange lighten-2 m-10"
-              >
-                Remove Hero
-              </button>
-              <button
-                id="toggle-bold"
-                class="btn waves-effect waves-light deep-purple lighten-2 m-10"
-              >
-                Toggle Bold
-              </button>
-              <button id="view-hq-cards" class="btn waves-effect waves-light deep-purple lighten-2 m-10 modal-trigger" data-target="hq-full-modal">View HQ Cards</button>
-              <div id="hq-cards"></div>
-              <div id="hq-modal" class="modal">
-                <div class="modal-content flex-flex-center">
-                  <div
-                    id="hq-modal-content"
-                    class="flex flex-center"
-                    style="flex-direction: column"
-                  ></div>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    class="btn deep-purple lighten-2 m-10 modal-close waves-effect waves-purple"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
-              <div id="hq-full-modal" class="modal modal-fixed-footer">
-                <div id="hq-full-modal-content" class="modal-content flex flex-wrap flex-center">
-
-                </div>
-                <div class="modal-footer">
-                  <button class="btn deep-purple lighten-2 m-10 modal-close waves-effect waves-purple">Close</button>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="hidden-list">
-            <div class="collapsible-header">All Heroes</div>
-            <div class="collapsible-body white-back">
-              <button
-                id="add-hero-btn"
-                class="btn m-10 orange lighten-1 waves-effect waves-light"
-              >
-                Add Hero
-              </button>
-              <button
-                id="sort-by-name"
-                class="btn m-10 orange lighten-1 waves-effect waves-light"
-              >
-                Sort By Name
-              </button>
-              <button
-                id="sort-by-set"
-                class="btn m-10 orange lighten-1 waves-effect waves-light"
-              >
-                Sort By Set
-              </button>
-              <button
-                id="sort-by-team"
-                class="btn m-10 orange lighten-1 waves-effect waves-light"
-              >
-                Sort By Team
-              </button>
-              <div id="all-heroes"></div>
-            </div>
-          </li>
-          <li class="hidden-list">
-            <div class="collapsible-header">Button Color Guide</div>
-            <div class="collapsible-body white-back">
-              <div class="flex row">
-                <button
-                  class="btn waves-effect waves-light green lighten-2 m-10"
-                ></button>
-                <p>Green buttons draw cards from your deck.</p>
-              </div>
-              <div class="flex row">
-                <button
-                  class="btn waves-effect waves-light red lighten-1 m-10"
-                ></button>
-                <p>
-                  Red buttons only work if you select a card from your hand.
-                </p>
-              </div>
-              <div class="flex row">
-                <button
-                  class="btn waves-effect waves-light blue lighten-1 m-10"
-                ></button>
-                <p>
-                  Blue buttons deal with cards from your discard pile. 
-                </p>
-              </div>
-              <div class="flex row">
-                <button
-                  class="btn waves-effect waves-light grey lighten-1 m-10"
-                ></button>
-                <p>
-                  KO card button also deals with your discard pile, but it's a different color so you don't accidentally hit it.
-                </p>
-              </div>
-              <div class="flex row">
-                <button
-                  class="btn waves-effect waves-light deep-purple lighten-2 m-10"
-                ></button>
-                <p>Purple buttons deal with cards in the HQ.</p>
-              </div>
-              <div class="flex row">
-                <button
-                  class="btn waves-effect waves-light orange lighten-1 m-10"
-                ></button>
-                <p>Orange buttons add or remove Heroes for your specific game.</p>
-              </div>
-            </div>
-          </li>
-          <li class="hidden-list">
-            <div class="collapsible-header">Special Rules</div>
-            <div class="collapsible-body white-back" id="rules-go-here"></div>
-          </li>
-        </div>
+      <div class="col s4 flex flex-center">
+        <span class="font-bold">Teams:</span> &nbsp;<span id="base-teams"></span>
+      </div>
+      <div class="col s4 flex flex-center">
+        <span class="font-bold">Classes:</span> &nbsp;<span id="base-classes"></span>
+      </div>
+    </div>
+    <!-- hand -->
+    <div id="hand" class="flex flex-wrap "></div>
+    <!-- hand modal (view big card)-->
+    <div id="hand-modal" class="modal">
+      <div class="modal-content flex-flex-center">
+        <div id="hand-modal-content" class="flex flex-center" style="flex-direction: column"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn red lighten-1 m-10 modal-close waves-effect waves-purple">
+          Close
+        </button>
       </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="assets/app.js"></script>
-  </body>
+    <!-- All of the collapsibles -->
+    <div class="row">
+      <div id="discard" class="collapsible expandable">
+        <!-- Deck (can't open cause you can't view your deck in the game) -->
+        <li class="hidden-list">
+          <div class="collapsible-header">
+            Deck: &nbsp;<span id="deck-num"></span>&nbsp; cards
+          </div>
+        </li>
+        <!-- Discard Pile -->
+        <li class="hidden-list">
+          <div class="collapsible-header">
+            Discard Pile: &nbsp;<span id="disc-num"> 0 </span>&nbsp; cards
+          </div>
+          <div class="collapsible-body white-back">
+            <button id="back-in-hand" class="btn waves-effect waves-light blue lighten-1 m-10">
+              Put Back in Hand
+            </button>
+            <!-- VIEW CARD BUTTON NEEDS WORK -->
+            <button id="view-hand-card" class="btn waves-effect waves-light red lighten-1 m-10 modal-trigger"
+              data-target="hand-modal">View Card (WIP)</button>
+            <button id="ko-card-btn" class="btn waves-effect waves-light grey lighten-1 m-10">
+              KO Card
+            </button>
+            <div id="discard-pile"></div>
+          </div>
+        </li>
+        <li class="hidden-list">
+          <div class="collapsible-header">HQ Cards</div>
+          <div class="collapsible-body white-back">
+            <button id="view-card" class="btn waves-effect waves-light deep-purple lighten-2 m-10 modal-trigger"
+              data-target="hq-modal">
+              View Card
+            </button>
+            <button id="add-discard" class="btn waves-effect waves-light deep-purple lighten-2 m-10">
+              Add to Discard
+            </button>
+            <button id="add-top-card" class="btn waves-effect waves-light deep-purple lighten-2 m-10">
+              Add to Top of Deck
+            </button>
+            <button id="remove-hero" class="btn waves-effect waves-light orange lighten-2 m-10">
+              Remove Hero
+            </button>
+            <button class="toggle-bold btn waves-effect waves-light deep-purple lighten-2 m-10">
+              Toggle Card
+            </button>
+            <button id="view-hq-cards" class="btn waves-effect waves-light deep-purple lighten-2 m-10 modal-trigger"
+              data-target="hq-full-modal">View HQ Cards</button>
+              <!-- Where HQ Cards Hide -->
+            <div id="hq-cards"></div>
+            <div id="hq-modal" class="modal">
+              <div class="modal-content flex-flex-center">
+                <div id="hq-modal-content" class="flex flex-center" style="flex-direction: column"></div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn deep-purple lighten-2 m-10 modal-close waves-effect waves-purple">
+                  Close
+                </button>
+              </div>
+            </div>
+            <div id="hq-full-modal" class="modal modal-fixed-footer">
+              <div id="hq-full-modal-content" class="modal-content flex flex-wrap flex-center">
+
+              </div>
+              <div class="modal-footer">
+                <button class="btn deep-purple lighten-2 m-10 modal-close waves-effect waves-purple">Close</button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="hidden-list">
+          <div class="collapsible-header">All Heroes</div>
+          <div class="collapsible-body white-back">
+            <button id="add-hero-btn" class="btn m-10 orange lighten-1 waves-effect waves-light">
+              Add Hero
+            </button>
+            <button id="sort-by-name" class="btn m-10 orange lighten-1 waves-effect waves-light">
+              Sort By Name
+            </button>
+            <button id="sort-by-set" class="btn m-10 orange lighten-1 waves-effect waves-light">
+              Sort By Set
+            </button>
+            <button id="sort-by-team" class="btn m-10 orange lighten-1 waves-effect waves-light">
+              Sort By Team
+            </button>
+            <div id="all-heroes"></div>
+          </div>
+        </li>
+        <li class="hidden-list">
+          <div class="collapsible-header">Button Color Guide</div>
+          <div class="collapsible-body white-back">
+            <div class="flex row">
+              <button class="btn waves-effect waves-light green lighten-2 m-10"></button>
+              <p>Green buttons draw cards from your deck.</p>
+            </div>
+            <div class="flex row">
+              <button class="btn waves-effect waves-light red lighten-1 m-10"></button>
+              <p>
+                Red buttons only work if you select a card from your hand.
+              </p>
+            </div>
+            <div class="flex row">
+              <button class="btn waves-effect waves-light blue lighten-1 m-10"></button>
+              <p>
+                Blue buttons deal with cards from your discard pile.
+              </p>
+            </div>
+            <div class="flex row">
+              <button class="btn waves-effect waves-light grey lighten-1 m-10"></button>
+              <p>
+                KO card button also deals with your discard pile, but it's a different color so you don't accidentally
+                hit it.
+              </p>
+            </div>
+            <div class="flex row">
+              <button class="btn waves-effect waves-light deep-purple lighten-2 m-10"></button>
+              <p>Purple buttons deal with cards in the HQ.</p>
+            </div>
+            <div class="flex row">
+              <button class="btn waves-effect waves-light orange lighten-1 m-10"></button>
+              <p>Orange buttons add or remove Heroes for your specific game.</p>
+            </div>
+          </div>
+        </li>
+        <li class="hidden-list">
+          <div class="collapsible-header">Special Rules</div>
+          <div class="collapsible-body white-back" id="rules-go-here"></div>
+        </li>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+
 </html>
