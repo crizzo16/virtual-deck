@@ -14,6 +14,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-03.jpg",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 3,
         "team": [
           "Avengers"
@@ -30,6 +32,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-04.jpg",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
@@ -46,6 +50,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-01.jpg",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 6,
         "team": [
           "Avengers"
@@ -62,6 +68,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-02.jpg",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 3,
         "team": [
           "Avengers"
@@ -88,6 +96,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-03.jpg",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Avengers"
@@ -104,6 +114,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-04.jpg",
         "cost": 3,
         "recruit": 2,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -120,6 +132,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-01.jpg",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -136,6 +150,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-02.jpg",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -162,6 +178,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-01.jpg",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -178,6 +196,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-02.jpg",
         "cost": 6,
         "recruit": 2,
+        "rec": true,
+        "att": true,
         "attack": 2,
         "team": [
           "Avengers"
@@ -194,6 +214,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-03.jpg",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Avengers"
@@ -210,6 +232,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-04.jpg",
         "cost": 3,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -236,6 +260,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-01.jpg",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 4,
         "team": [
           "Avengers"
@@ -252,6 +278,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-03.jpg",
         "cost": 4,
         "recruit": 2,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
@@ -268,6 +296,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-04.jpg",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Avengers"
@@ -284,6 +314,8 @@
         "img": "https://marveldbg.com/wp-content/uploads/2019/09/vision-02.jpg",
         "cost": 6,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -311,6 +343,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/silk-01.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Spider-Friends"
@@ -330,6 +364,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/silk-02.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Spider-Friends"
@@ -348,6 +384,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/silk-03.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Spider-Friends"
@@ -368,6 +406,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/silk-04.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Spider-Friends"
@@ -396,6 +436,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-01.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 6,
         "team": "Avengers",
         "class": [
@@ -412,6 +454,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-02.jpg?w=700&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 3,
         "team": "Avengers",
         "class": [
@@ -428,6 +472,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-03.jpg?w=700&h=",
         "cost": 2,
         "recruit": 1,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": "Avengers",
         "class": [
@@ -445,6 +491,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-and-the-devil-04.jpg?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": "Avengers",
         "class": [
@@ -471,6 +519,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-01-1.jpg?w=555&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": "Asgardians",
         "class": [
@@ -487,6 +537,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-02-1.jpg?w=555&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": "Asgardians",
         "class": [
@@ -503,6 +555,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-03-1.jpg?w=555&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": "Asgardians",
         "class": [
@@ -519,6 +573,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/lady-sif-04-1.jpg?w=555&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": "Asgardians",
         "class": [
@@ -545,6 +601,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-01.jpg?w=700&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 3,
         "team": [
           "Avengers"
@@ -563,6 +621,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-02.jpg?w=1000&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -582,6 +642,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-03.jpg?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Avengers"
@@ -600,6 +662,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/wiccan-04.jpg?w=700&h=",
         "cost": 2,
         "recruit": 1,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
@@ -628,6 +692,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-01.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 4,
         "team": [
           "Avengers"
@@ -646,6 +712,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-02.jpg?w=700&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
@@ -664,6 +732,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-03.jpg?w=1000&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -684,6 +754,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/hulkling-04.jpg?w=700&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Avengers"
@@ -712,6 +784,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-01.jpg?w=700&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 5,
         "team": [
           "Avengers"
@@ -730,6 +804,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-02.jpg?w=700&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Avengers"
@@ -748,6 +824,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-03.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
@@ -766,6 +844,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-america-secret-avenger-04.jpg?w=1000&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
