@@ -1,5 +1,227 @@
 [
     {
+  "hero": "Photon",
+  "id": 1001,
+  "set": "Champions",
+  "team": [
+    "Avengers"
+  ],
+  "cards": [
+    {
+      "hero": "Photon",
+      "id": 10011,
+      "name": "Ultraviolet Radiation",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-03.jpg",
+      "cost": 4,
+      "recruit": 0,
+      "attack": 3,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Tech"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Photon",
+      "id": 10012,
+      "name": "Infrared Conversion",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-04.jpg",
+      "cost": 3,
+      "recruit": 0,
+      "attack": 0,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Tech"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Photon",
+      "id": 10013,
+      "name": "Coruscating Vengeance",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-01.jpg",
+      "cost": 8,
+      "recruit": 0,
+      "attack": 6,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Tech"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Photon",
+      "id": 10014,
+      "name": "Light The Way",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/photon-02.jpg",
+      "cost": 6,
+      "recruit": 0,
+      "attack": 3,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Covert"
+      ],
+      "rules": []
+    }
+  ]
+},
+{
+  "hero": "Scarlet Witch",
+  "id": 2001,
+  "set": "Champions",
+  "team": [
+    "Avengers"
+  ],
+  "cards": [
+    {
+      "hero": "Scarlet Witch",
+      "id": 20011,
+      "name": "Hex Bolt",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-03.jpg",
+      "cost": 2,
+      "recruit": 0,
+      "attack": 1,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Tech"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Scarlet Witch",
+      "id": 20012,
+      "name": "Alter Reality",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-04.jpg",
+      "cost": 3,
+      "recruit": 2,
+      "attack": 0,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Covert"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Scarlet Witch",
+      "id": 20013,
+      "name": "Warp Time and Space",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-01.jpg",
+      "cost": 7,
+      "recruit": 0,
+      "attack": 0,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Covert"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Scarlet Witch",
+      "id": 20014,
+      "name": "Chaos Magic",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/scarlet-witch-02.jpg",
+      "cost": 4,
+      "recruit": 0,
+      "attack": 0,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Covert"
+      ],
+      "rules": []
+    }
+  ]
+},
+{
+  "hero": "Quicksilver",
+  "id": 3001,
+  "set": "Champions",
+  "team": [
+    "Avengers"
+  ],
+  "cards": [
+    {
+      "hero": "Quicksilver",
+      "id": 30011,
+      "name": "Around the World Punch",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-01.jpg",
+      "cost": 8,
+      "recruit": 0,
+      "attack": 0,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Punch"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Quicksilver",
+      "id": 30012,
+      "name": "Jittery Impatience",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-02.jpg",
+      "cost": 6,
+      "recruit": 2,
+      "attack": 2,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Instinct"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Quicksilver",
+      "id": 30013,
+      "name": "Perpetual Motion",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-03.jpg",
+      "cost": 4,
+      "recruit": 0,
+      "attack": 2,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Punch"
+      ],
+      "rules": []
+    },
+    {
+      "hero": "Quicksilver",
+      "id": 30014,
+      "name": "Too Fast to See",
+      "img": "https://marveldbg.com/wp-content/uploads/2019/09/quicksilver-04.jpg",
+      "cost": 3,
+      "recruit": 0,
+      "attack": 0,
+      "team": [
+        "Avengers"
+      ],
+      "class": [
+        "Instinct"
+      ],
+      "rules": []
+      }
+     ]
+    },
+    {
         "hero": "Silk",
         "id": 512,
         "set": "Secret Wars Vol. 2",
