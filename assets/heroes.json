@@ -413,7 +413,7 @@
           "Spider-Friends"
         ],
         "class": [
-          "Range"
+          "Ranged"
         ],
         "rules": [
           10
@@ -441,7 +441,7 @@
         "attack": 6,
         "team": "Avengers",
         "class": [
-          "Range"
+          "Ranged"
         ],
         "rules": [
           ""
@@ -608,7 +608,7 @@
           "Avengers"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           ""
@@ -628,7 +628,7 @@
           "Avengers"
         ],
         "class": [
-          "Range",
+          "ranged",
           "Tech"
         ],
         "rules": [
@@ -649,7 +649,7 @@
           "Avengers"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           2
@@ -791,7 +791,7 @@
           "Avengers"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           ""
@@ -876,12 +876,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-01.jpg?w=700&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 4,
         "team": [
           "Avengers"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           ""
@@ -894,6 +896,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-02.jpg?w=1000&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Marvel Knights",
@@ -901,7 +905,7 @@
         ],
         "class": [
           "Covert",
-          "Range"
+          "ranged"
         ],
         "rules": [
           1
@@ -914,6 +918,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-03.jpg?w=1000&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Marvel Knights",
@@ -921,7 +927,7 @@
         ],
         "class": [
           "Covert",
-          "Range"
+          "ranged"
         ],
         "rules": [
           1
@@ -934,6 +940,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/cloak-and-dagger-04.jpg?w=1000&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Marvel Knights",
@@ -941,7 +949,7 @@
         ],
         "class": [
           "Covert",
-          "Range"
+          "ranged"
         ],
         "rules": [
           1,
@@ -965,6 +973,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-01-1.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 4,
         "team": [
           "Avengers"
@@ -983,6 +993,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-02-1.jpg?w=1000&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers",
@@ -1003,6 +1015,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-03-1.jpg?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Avengers"
@@ -1021,6 +1035,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/daredevil-04-1.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
@@ -1049,6 +1065,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-01-1.jpg?w=555&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 4,
         "team": [
           "Avengers"
@@ -1067,12 +1085,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-02-1.jpg?w=555&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           ""
@@ -1085,12 +1105,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-03-1.jpg?w=1050&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
         ],
         "class": [
-          "Range",
+          "ranged",
           "Instinct"
         ],
         "rules": [
@@ -1104,6 +1126,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/falcon-04-1.jpg?w=555&h=",
         "cost": 3,
         "recruit": 2,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
@@ -1132,6 +1156,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-01.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -1150,6 +1176,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-02.jpg?w=700&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 3,
         "team": [
           "Avengers"
@@ -1168,6 +1196,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-03.jpg?w=700&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Avengers"
@@ -1186,6 +1216,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/goliath-04.jpg?w=1000&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -1216,6 +1248,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-01.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 3,
         "team": [
           "Avengers"
@@ -1234,6 +1268,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-02.jpg?w=1000&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -1253,6 +1289,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-03.jpg?w=700&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -1271,6 +1309,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/patriot-04.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
@@ -1299,6 +1339,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/stature-01.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 5,
         "team": [
           "Avengers"
@@ -1317,6 +1359,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/stature-02.jpg?w=700&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Avengers"
@@ -1335,6 +1379,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/stature-03.jpg?w=1000&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -1355,6 +1401,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/stature-04.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -1383,6 +1431,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-01.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 4,
         "team": [
           "X-Men"
@@ -1401,6 +1451,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-02.jpg?w=700&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": [
           "X-Men"
@@ -1419,6 +1471,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-03.jpg?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "X-Men"
@@ -1437,6 +1491,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/rogue-04.jpg?w=700&h=",
         "cost": 3,
         "recruit": 2,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "X-Men"
@@ -1465,6 +1521,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-01.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "X-Men"
@@ -1483,6 +1541,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-02.jpg?w=700&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "X-Men"
@@ -1501,6 +1561,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-04.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "X-Men"
@@ -1519,6 +1581,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/wolverine-03.jpg?w=700&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "X-Men"
@@ -1547,6 +1611,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-01.jpg?w=700&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 4,
         "team": [
           "X-Men"
@@ -1565,6 +1631,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-02.jpg?w=700&h=",
         "cost": 3,
         "recruit": 2,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "X-Men"
@@ -1583,12 +1651,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-03.jpg?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "X-Men"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           ""
@@ -1601,6 +1671,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/gambit-04.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": [
           "X-Men"
@@ -1629,6 +1701,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-01.jpg?w=700&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": [
           "Illuminati"
@@ -1647,6 +1721,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-02.jpg?w=700&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Illuminati"
@@ -1666,6 +1742,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-03.jpg?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Illuminati"
@@ -1684,6 +1762,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/captain-britain-04.jpg?w=700&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "Illuminati"
@@ -1712,6 +1792,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-01.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 6,
         "team": [
           "SHIELD"
@@ -1730,12 +1812,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-02.jpg?w=700&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "SHIELD"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           12
@@ -1748,6 +1832,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-03.jpg?w=700&h=",
         "cost": 5,
         "recruit": 2,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "SHIELD"
@@ -1766,6 +1852,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-04.jpg?w=700&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "SHIELD"
@@ -1795,12 +1883,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/elsa-bloodstone-04.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 10,
         "team": [
           "X-Men"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           ""
@@ -1813,6 +1903,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-02.jpg?w=700&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": true,
+        "att": true,
         "attack": 4,
         "team": [
           "X-Men"
@@ -1831,12 +1923,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-03.jpg?w=700&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "X-Men"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           9
@@ -1849,13 +1943,15 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/ruby-summers-04.jpg?w=700&h=",
         "cost": 5,
         "recruit": 2,
+        "rec": true,
+        "att": true,
         "attack": 2,
         "team": [
           "X-Men"
         ],
         "class": [
           "Punch",
-          "Range"
+          "ranged"
         ],
         "rules": [
           ""
@@ -1878,6 +1974,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-01.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Spider-Friends"
@@ -1896,6 +1994,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-02.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Spider-Friends"
@@ -1915,6 +2015,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-03.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Spider-Friends"
@@ -1934,6 +2036,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/spider-gwen-04.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Spider-Friends"
@@ -1962,6 +2066,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-01.jpg?w=700&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "SHIELD"
@@ -1980,12 +2086,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-02.jpg?w=700&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "SHIELD"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           6
@@ -1998,12 +2106,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-03.jpg?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "SHIELD"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           ""
@@ -2016,6 +2126,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/cpt-marvel-04.jpg?w=700&h=",
         "cost": 3,
         "recruit": 2,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "SHIELD"
@@ -2044,6 +2156,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_01.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 6,
         "team": [
           "Avengers"
@@ -2062,6 +2176,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_02.jpg?w=700&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Avengers"
@@ -2080,6 +2196,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_03.jpg?w=700&h=",
         "cost": 3,
         "recruit": 2,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
@@ -2098,6 +2216,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/hellcat_04.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Avengers"
@@ -2126,6 +2246,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/speed_01.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -2144,6 +2266,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/speed_02.jpg?w=700&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 3,
         "team": [
           "Avengers"
@@ -2162,6 +2286,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/speed_03.jpg?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -2180,6 +2306,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/speed_04.jpg?w=700&h=",
         "cost": 4,
         "recruit": 2,
+        "rec": true,
+        "att": true,
         "attack": 1,
         "team": [
           "Avengers"
@@ -2208,6 +2336,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_01.png?w=700&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 4,
         "team": [
           "Marvel Knights"
@@ -2226,6 +2356,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_02.png?w=700&h=",
         "cost": 5,
         "recruit": 3,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "Marvel Knights"
@@ -2245,6 +2377,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_03.png?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Marvel Knights"
@@ -2264,6 +2398,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/jessica_04.png?w=700&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Marvel Knights"
@@ -2292,6 +2428,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_01.png?w=700&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 0,
         "team": [
           "Avengers"
@@ -2310,6 +2448,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_02.png?w=700&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 3,
         "team": [
           "Avengers"
@@ -2328,12 +2468,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_03.png?w=700&h=",
         "cost": 4,
         "recruit": 2,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           8,
@@ -2347,6 +2489,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/ms_america_04.png?w=700&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Avengers"
@@ -2375,6 +2519,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_01.png?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 5,
         "team": [
           "Avengers"
@@ -2393,6 +2539,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_02.png?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Avengers"
@@ -2411,6 +2559,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_03.png?w=700&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 1,
         "team": [
           "Avengers"
@@ -2429,6 +2579,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/06/squirrel_04.png?w=700&h=",
         "cost": 2,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": [
           "Avengers"
@@ -2458,6 +2610,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-01-1.jpg?w=700&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 4,
         "team": [
           "Asgardians"
@@ -2476,6 +2630,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-02-1.jpg?w=700&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Asgardians"
@@ -2494,6 +2650,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-03-1.jpg?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Asgardians"
@@ -2512,6 +2670,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/valkyrie-04-1.jpg?w=700&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": false,
         "attack": 0,
         "team": [
           "Asgardians"
@@ -2541,6 +2701,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-01-1.jpg?w=700&h=",
         "cost": 8,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 4,
         "team": [
           "Asgardians"
@@ -2559,6 +2721,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-02-1.jpg?w=700&h=",
         "cost": 6,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 3,
         "team": [
           "Asgardians"
@@ -2577,6 +2741,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-03-1.jpg?w=700&h=",
         "cost": 4,
         "recruit": 2,
+        "rec": true,
+        "att": false,
         "attack": 0,
         "team": [
           "Asgardians"
@@ -2595,6 +2761,8 @@
         "img": "https://marveldbg.files.wordpress.com/2020/04/warriors-three-04-1.jpg?w=700&h=",
         "cost": 3,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "Asgardians"
@@ -2623,6 +2791,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-01.jpg?w=700&h=",
         "cost": 5,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "X-Men"
@@ -2641,12 +2811,14 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-02.jpg?w=700&h=",
         "cost": 4,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "X-Men"
         ],
         "class": [
-          "Range"
+          "ranged"
         ],
         "rules": [
           17,
@@ -2660,6 +2832,8 @@
         "img": "https://marveldbg.files.wordpress.com/2019/09/x-men-92-04.jpg?w=700&h=",
         "cost": 7,
         "recruit": 0,
+        "rec": false,
+        "att": true,
         "attack": 2,
         "team": [
           "X-Men"
@@ -2670,6 +2844,847 @@
         "rules": [
           17
         ]
+      }
+    ]
+  },
+  {
+    "hero": "Black Widow",
+    "id": 104,
+    "set": "Main",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
+        "hero": "Black Widow",
+        "id": 1041,
+        "name": "Silent Sniper",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/black-widow-01.jpg",
+        "cost": 7,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 4,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Black Widow",
+        "id": 1042,
+        "name": "Covert Operation",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/black-widow-02.jpg",
+        "cost": 4,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Black Widow",
+        "id": 1043,
+        "name": "Mission Accomplished",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/black-widow-03.jpg",
+        "cost": 2,
+        "recruit": 0,
+        "rec": false,
+        "att": false,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Black Widow",
+        "id": 1044,
+        "name": "Dangerous Rescue",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/black-widow-04.jpg",
+        "cost": 3,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": []
+      }
+    ]
+  },
+  {
+    "hero": "Hawkeye",
+    "id": 110,
+    "set": "Main",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
+        "hero": "Hawkeye",
+        "id": 1101,
+        "name": "Impossible Trickshot",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/hawkeye-01.jpg",
+        "cost": 7,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 5,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Hawkeye",
+        "id": 1102,
+        "name": "Covering Fire",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/hawkeye-02.jpg",
+        "cost": 7,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 3,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Hawkeye",
+        "id": 1103,
+        "name": "Team Player",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/hawkeye-04.jpg",
+        "cost": 4,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Hawkeye",
+        "id": 1104,
+        "name": "Quick Draw",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/hawkeye-03.jpg",
+        "cost": 3,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 1,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": []
+      }
+    ]
+  },
+  {
+    "hero": "Hulk",
+    "id": 111,
+    "set": "Main",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
+        "hero": "Hulk",
+        "id": 1111,
+        "name": "Hulk Smash",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/hulk-01.jpg",
+        "cost": 8,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 5,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Hulk",
+        "id": 1112,
+        "name": "Crazed Rampage",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/hulk-02.jpg",
+        "cost": 5,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 4,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Hulk",
+        "id": 1113,
+        "name": "Growing Anger",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/hulk-03.jpg",
+        "cost": 3,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Hulk",
+        "id": 1114,
+        "name": "Unstoppable Hulk",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/hulk-04.jpg",
+        "cost": 4,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": []
+      }
+    ]
+  },
+  {
+    "hero": "Iron Man",
+    "id": 112,
+    "set": "Main",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
+        "hero": "Iron Man",
+        "id": 1121,
+        "name": "Quantum Breakthrough",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/iron-man-01.jpg",
+        "cost": 7,
+        "recruit": 0,
+        "rec": false,
+        "att": false,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Iron Man",
+        "id": 1122,
+        "name": "Arc Reactor",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/iron-man-02.jpg",
+        "cost": 5,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 3,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Iron Man",
+        "id": 1123,
+        "name": "Repulsor Rays",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/iron-man-03.jpg",
+        "cost": 3,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Ranged"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Iron Man",
+        "id": 1124,
+        "name": "Endless Invention",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/iron-man-04.jpg",
+        "cost": 3,
+        "recruit": 0,
+        "rec": false,
+        "att": false,
+        "attack": 0,
+        "team": [
+          "Avengers"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      }
+    ]
+  },
+  {
+    "hero": "Spider-Man",
+    "id": 115,
+    "set": "Main",
+    "team": [
+      "Spider-Friends"
+    ],
+    "cards": [
+      {
+        "hero": "Spider-Man",
+        "id": 1151,
+        "name": "The Amazing Spider-Man",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/spider-man-01.jpg",
+        "cost": 2,
+        "recruit": 0,
+        "rec": false,
+        "att": false,
+        "attack": 0,
+        "team": [
+          "Spider-Friends"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Spider-Man",
+        "id": 1152,
+        "name": "Web Shooters",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/spider-man-02.jpg",
+        "cost": 2,
+        "recruit": 0,
+        "rec": false,
+        "att": false,
+        "attack": 0,
+        "team": [
+          "Spider-Friends"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Spider-Man",
+        "id": 1153,
+        "name": "Great Responsibility",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/spider-man-03.jpg",
+        "cost": 2,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 1,
+        "team": [
+          "Spider-Friends"
+        ],
+        "class": [
+          "Instinct"
+        ],
+        "rules": []
+      },
+      {
+        "hero": "Spider-Man",
+        "id": 1154,
+        "name": "Astonishing Strength",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/spider-man-04.jpg",
+        "cost": 2,
+        "recruit": 1,
+        "rec": true,
+        "att": false,
+        "attack": 0,
+        "team": [
+          "Spider-Friends"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": []
+      }
+    ]
+  },
+  {
+    "hero": "Ms. Marvel",
+    "id": 702,
+    "set": "Champions",
+    "team": [
+      "Champions"
+    ],
+    "cards": [
+      {
+        "hero": "Ms. Marvel",
+        "id": 7021,
+        "name": "Rising Hope",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/ms-marvel_01.png",
+        "cost": 9,
+        "recruit": 0,
+        "rec": true,
+        "att": true,
+        "attack": 0,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          0,
+          18,
+          19
+        ]
+      },
+      {
+        "hero": "Ms. Marvel",
+        "id": 7022,
+        "name": "Need to Stretch My Legs",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/ms-marvel_02.png",
+        "cost": 6,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          0,
+          18
+        ]
+      },
+      {
+        "hero": "Ms. Marvel",
+        "id": 7023,
+        "name": "Big Impact",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/ms-marvel_03.png",
+        "cost": 4,
+        "recruit": 0,
+        "rec": true,
+        "att": true,
+        "attack": 0,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          0,
+          19
+        ]
+      },
+      {
+        "hero": "Ms. Marvel",
+        "id": 7024,
+        "name": "Long Arm of the Law",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/ms-marvel_04.png",
+        "cost": 3,
+        "recruit": 0,
+        "rec": false,
+        "att": false,
+        "attack": 0,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Covert"
+        ],
+        "rules": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Totally Awesome Hulk",
+    "id": 704,
+    "set": "Champions",
+    "team": [
+      "Champions"
+    ],
+    "cards": [
+      {
+        "hero": "Totally Awesome Hulk",
+        "id": 7041,
+        "name": "7th Smartest Man in the World",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/awesome_hulk_01.png",
+        "cost": 9,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 5,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          0
+        ]
+      },
+      {
+        "hero": "Totally Awesome Hulk",
+        "id": 7042,
+        "name": "Growing Pains",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/awesome_hulk_02.png",
+        "cost": 5,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          0
+        ]
+      },
+      {
+        "hero": "Totally Awesome Hulk",
+        "id": 7043,
+        "name": "Incredible Mind, Awesome Body",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/awesome_hulk_03.png",
+        "cost": 4,
+        "recruit": 1,
+        "rec": true,
+        "att": false,
+        "attack": 0,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          0,
+          18
+        ]
+      },
+      {
+        "hero": "Totally Awesome Hulk",
+        "id": 7044,
+        "name": "Beloved Behemoth",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/awesome_hulk_04.png",
+        "cost": 4,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Viv Vision",
+    "id": 705,
+    "set": "Champions",
+    "team": [
+      "Champions"
+    ],
+    "cards": [
+      {
+        "hero": "Viv Vision",
+        "id": 7051,
+        "name": "Alter Molecular Density",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/viv_01.png",
+        "cost": 9,
+        "recruit": 5,
+        "rec": true,
+        "att": true,
+        "attack": 0,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          0
+        ]
+      },
+      {
+        "hero": "Viv Vision",
+        "id": 7052,
+        "name": "Crowdsourcing",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/viv_02.png",
+        "cost": 6,
+        "recruit": 0,
+        "rec": true,
+        "att": true,
+        "attack": 0,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Ranged"
+        ],
+        "rules": [
+          18,
+          19
+        ]
+      },
+      {
+        "hero": "Viv Vision",
+        "id": 7053,
+        "name": "Expanding Neural Network",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/viv_03.png",
+        "cost": 4,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": [
+          0
+        ]
+      },
+      {
+        "hero": "Viv Vision",
+        "id": 7054,
+        "name": "Walking Wi-Fi",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/viv_04.png",
+        "cost": 3,
+        "recruit": 2,
+        "rec": true,
+        "att": false,
+        "attack": 0,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Tech"
+        ],
+        "rules": []
+      }
+    ]
+  },
+  {
+    "hero": "Nova",
+    "id": 703,
+    "set": "Champions",
+    "team": [
+      "Champions"
+    ],
+    "cards": [
+      {
+        "hero": "Nova",
+        "id": 7031,
+        "name": "Growing Nova Force",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/nova-01.png",
+        "cost": 9,
+        "recruit": 0,
+        "rec": true,
+        "att": true,
+        "attack": 0,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Ranged"
+        ],
+        "rules": [
+          0
+        ]
+      },
+      {
+        "hero": "Nova",
+        "id": 7032,
+        "name": "Holographic Projection",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/nova-02.png",
+        "cost": 5,
+        "recruit": 0,
+        "rec": true,
+        "att": true,
+        "attack": 1,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Ranged"
+        ],
+        "rules": [
+          19
+        ]
+      },
+      {
+        "hero": "Nova",
+        "id": 7033,
+        "name": "Space Cop",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/nova-03.png",
+        "cost": 2,
+        "recruit": 0,
+        "rec": true,
+        "att": true,
+        "attack": 0,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Punch"
+        ],
+        "rules": [
+          19
+        ]
+      },
+      {
+        "hero": "Nova",
+        "id": 7034,
+        "name": "Interstellar Hero",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/nova-04.png",
+        "cost": 4,
+        "recruit": 0,
+        "rec": true,
+        "att": true,
+        "attack": 0,
+        "team": [
+          "Champions"
+        ],
+        "class": [
+          "Ranged"
+        ],
+        "rules": [
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "hero": "Ronin",
+    "id": 406,
+    "set": "Revelations",
+    "team": [
+      "Avengers"
+    ],
+    "cards": [
+      {
+        "hero": "Ronin",
+        "id": 4061,
+        "name": "Brooding Fury",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/ronin-01.jpg",
+        "cost": 7,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 3,
+        "team": ["Avengers"],
+        "class": ["Punch"],
+        "rules": [5]
+      },
+      {
+        "hero": "Ronin",
+        "id": 4062,
+        "name": "Haunted By Loss",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/ronin-02.jpg",
+        "cost": 5,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": ["Avengers"],
+        "class": ["Instinct"],
+        "rules": [5]
+      },
+      {
+        "hero": "Ronin",
+        "id": 4063,
+        "name": "Storm of Arrows",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/ronin-03.jpg",
+        "cost": 4,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 0,
+        "team": ["Avengers"],
+        "class": ["Ranged"],
+        "rules": [4]
+      },
+      {
+        "hero": "Ronin",
+        "id": 4064,
+        "name": "Mysterious Identity",
+        "img": "https://marveldbg.com/wp-content/uploads/2019/09/ronin-04.jpg",
+        "cost": 3,
+        "recruit": 0,
+        "rec": false,
+        "att": true,
+        "attack": 2,
+        "team": ["Avengers"],
+        "class": ["Covert"],
+        "rules": []
       }
     ]
   }
